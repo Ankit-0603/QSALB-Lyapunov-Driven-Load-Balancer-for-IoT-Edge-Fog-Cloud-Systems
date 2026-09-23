@@ -1,0 +1,1001 @@
+Timestamp,Device_ID,Sensor_Data,Workload_Type,Original_Processing_Tier,CPU_Usage(%),Memory_Usage(MB),Network_Latency(ms),Jitter(ms),Task_Execution_Time(ms),QSALB_Source_Node,QSALB_Destination_Node,QSALB_Processing_Tier,QSALB_Offloading_Path,QSALB_Processing_Time(ms),QSALB_Communication_Delay(ms),QSALB_Queue_Wait(ms),QSALB_Total_Latency(ms),Deadline(ms),Deadline_Met,Transmission_Energy(J),Processing_Energy(J),Total_Energy(J)
+2024-03-25 12:00:00,D14,"Temp: 32°C, Humidity: 72%",Data Analytics,Device,24,2276,29,8,189,IoT14,Fog3,Fog,IoT -> Fog,34.36,67.0,0.0,101.36,500.0,Yes,2.4449,0.0,2.4449
+2024-03-25 12:00:10,D5,"Temp: 22°C, Humidity: 61%",Data Analytics,Device,57,6812,9,2,216,IoT5,Fog3,Fog,IoT -> Fog,39.27,41.0,4.91,85.18,500.0,Yes,7.3176,0.0,7.3176
+2024-03-25 12:00:20,D7,"Temp: 20°C, Humidity: 33%",Image Processing,Device,26,5004,8,3,185,IoT7,Fog2,Fog,IoT -> Fog,40.89,41.0,0.0,81.89,300.0,Yes,5.3754,0.0,5.3754
+2024-03-25 12:00:30,D18,"Temp: 26°C, Humidity: 45%",Data Analytics,Cloud,24,4455,16,5,72,IoT18,Edge4,Edge,IoT -> Edge,25.82,29.0,0.0,54.82,500.0,Yes,2.3928,0.3099,2.7027
+2024-03-25 12:00:40,D1,"Temp: 23°C, Humidity: 46%",Image Processing,Cloud,27,5855,39,7,282,IoT1,Fog1,Fog,IoT -> Fog,63.99,76.0,0.0,139.99,300.0,Yes,6.2896,0.0,6.2896
+2024-03-25 12:00:50,D8,"Temp: 25°C, Humidity: 75%",Video Processing,Device,81,2072,40,7,239,IoT8,Fog3,Fog,IoT -> Fog,43.45,77.0,10.86,131.31,120.0,No,2.2258,0.0,2.2258
+2024-03-25 12:01:00,D8,"Temp: 24°C, Humidity: 72%",Network Traffic,Fog,47,6913,45,7,288,IoT8,Fog2,Fog,IoT -> Fog,63.65,82.0,7.96,153.61,150.0,No,7.4261,0.0,7.4261
+2024-03-25 12:01:10,D7,"Temp: 38°C, Humidity: 52%",Image Processing,Edge,34,4098,44,2,288,IoT7,Fog1,Fog,IoT -> Fog,65.35,76.0,8.17,149.52,300.0,Yes,4.4021,0.0,4.4021
+2024-03-25 12:01:20,D11,"Temp: 31°C, Humidity: 58%",Video Processing,Fog,81,6433,19,5,141,IoT11,Edge1,Edge,IoT -> Edge,51.21,32.0,0.0,83.21,120.0,Yes,3.4552,0.6145,4.0697
+2024-03-25 12:01:30,D15,"Temp: 22°C, Humidity: 63%",Data Analytics,Device,32,1976,20,7,161,IoT15,Edge2,Edge,IoT -> Edge,63.43,35.0,0.0,98.43,500.0,Yes,1.0613,0.7612,1.8225
+2024-03-25 12:01:40,D13,"Temp: 25°C, Humidity: 32%",Data Analytics,Fog,44,625,26,5,286,IoT13,Cloud1,Cloud,IoT -> Cloud,28.6,101.0,0.0,129.6,500.0,Yes,1.0071,0.0,1.0071
+2024-03-25 12:01:50,D8,"Temp: 33°C, Humidity: 64%",Data Analytics,Cloud,58,4476,19,7,215,IoT8,Fog3,Fog,IoT -> Fog,39.09,56.0,14.66,109.74,500.0,Yes,4.8082,0.0,4.8082
+2024-03-25 12:02:00,D16,"Temp: 21°C, Humidity: 62%",Image Processing,Fog,48,6590,15,3,104,IoT16,Edge6,Edge,IoT -> Edge,42.39,26.0,0.0,68.39,300.0,Yes,3.5396,0.5087,4.0482
+2024-03-25 12:02:10,D14,"Temp: 36°C, Humidity: 54%",Data Analytics,Fog,14,1442,19,6,92,IoT14,Edge8,Edge,IoT -> Edge,38.28,33.0,0.0,71.28,500.0,Yes,0.7745,0.4594,1.2339
+2024-03-25 12:02:20,D6,"Temp: 22°C, Humidity: 71%",Data Analytics,Cloud,79,5512,23,3,281,IoT6,Cloud1,Cloud,IoT -> Cloud,28.1,96.0,0.94,125.04,500.0,Yes,8.8816,0.0,8.8816
+2024-03-25 12:02:30,D8,"Temp: 23°C, Humidity: 79%",Image Processing,Edge,51,6215,7,5,270,IoT8,Fog2,Fog,IoT -> Fog,59.67,42.0,14.92,116.59,300.0,Yes,6.6763,0.0,6.6763
+2024-03-25 12:02:40,D3,"Temp: 21°C, Humidity: 65%",Image Processing,Edge,81,4501,49,4,265,IoT3,Fog1,Fog,IoT -> Fog,60.13,83.0,15.03,158.16,300.0,Yes,4.8351,0.0,4.8351
+2024-03-25 12:02:50,D6,"Temp: 21°C, Humidity: 70%",Data Analytics,Fog,26,6832,33,9,249,IoT6,Fog3,Fog,IoT -> Fog,45.27,72.0,22.63,139.9,500.0,Yes,7.3391,0.0,7.3391
+2024-03-25 12:03:00,D8,"Temp: 22°C, Humidity: 60%",Network Traffic,Cloud,81,3655,39,2,119,IoT8,Edge3,Edge,IoT -> Edge,51.08,49.0,0.0,100.08,150.0,Yes,1.9631,0.6129,2.5761
+2024-03-25 12:03:10,D16,"Temp: 29°C, Humidity: 74%",Data Analytics,Device,37,7415,46,3,96,IoT16,IoT16,IoT,IoT (local),96.0,0.0,0.0,96.0,500.0,Yes,0.0,1.152,1.152
+2024-03-25 12:03:20,D17,"Temp: 36°C, Humidity: 56%",Data Analytics,Fog,36,2201,14,6,255,IoT17,Cloud1,Cloud,IoT -> Cloud,25.5,90.0,1.7,117.2,500.0,Yes,3.5465,0.0,3.5465
+2024-03-25 12:03:30,D12,"Temp: 22°C, Humidity: 57%",Network Traffic,Edge,33,3416,41,5,234,IoT12,Fog2,Fog,IoT -> Fog,51.72,76.0,19.39,147.11,150.0,Yes,3.6695,0.0,3.6695
+2024-03-25 12:03:40,D11,"Temp: 29°C, Humidity: 31%",Image Processing,Device,83,3318,43,1,120,IoT11,Edge5,Edge,IoT -> Edge,52.1,52.0,0.0,104.1,300.0,Yes,1.7821,0.6252,2.4073
+2024-03-25 12:03:50,D20,"Temp: 39°C, Humidity: 54%",Video Processing,Edge,88,2622,7,9,216,IoT20,Fog1,Fog,IoT -> Fog,49.01,46.0,18.38,113.39,120.0,Yes,2.8166,0.0,2.8166
+2024-03-25 12:04:00,D18,"Temp: 29°C, Humidity: 38%",Image Processing,Device,69,7396,37,7,106,IoT18,Edge7,Edge,IoT -> Edge,49.67,52.0,0.0,101.67,300.0,Yes,3.9725,0.5961,4.5685
+2024-03-25 12:04:10,D16,"Temp: 39°C, Humidity: 64%",Image Processing,Cloud,24,3937,39,5,54,IoT16,Edge4,Edge,IoT -> Edge,19.37,52.0,6.45,77.82,300.0,Yes,2.1146,0.2324,2.347
+2024-03-25 12:04:20,D17,"Temp: 39°C, Humidity: 57%",Data Analytics,Edge,11,1939,44,3,74,IoT17,IoT17,IoT,IoT (local),74.0,0.0,0.0,74.0,500.0,Yes,0.0,0.888,0.888
+2024-03-25 12:04:30,D17,"Temp: 34°C, Humidity: 69%",Network Traffic,Edge,49,2318,42,6,214,IoT17,Fog3,Fog,IoT -> Fog,38.9,78.0,24.31,141.22,150.0,Yes,2.49,0.0,2.49
+2024-03-25 12:04:40,D3,"Temp: 25°C, Humidity: 37%",Data Analytics,Device,26,2153,30,9,141,IoT3,Edge1,Edge,IoT -> Edge,51.21,47.0,17.06,115.27,500.0,Yes,1.1564,0.6145,1.7709
+2024-03-25 12:04:50,D6,"Temp: 21°C, Humidity: 71%",Video Processing,Cloud,89,1199,21,3,260,IoT6,Cloud1,Cloud,IoT -> Cloud,26.0,94.0,2.6,122.6,120.0,No,1.932,0.0,1.932
+2024-03-25 12:05:00,D2,"Temp: 28°C, Humidity: 51%",Video Processing,Cloud,29,6122,47,7,235,IoT2,Cloud1,Cloud,IoT -> Cloud,23.5,124.0,3.13,150.63,120.0,No,9.8646,0.0,9.8646
+2024-03-25 12:05:10,D15,"Temp: 35°C, Humidity: 49%",Network Traffic,Device,32,1163,25,5,292,IoT15,Cloud1,Cloud,IoT -> Cloud,29.2,100.0,4.87,134.07,150.0,Yes,1.874,0.0,1.874
+2024-03-25 12:05:20,D7,"Temp: 30°C, Humidity: 74%",Image Processing,Device,45,7966,36,1,147,IoT7,Edge2,Edge,IoT -> Edge,57.92,45.0,19.3,122.22,300.0,Yes,4.2786,0.695,4.9736
+2024-03-25 12:05:30,D15,"Temp: 36°C, Humidity: 77%",Data Analytics,Cloud,81,7330,6,7,188,IoT15,Fog2,Fog,IoT -> Fog,41.55,43.0,20.77,105.32,500.0,Yes,7.874,0.0,7.874
+2024-03-25 12:05:40,D17,"Temp: 21°C, Humidity: 72%",Data Analytics,Device,52,5534,45,9,170,IoT17,Fog1,Fog,IoT -> Fog,38.58,84.0,19.29,141.86,500.0,Yes,5.9447,0.0,5.9447
+2024-03-25 12:05:50,D1,"Temp: 31°C, Humidity: 63%",Video Processing,Fog,16,4961,12,7,134,IoT1,Edge6,Edge,IoT -> Edge,54.62,27.0,18.2,99.82,120.0,Yes,2.6646,0.6554,3.32
+2024-03-25 12:06:00,D5,"Temp: 39°C, Humidity: 64%",Image Processing,Fog,74,6037,42,6,241,IoT5,Fog3,Fog,IoT -> Fog,43.81,78.0,32.86,154.67,300.0,Yes,6.4851,0.0,6.4851
+2024-03-25 12:06:10,D11,"Temp: 21°C, Humidity: 72%",Video Processing,Edge,79,7847,40,8,165,IoT11,Edge8,Edge,IoT -> Edge,68.66,56.0,22.88,147.54,120.0,No,4.2147,0.8239,5.0386
+2024-03-25 12:06:20,D14,"Temp: 36°C, Humidity: 55%",Network Traffic,Device,72,2126,36,1,229,IoT14,Cloud1,Cloud,IoT -> Cloud,22.9,107.0,4.58,134.48,150.0,Yes,3.4257,0.0,3.4257
+2024-03-25 12:06:30,D10,"Temp: 30°C, Humidity: 76%",Image Processing,Fog,77,6850,10,5,141,IoT10,Edge3,Edge,IoT -> Edge,60.52,23.0,20.17,103.69,300.0,Yes,3.6792,0.7263,4.4055
+2024-03-25 12:06:40,D15,"Temp: 32°C, Humidity: 53%",Image Processing,Cloud,11,1312,33,1,284,IoT15,Cloud1,Cloud,IoT -> Cloud,28.4,104.0,6.63,139.03,300.0,Yes,2.1141,0.0,2.1141
+2024-03-25 12:06:50,D2,"Temp: 34°C, Humidity: 57%",Video Processing,Edge,26,2179,14,5,229,IoT2,Fog2,Fog,IoT -> Fog,50.61,49.0,31.63,131.24,120.0,No,2.3407,0.0,2.3407
+2024-03-25 12:07:00,D7,"Temp: 38°C, Humidity: 75%",Data Analytics,Device,74,3292,41,4,102,IoT7,IoT7,IoT,IoT (local),102.0,0.0,0.0,102.0,500.0,Yes,0.0,1.224,1.224
+2024-03-25 12:07:10,D16,"Temp: 29°C, Humidity: 55%",Video Processing,Fog,64,2439,22,8,256,IoT16,Cloud1,Cloud,IoT -> Cloud,25.6,100.0,6.83,132.43,120.0,No,3.93,0.0,3.93
+2024-03-25 12:07:20,D10,"Temp: 39°C, Humidity: 44%",Video Processing,Cloud,22,6803,47,6,51,IoT10,IoT10,IoT,IoT (local),51.0,0.0,0.0,51.0,120.0,Yes,0.0,0.612,0.612
+2024-03-25 12:07:30,D20,"Temp: 33°C, Humidity: 69%",Network Traffic,Edge,74,2214,28,2,221,IoT20,Fog3,Fog,IoT -> Fog,40.18,60.0,35.15,135.33,150.0,Yes,2.3783,0.0,2.3783
+2024-03-25 12:07:40,D19,"Temp: 27°C, Humidity: 38%",Image Processing,Edge,63,4766,29,6,209,IoT19,Fog1,Fog,IoT -> Fog,47.43,65.0,29.64,142.06,300.0,Yes,5.1197,0.0,5.1197
+2024-03-25 12:07:50,D11,"Temp: 26°C, Humidity: 66%",Network Traffic,Edge,68,4386,22,3,253,IoT11,Cloud1,Cloud,IoT -> Cloud,25.3,95.0,7.59,127.89,150.0,Yes,7.0673,0.0,7.0673
+2024-03-25 12:08:00,D12,"Temp: 23°C, Humidity: 71%",Data Analytics,Fog,32,732,34,7,137,IoT12,Edge5,Edge,IoT -> Edge,59.48,49.0,19.82,128.3,500.0,Yes,0.3932,0.7138,1.107
+2024-03-25 12:08:10,D10,"Temp: 27°C, Humidity: 56%",Image Processing,Fog,43,5093,36,7,224,IoT10,Fog3,Fog,IoT -> Fog,40.72,73.0,40.72,154.44,300.0,Yes,5.471,0.0,5.471
+2024-03-25 12:08:20,D12,"Temp: 27°C, Humidity: 51%",Image Processing,Cloud,77,5948,48,5,87,IoT12,IoT12,IoT,IoT (local),87.0,0.0,0.0,87.0,300.0,Yes,0.0,1.044,1.044
+2024-03-25 12:08:30,D4,"Temp: 23°C, Humidity: 31%",Network Traffic,Cloud,15,3838,7,1,174,IoT4,Fog3,Fog,IoT -> Fog,31.63,38.0,3.95,73.59,150.0,Yes,4.1229,0.0,4.1229
+2024-03-25 12:08:40,D11,"Temp: 29°C, Humidity: 76%",Video Processing,Edge,14,7133,47,9,163,IoT11,Edge4,Edge,IoT -> Edge,58.46,64.0,0.0,122.46,120.0,No,3.8312,0.7015,4.5327
+2024-03-25 12:08:50,D16,"Temp: 39°C, Humidity: 55%",Data Analytics,Edge,11,7047,15,4,201,IoT16,Fog2,Fog,IoT -> Fog,44.42,49.0,0.0,93.42,500.0,Yes,7.57,0.0,7.57
+2024-03-25 12:09:00,D2,"Temp: 29°C, Humidity: 78%",Data Analytics,Device,54,5679,24,8,89,IoT2,Edge1,Edge,IoT -> Edge,32.32,40.0,0.0,72.32,500.0,Yes,3.0502,0.3879,3.4381
+2024-03-25 12:09:10,D1,"Temp: 31°C, Humidity: 37%",Network Traffic,Cloud,74,6888,23,5,294,IoT1,Fog1,Fog,IoT -> Fog,66.71,58.0,0.0,124.71,150.0,Yes,7.3992,0.0,7.3992
+2024-03-25 12:09:20,D8,"Temp: 33°C, Humidity: 79%",Network Traffic,Cloud,36,8005,41,1,217,IoT8,Fog3,Fog,IoT -> Fog,39.45,72.0,9.86,121.31,150.0,Yes,8.5991,0.0,8.5991
+2024-03-25 12:09:30,D5,"Temp: 25°C, Humidity: 79%",Network Traffic,Cloud,45,4356,47,2,206,IoT5,Fog2,Fog,IoT -> Fog,45.53,79.0,5.69,130.22,150.0,Yes,4.6793,0.0,4.6793
+2024-03-25 12:09:40,D9,"Temp: 34°C, Humidity: 76%",Image Processing,Fog,54,4606,19,2,85,IoT9,Edge2,Edge,IoT -> Edge,33.49,29.0,0.0,62.49,300.0,Yes,2.4739,0.4019,2.8758
+2024-03-25 12:09:50,D13,"Temp: 29°C, Humidity: 70%",Video Processing,Device,12,6721,31,9,219,IoT13,Fog1,Fog,IoT -> Fog,49.69,70.0,6.21,125.91,120.0,No,7.2198,0.0,7.2198
+2024-03-25 12:10:00,D7,"Temp: 28°C, Humidity: 39%",Data Analytics,Cloud,32,4884,11,3,215,IoT7,Fog3,Fog,IoT -> Fog,39.09,44.0,14.66,97.74,500.0,Yes,5.2465,0.0,5.2465
+2024-03-25 12:10:10,D2,"Temp: 22°C, Humidity: 37%",Image Processing,Device,16,3046,19,2,225,IoT2,Fog2,Fog,IoT -> Fog,49.73,51.0,12.43,113.16,300.0,Yes,3.2721,0.0,3.2721
+2024-03-25 12:10:20,D5,"Temp: 25°C, Humidity: 49%",Video Processing,Edge,79,741,40,3,188,IoT5,Edge6,Edge,IoT -> Edge,76.63,51.0,0.0,127.63,120.0,No,0.398,0.9195,1.3175
+2024-03-25 12:10:30,D9,"Temp: 39°C, Humidity: 51%",Data Analytics,Edge,39,8169,35,7,107,IoT9,Edge8,Edge,IoT -> Edge,44.53,50.0,0.0,94.53,500.0,Yes,4.3876,0.5343,4.922
+2024-03-25 12:10:40,D9,"Temp: 26°C, Humidity: 63%",Network Traffic,Fog,35,5128,18,2,158,IoT9,Edge3,Edge,IoT -> Edge,67.82,28.0,0.0,95.82,150.0,Yes,2.7543,0.8138,3.5681
+2024-03-25 12:10:50,D4,"Temp: 32°C, Humidity: 77%",Network Traffic,Edge,69,4035,42,5,255,IoT4,Cloud1,Cloud,IoT -> Cloud,25.5,117.0,0.0,142.5,150.0,Yes,6.5017,0.0,6.5017
+2024-03-25 12:11:00,D10,"Temp: 26°C, Humidity: 34%",Video Processing,Device,59,3174,46,8,81,IoT10,IoT10,IoT,IoT (local),81.0,0.0,0.0,81.0,120.0,Yes,0.0,0.972,0.972
+2024-03-25 12:11:10,D13,"Temp: 35°C, Humidity: 68%",Network Traffic,Edge,75,4628,15,3,278,IoT13,Cloud1,Cloud,IoT -> Cloud,27.8,88.0,0.93,116.73,150.0,Yes,7.4572,0.0,7.4572
+2024-03-25 12:11:20,D9,"Temp: 33°C, Humidity: 42%",Network Traffic,Cloud,57,5457,38,7,112,IoT9,Edge5,Edge,IoT -> Edge,48.63,53.0,0.0,101.63,150.0,Yes,2.931,0.5835,3.5145
+2024-03-25 12:11:30,D6,"Temp: 31°C, Humidity: 46%",Network Traffic,Device,26,861,26,6,153,IoT6,Fog1,Fog,IoT -> Fog,34.72,62.0,8.68,105.4,150.0,Yes,0.9249,0.0,0.9249
+2024-03-25 12:11:40,D13,"Temp: 24°C, Humidity: 50%",Data Analytics,Cloud,49,663,14,2,251,IoT13,Fog3,Fog,IoT -> Fog,45.63,46.0,22.81,114.44,500.0,Yes,0.7122,0.0,0.7122
+2024-03-25 12:11:50,D17,"Temp: 38°C, Humidity: 59%",Network Traffic,Edge,57,5077,25,6,118,IoT17,Edge7,Edge,IoT -> Edge,55.29,39.0,0.0,94.29,150.0,Yes,2.7269,0.6635,3.3904
+2024-03-25 12:12:00,D16,"Temp: 38°C, Humidity: 63%",Image Processing,Fog,19,6866,13,4,166,IoT16,Fog2,Fog,IoT -> Fog,36.69,47.0,13.76,97.44,300.0,Yes,7.3756,0.0,7.3756
+2024-03-25 12:12:10,D14,"Temp: 34°C, Humidity: 78%",Data Analytics,Fog,39,3114,11,6,288,IoT14,Cloud1,Cloud,IoT -> Cloud,28.8,87.0,1.92,117.72,500.0,Yes,5.0177,0.0,5.0177
+2024-03-25 12:12:20,D7,"Temp: 38°C, Humidity: 69%",Image Processing,Cloud,63,915,7,4,184,IoT7,Fog1,Fog,IoT -> Fog,41.75,41.0,15.66,98.41,300.0,Yes,0.9829,0.0,0.9829
+2024-03-25 12:12:30,D18,"Temp: 36°C, Humidity: 56%",Image Processing,Edge,78,2145,5,2,54,IoT18,Edge4,Edge,IoT -> Edge,19.37,15.0,6.45,40.82,300.0,Yes,1.1521,0.2324,1.3845
+2024-03-25 12:12:40,D14,"Temp: 26°C, Humidity: 73%",Video Processing,Fog,54,7318,33,7,238,IoT14,Fog3,Fog,IoT -> Fog,43.27,70.0,27.04,140.31,120.0,No,7.8611,0.0,7.8611
+2024-03-25 12:12:50,D7,"Temp: 32°C, Humidity: 43%",Image Processing,Edge,81,3217,24,3,253,IoT7,Cloud1,Cloud,IoT -> Cloud,25.3,97.0,2.53,124.83,300.0,Yes,5.1836,0.0,5.1836
+2024-03-25 12:13:00,D18,"Temp: 37°C, Humidity: 34%",Video Processing,Cloud,75,6514,19,3,180,IoT18,Edge1,Edge,IoT -> Edge,65.37,30.0,21.78,117.15,120.0,Yes,3.4987,0.7845,4.2832
+2024-03-25 12:13:10,D1,"Temp: 20°C, Humidity: 43%",Image Processing,Cloud,32,3376,27,1,59,IoT1,IoT1,IoT,IoT (local),59.0,0.0,0.0,59.0,300.0,Yes,0.0,0.708,0.708
+2024-03-25 12:13:20,D3,"Temp: 35°C, Humidity: 59%",Image Processing,Cloud,24,552,13,2,250,IoT3,Cloud1,Cloud,IoT -> Cloud,25.0,85.0,3.33,113.33,300.0,Yes,0.8895,0.0,0.8895
+2024-03-25 12:13:30,D3,"Temp: 27°C, Humidity: 64%",Network Traffic,Device,62,6188,45,8,145,IoT3,Edge2,Edge,IoT -> Edge,57.13,61.0,19.04,137.16,150.0,Yes,3.3236,0.6855,4.0092
+2024-03-25 12:13:40,D20,"Temp: 26°C, Humidity: 51%",Video Processing,Device,25,7509,32,6,244,IoT20,Fog2,Fog,IoT -> Fog,53.93,68.0,26.96,148.89,120.0,No,8.0663,0.0,8.0663
+2024-03-25 12:13:50,D17,"Temp: 27°C, Humidity: 67%",Image Processing,Device,66,2613,10,2,61,IoT17,Edge6,Edge,IoT -> Edge,24.86,20.0,8.28,53.15,300.0,Yes,1.4035,0.2983,1.7018
+2024-03-25 12:14:00,D5,"Temp: 24°C, Humidity: 52%",Video Processing,Edge,35,2035,41,4,286,IoT5,Cloud1,Cloud,IoT -> Cloud,28.6,115.0,4.77,148.37,120.0,No,3.2791,0.0,3.2791
+2024-03-25 12:14:10,D13,"Temp: 39°C, Humidity: 56%",Video Processing,Device,56,922,5,7,246,IoT13,Cloud1,Cloud,IoT -> Cloud,24.6,82.0,4.92,111.52,120.0,Yes,1.4856,0.0,1.4856
+2024-03-25 12:14:20,D12,"Temp: 25°C, Humidity: 63%",Video Processing,Edge,49,5247,34,6,251,IoT12,Fog3,Fog,IoT -> Fog,45.63,70.0,34.22,149.85,120.0,No,5.6364,0.0,5.6364
+2024-03-25 12:14:30,D17,"Temp: 31°C, Humidity: 62%",Data Analytics,Cloud,86,7479,18,6,239,IoT17,Fog1,Fog,IoT -> Fog,54.23,54.0,27.11,135.35,500.0,Yes,8.0341,0.0,8.0341
+2024-03-25 12:14:40,D9,"Temp: 22°C, Humidity: 46%",Video Processing,Device,41,7843,5,8,275,IoT9,Cloud1,Cloud,IoT -> Cloud,27.5,83.0,6.42,116.92,120.0,Yes,12.6376,0.0,12.6376
+2024-03-25 12:14:50,D1,"Temp: 20°C, Humidity: 45%",Data Analytics,Edge,79,6336,7,9,183,IoT1,Fog2,Fog,IoT -> Fog,40.45,46.0,25.28,111.72,500.0,Yes,6.8063,0.0,6.8063
+2024-03-25 12:15:00,D6,"Temp: 33°C, Humidity: 46%",Network Traffic,Cloud,18,7002,6,9,265,IoT6,Cloud1,Cloud,IoT -> Cloud,26.5,85.0,7.07,118.57,150.0,Yes,11.2825,0.0,11.2825
+2024-03-25 12:15:10,D10,"Temp: 34°C, Humidity: 64%",Image Processing,Device,82,1605,19,5,247,IoT10,Fog3,Fog,IoT -> Fog,44.9,54.0,39.29,138.19,300.0,Yes,1.7241,0.0,1.7241
+2024-03-25 12:15:20,D8,"Temp: 39°C, Humidity: 67%",Network Traffic,Fog,46,5733,25,8,239,IoT8,Fog1,Fog,IoT -> Fog,54.23,63.0,33.89,151.12,150.0,No,6.1585,0.0,6.1585
+2024-03-25 12:15:30,D2,"Temp: 24°C, Humidity: 65%",Network Traffic,Edge,15,7183,24,5,195,IoT2,Edge8,Edge,IoT -> Edge,81.14,37.0,27.04,145.18,150.0,Yes,3.8581,0.9737,4.8318
+2024-03-25 12:15:40,D3,"Temp: 31°C, Humidity: 65%",Data Analytics,Device,89,8128,47,8,234,IoT3,Cloud1,Cloud,IoT -> Cloud,23.4,125.0,7.02,155.42,500.0,Yes,13.0969,0.0,13.0969
+2024-03-25 12:15:50,D18,"Temp: 34°C, Humidity: 51%",Network Traffic,Device,22,3571,22,5,209,IoT18,Fog2,Fog,IoT -> Fog,46.19,57.0,34.64,137.83,150.0,Yes,3.836,0.0,3.836
+2024-03-25 12:16:00,D7,"Temp: 39°C, Humidity: 63%",Network Traffic,Cloud,79,2526,34,6,248,IoT7,Cloud1,Cloud,IoT -> Cloud,24.8,110.0,8.27,143.07,150.0,Yes,4.0702,0.0,4.0702
+2024-03-25 12:16:10,D17,"Temp: 33°C, Humidity: 59%",Data Analytics,Edge,65,5463,13,1,78,IoT17,Edge3,Edge,IoT -> Edge,33.48,22.0,11.16,66.64,500.0,Yes,2.9342,0.4018,3.336
+2024-03-25 12:16:20,D12,"Temp: 39°C, Humidity: 32%",Data Analytics,Device,88,6806,40,2,64,IoT12,Edge5,Edge,IoT -> Edge,27.79,50.0,9.26,87.05,500.0,Yes,3.6556,0.3334,3.989
+2024-03-25 12:16:30,D3,"Temp: 26°C, Humidity: 48%",Video Processing,Cloud,51,5578,38,9,158,IoT3,Edge4,Edge,IoT -> Edge,56.66,55.0,37.76,149.43,120.0,No,2.996,0.68,3.6759
+2024-03-25 12:16:40,D19,"Temp: 23°C, Humidity: 31%",Network Traffic,Edge,22,2413,32,5,165,IoT19,Fog3,Fog,IoT -> Fog,30.0,67.0,0.0,97.0,150.0,Yes,2.5921,0.0,2.5921
+2024-03-25 12:16:50,D17,"Temp: 39°C, Humidity: 45%",Network Traffic,Device,85,4338,41,8,160,IoT17,Edge4,Edge,IoT -> Edge,57.38,57.0,0.0,114.38,150.0,Yes,2.33,0.6886,3.0185
+2024-03-25 12:17:00,D20,"Temp: 25°C, Humidity: 42%",Video Processing,Edge,53,6978,35,7,223,IoT20,Fog3,Fog,IoT -> Fog,40.54,72.0,5.07,117.61,120.0,Yes,7.4959,0.0,7.4959
+2024-03-25 12:17:10,D16,"Temp: 27°C, Humidity: 78%",Video Processing,Cloud,65,5546,39,9,174,IoT16,Fog2,Fog,IoT -> Fog,38.46,78.0,0.0,116.46,120.0,Yes,5.9576,0.0,5.9576
+2024-03-25 12:17:20,D20,"Temp: 22°C, Humidity: 61%",Data Analytics,Fog,53,8184,32,6,175,IoT20,Edge1,Edge,IoT -> Edge,63.56,46.0,0.0,109.56,500.0,Yes,4.3957,0.7627,5.1584
+2024-03-25 12:17:30,D11,"Temp: 33°C, Humidity: 43%",Video Processing,Fog,11,6846,13,6,160,IoT11,Fog1,Fog,IoT -> Fog,36.31,49.0,0.0,85.31,120.0,Yes,7.3541,0.0,7.3541
+2024-03-25 12:17:40,D14,"Temp: 34°C, Humidity: 51%",Network Traffic,Device,17,6717,17,5,139,IoT14,Edge2,Edge,IoT -> Edge,54.76,30.0,0.0,84.76,150.0,Yes,3.6078,0.6572,4.2649
+2024-03-25 12:17:50,D20,"Temp: 29°C, Humidity: 43%",Video Processing,Device,35,899,44,4,190,IoT20,Fog3,Fog,IoT -> Fog,34.54,78.0,8.63,121.18,120.0,No,0.9657,0.0,0.9657
+2024-03-25 12:18:00,D17,"Temp: 34°C, Humidity: 60%",Video Processing,Device,44,1307,25,5,93,IoT17,Edge6,Edge,IoT -> Edge,37.91,38.0,0.0,75.91,120.0,Yes,0.702,0.4549,1.1569
+2024-03-25 12:18:10,D11,"Temp: 27°C, Humidity: 43%",Video Processing,Cloud,82,7847,31,1,299,IoT11,Fog2,Fog,IoT -> Fog,66.08,62.0,8.26,136.34,120.0,No,8.4294,0.0,8.4294
+2024-03-25 12:18:20,D19,"Temp: 23°C, Humidity: 35%",Video Processing,Edge,59,5196,39,8,259,IoT19,Fog1,Fog,IoT -> Fog,58.77,77.0,7.35,143.12,120.0,No,5.5816,0.0,5.5816
+2024-03-25 12:18:30,D16,"Temp: 38°C, Humidity: 54%",Image Processing,Fog,86,4905,9,9,173,IoT16,Edge8,Edge,IoT -> Edge,71.99,26.0,0.0,97.99,300.0,Yes,2.6345,0.8639,3.4984
+2024-03-25 12:18:40,D8,"Temp: 38°C, Humidity: 61%",Data Analytics,Device,69,2199,17,2,123,IoT8,Edge3,Edge,IoT -> Edge,52.8,27.0,0.0,79.8,500.0,Yes,1.1811,0.6335,1.8147
+2024-03-25 12:18:50,D7,"Temp: 39°C, Humidity: 39%",Data Analytics,Device,25,6587,25,8,87,IoT7,Edge5,Edge,IoT -> Edge,37.77,41.0,0.0,78.77,500.0,Yes,3.5379,0.4533,3.9912
+2024-03-25 12:19:00,D8,"Temp: 20°C, Humidity: 47%",Network Traffic,Edge,86,639,6,6,97,IoT8,Edge7,Edge,IoT -> Edge,45.45,20.0,0.0,65.45,150.0,Yes,0.3432,0.5454,0.8887
+2024-03-25 12:19:10,D15,"Temp: 34°C, Humidity: 58%",Data Analytics,Device,48,3432,20,5,91,IoT15,Edge4,Edge,IoT -> Edge,32.63,33.0,10.87,76.51,500.0,Yes,1.8434,0.3916,2.235
+2024-03-25 12:19:20,D19,"Temp: 31°C, Humidity: 38%",Network Traffic,Edge,58,1700,16,6,183,IoT19,Fog3,Fog,IoT -> Fog,33.27,52.0,12.47,97.74,150.0,Yes,1.8262,0.0,1.8262
+2024-03-25 12:19:30,D15,"Temp: 23°C, Humidity: 65%",Video Processing,Cloud,87,6405,8,6,92,IoT15,Edge1,Edge,IoT -> Edge,33.41,22.0,11.13,66.55,120.0,Yes,3.4402,0.4009,3.8411
+2024-03-25 12:19:40,D14,"Temp: 39°C, Humidity: 53%",Image Processing,Cloud,11,4092,29,3,88,IoT14,IoT14,IoT,IoT (local),88.0,0.0,0.0,88.0,300.0,Yes,0.0,1.056,1.056
+2024-03-25 12:19:50,D12,"Temp: 39°C, Humidity: 53%",Network Traffic,Device,73,5423,11,6,214,IoT12,Fog2,Fog,IoT -> Fog,47.3,47.0,11.82,106.12,150.0,Yes,5.8255,0.0,5.8255
+2024-03-25 12:20:00,D7,"Temp: 22°C, Humidity: 72%",Data Analytics,Fog,56,592,23,7,288,IoT7,Cloud1,Cloud,IoT -> Cloud,28.8,100.0,0.0,128.8,500.0,Yes,0.9539,0.0,0.9539
+2024-03-25 12:20:10,D11,"Temp: 27°C, Humidity: 42%",Image Processing,Fog,53,5543,46,3,155,IoT11,Fog1,Fog,IoT -> Fog,35.17,79.0,8.79,122.96,300.0,Yes,5.9544,0.0,5.9544
+2024-03-25 12:20:20,D11,"Temp: 39°C, Humidity: 65%",Video Processing,Cloud,64,2235,32,3,67,IoT11,IoT11,IoT,IoT (local),67.0,0.0,0.0,67.0,120.0,Yes,0.0,0.804,0.804
+2024-03-25 12:20:30,D17,"Temp: 23°C, Humidity: 72%",Video Processing,Fog,53,4526,35,3,183,IoT17,Fog3,Fog,IoT -> Fog,33.27,68.0,16.63,117.9,120.0,Yes,4.8619,0.0,4.8619
+2024-03-25 12:20:40,D2,"Temp: 24°C, Humidity: 58%",Network Traffic,Fog,89,1332,24,8,77,IoT2,IoT2,IoT,IoT (local),77.0,0.0,0.0,77.0,150.0,Yes,0.0,0.924,0.924
+2024-03-25 12:20:50,D13,"Temp: 34°C, Humidity: 79%",Image Processing,Fog,39,2564,19,5,56,IoT13,IoT13,IoT,IoT (local),56.0,0.0,0.0,56.0,300.0,Yes,0.0,0.672,0.672
+2024-03-25 12:21:00,D14,"Temp: 29°C, Humidity: 32%",Data Analytics,Fog,84,3776,38,3,124,IoT14,Edge2,Edge,IoT -> Edge,48.85,49.0,16.28,114.13,500.0,Yes,2.0281,0.5863,2.6144
+2024-03-25 12:21:10,D19,"Temp: 29°C, Humidity: 52%",Video Processing,Edge,43,6763,31,5,61,IoT19,IoT19,IoT,IoT (local),61.0,0.0,0.0,61.0,120.0,Yes,0.0,0.732,0.732
+2024-03-25 12:21:20,D8,"Temp: 30°C, Humidity: 71%",Video Processing,Cloud,70,7888,41,8,158,IoT8,Fog2,Fog,IoT -> Fog,34.92,79.0,13.09,127.01,120.0,No,8.4734,0.0,8.4734
+2024-03-25 12:21:30,D20,"Temp: 32°C, Humidity: 53%",Image Processing,Device,52,7875,33,7,219,IoT20,Cloud1,Cloud,IoT -> Cloud,21.9,110.0,0.73,132.63,300.0,Yes,12.6892,0.0,12.6892
+2024-03-25 12:21:40,D4,"Temp: 32°C, Humidity: 63%",Data Analytics,Device,51,7358,27,3,198,IoT4,Fog1,Fog,IoT -> Fog,44.93,60.0,16.85,121.78,500.0,Yes,7.9041,0.0,7.9041
+2024-03-25 12:21:50,D10,"Temp: 34°C, Humidity: 59%",Network Traffic,Device,50,7427,12,4,224,IoT10,Fog3,Fog,IoT -> Fog,40.72,46.0,25.45,112.17,150.0,Yes,7.9782,0.0,7.9782
+2024-03-25 12:22:00,D18,"Temp: 34°C, Humidity: 43%",Data Analytics,Device,25,7576,47,7,147,IoT18,Edge6,Edge,IoT -> Edge,59.91,62.0,19.96,141.88,500.0,Yes,4.0691,0.719,4.7881
+2024-03-25 12:22:10,D3,"Temp: 38°C, Humidity: 75%",Data Analytics,Device,52,6525,42,1,131,IoT3,Edge8,Edge,IoT -> Edge,54.51,51.0,18.16,123.68,500.0,Yes,3.5046,0.6542,4.1588
+2024-03-25 12:22:20,D5,"Temp: 33°C, Humidity: 56%",Image Processing,Edge,20,6145,33,7,197,IoT5,Fog2,Fog,IoT -> Fog,43.54,70.0,21.77,135.31,300.0,Yes,6.6011,0.0,6.6011
+2024-03-25 12:22:30,D15,"Temp: 23°C, Humidity: 73%",Data Analytics,Edge,35,3485,10,9,227,IoT15,Cloud1,Cloud,IoT -> Cloud,22.7,89.0,1.51,113.21,500.0,Yes,5.6155,0.0,5.6155
+2024-03-25 12:22:40,D14,"Temp: 27°C, Humidity: 64%",Image Processing,Cloud,29,6919,30,3,168,IoT14,Fog1,Fog,IoT -> Fog,38.12,63.0,19.06,120.18,300.0,Yes,7.4325,0.0,7.4325
+2024-03-25 12:22:50,D19,"Temp: 38°C, Humidity: 67%",Image Processing,Fog,63,7794,12,2,245,IoT19,Cloud1,Cloud,IoT -> Cloud,24.5,84.0,2.45,110.95,300.0,Yes,12.5587,0.0,12.5587
+2024-03-25 12:23:00,D12,"Temp: 36°C, Humidity: 70%",Image Processing,Edge,16,5424,16,2,130,IoT12,Edge3,Edge,IoT -> Edge,55.8,26.0,18.59,100.39,300.0,Yes,2.9133,0.6696,3.5829
+2024-03-25 12:23:10,D20,"Temp: 23°C, Humidity: 39%",Image Processing,Edge,16,585,37,6,257,IoT20,Cloud1,Cloud,IoT -> Cloud,25.7,113.0,3.43,142.13,300.0,Yes,0.9426,0.0,0.9426
+2024-03-25 12:23:20,D12,"Temp: 35°C, Humidity: 45%",Image Processing,Fog,42,1452,34,1,187,IoT12,Fog3,Fog,IoT -> Fog,34.0,65.0,25.49,124.49,300.0,Yes,1.5598,0.0,1.5598
+2024-03-25 12:23:30,D6,"Temp: 34°C, Humidity: 48%",Video Processing,Fog,21,6138,18,6,141,IoT6,Edge5,Edge,IoT -> Edge,61.22,32.0,20.4,113.62,120.0,Yes,3.2968,0.7346,4.0314
+2024-03-25 12:23:40,D7,"Temp: 21°C, Humidity: 58%",Network Traffic,Cloud,69,2576,11,3,102,IoT7,Edge4,Edge,IoT -> Edge,36.58,22.0,24.38,82.96,150.0,Yes,1.3836,0.439,1.8226
+2024-03-25 12:23:50,D16,"Temp: 30°C, Humidity: 50%",Video Processing,Cloud,28,7253,44,3,185,IoT16,Fog2,Fog,IoT -> Fog,40.89,77.0,25.55,143.44,120.0,No,7.7913,0.0,7.7913
+2024-03-25 12:24:00,D6,"Temp: 20°C, Humidity: 59%",Network Traffic,Cloud,47,2053,27,2,290,IoT6,Cloud1,Cloud,IoT -> Cloud,29.0,99.0,4.83,132.83,150.0,Yes,3.3081,0.0,3.3081
+2024-03-25 12:24:10,D11,"Temp: 29°C, Humidity: 65%",Video Processing,Cloud,13,610,29,4,114,IoT11,Edge7,Edge,IoT -> Edge,53.42,41.0,17.8,112.22,120.0,Yes,0.3276,0.641,0.9687
+2024-03-25 12:24:20,D6,"Temp: 30°C, Humidity: 79%",Data Analytics,Fog,79,2672,22,6,195,IoT6,Fog3,Fog,IoT -> Fog,35.45,58.0,31.01,124.46,500.0,Yes,2.8703,0.0,2.8703
+2024-03-25 12:24:30,D6,"Temp: 20°C, Humidity: 63%",Data Analytics,Device,70,1810,16,5,175,IoT6,Fog1,Fog,IoT -> Fog,39.71,51.0,24.82,115.53,500.0,Yes,1.9443,0.0,1.9443
+2024-03-25 12:24:40,D12,"Temp: 31°C, Humidity: 31%",Video Processing,Edge,37,2730,23,3,63,IoT12,IoT12,IoT,IoT (local),63.0,0.0,0.0,63.0,120.0,Yes,0.0,0.756,0.756
+2024-03-25 12:24:50,D7,"Temp: 38°C, Humidity: 31%",Network Traffic,Cloud,36,972,29,3,261,IoT7,Cloud1,Cloud,IoT -> Cloud,26.1,102.0,5.22,133.32,150.0,Yes,1.5662,0.0,1.5662
+2024-03-25 12:25:00,D4,"Temp: 36°C, Humidity: 45%",Data Analytics,Edge,72,917,45,7,118,IoT4,Edge4,Edge,IoT -> Edge,42.32,60.0,0.0,102.32,500.0,Yes,0.4925,0.5078,1.0003
+2024-03-25 12:25:10,D16,"Temp: 33°C, Humidity: 36%",Network Traffic,Edge,87,7096,5,8,147,IoT16,Fog3,Fog,IoT -> Fog,26.72,43.0,0.0,69.72,150.0,Yes,7.6227,0.0,7.6227
+2024-03-25 12:25:20,D5,"Temp: 37°C, Humidity: 64%",Data Analytics,Fog,63,3489,7,5,100,IoT5,Edge1,Edge,IoT -> Edge,36.32,20.0,0.0,56.32,500.0,Yes,1.874,0.4358,2.3098
+2024-03-25 12:25:30,D4,"Temp: 32°C, Humidity: 39%",Video Processing,Device,53,7819,31,2,97,IoT4,Edge2,Edge,IoT -> Edge,38.22,41.0,0.0,79.22,120.0,Yes,4.1997,0.4586,4.6583
+2024-03-25 12:25:40,D7,"Temp: 28°C, Humidity: 47%",Network Traffic,Device,31,1171,41,3,299,IoT7,Fog3,Fog,IoT -> Fog,54.36,74.0,6.79,135.15,150.0,Yes,1.2579,0.0,1.2579
+2024-03-25 12:25:50,D18,"Temp: 32°C, Humidity: 61%",Video Processing,Fog,38,7647,31,3,131,IoT18,Fog2,Fog,IoT -> Fog,28.95,64.0,0.0,92.95,120.0,Yes,8.2146,0.0,8.2146
+2024-03-25 12:26:00,D9,"Temp: 28°C, Humidity: 45%",Network Traffic,Fog,49,2673,13,9,195,IoT9,Fog1,Fog,IoT -> Fog,44.25,52.0,0.0,96.25,150.0,Yes,2.8714,0.0,2.8714
+2024-03-25 12:26:10,D1,"Temp: 24°C, Humidity: 69%",Video Processing,Fog,22,1793,8,1,262,IoT1,Fog3,Fog,IoT -> Fog,47.63,39.0,11.91,98.54,120.0,Yes,1.9261,0.0,1.9261
+2024-03-25 12:26:20,D20,"Temp: 36°C, Humidity: 68%",Image Processing,Cloud,76,6560,48,8,240,IoT20,Fog2,Fog,IoT -> Fog,53.04,86.0,6.63,145.67,300.0,Yes,7.0469,0.0,7.0469
+2024-03-25 12:26:30,D1,"Temp: 34°C, Humidity: 55%",Network Traffic,Edge,80,6123,40,7,116,IoT1,Edge6,Edge,IoT -> Edge,47.28,55.0,0.0,102.28,150.0,Yes,3.2887,0.5674,3.8561
+2024-03-25 12:26:40,D10,"Temp: 36°C, Humidity: 34%",Data Analytics,Edge,41,3226,33,5,186,IoT10,Fog1,Fog,IoT -> Fog,42.21,68.0,5.28,115.48,500.0,Yes,3.4654,0.0,3.4654
+2024-03-25 12:26:50,D12,"Temp: 30°C, Humidity: 54%",Data Analytics,Edge,63,1901,48,7,125,IoT12,Edge8,Edge,IoT -> Edge,52.02,63.0,0.0,115.02,500.0,Yes,1.021,0.6242,1.6452
+2024-03-25 12:27:00,D8,"Temp: 33°C, Humidity: 71%",Data Analytics,Edge,34,2684,20,1,263,IoT8,Fog3,Fog,IoT -> Fog,47.81,51.0,17.93,116.74,500.0,Yes,2.8832,0.0,2.8832
+2024-03-25 12:27:10,D6,"Temp: 23°C, Humidity: 31%",Video Processing,Fog,35,1323,44,8,137,IoT6,Edge3,Edge,IoT -> Edge,58.81,60.0,0.0,118.81,120.0,Yes,0.7106,0.7057,1.4163
+2024-03-25 12:27:20,D4,"Temp: 22°C, Humidity: 65%",Video Processing,Fog,81,5135,31,5,98,IoT4,Edge5,Edge,IoT -> Edge,42.55,44.0,0.0,86.55,120.0,Yes,2.7581,0.5106,3.2687
+2024-03-25 12:27:30,D15,"Temp: 34°C, Humidity: 69%",Data Analytics,Device,81,1794,28,8,130,IoT15,Edge7,Edge,IoT -> Edge,60.92,44.0,0.0,104.92,500.0,Yes,0.9636,0.731,1.6946
+2024-03-25 12:27:40,D8,"Temp: 29°C, Humidity: 68%",Image Processing,Edge,79,3287,40,5,298,IoT8,Cloud1,Cloud,IoT -> Cloud,29.8,115.0,0.0,144.8,300.0,Yes,5.2964,0.0,5.2964
+2024-03-25 12:27:50,D7,"Temp: 28°C, Humidity: 60%",Data Analytics,Edge,21,6425,10,2,200,IoT7,Fog2,Fog,IoT -> Fog,44.2,42.0,11.05,97.25,500.0,Yes,6.9019,0.0,6.9019
+2024-03-25 12:28:00,D11,"Temp: 30°C, Humidity: 46%",Image Processing,Device,51,5679,42,1,249,IoT11,Fog1,Fog,IoT -> Fog,56.5,73.0,14.12,143.63,300.0,Yes,6.1005,0.0,6.1005
+2024-03-25 12:28:10,D6,"Temp: 34°C, Humidity: 45%",Image Processing,Fog,19,3969,12,8,52,IoT6,IoT6,IoT,IoT (local),52.0,0.0,0.0,52.0,300.0,Yes,0.0,0.624,0.624
+2024-03-25 12:28:20,D3,"Temp: 38°C, Humidity: 78%",Video Processing,Edge,41,5013,27,2,185,IoT3,Fog3,Fog,IoT -> Fog,33.63,59.0,16.81,109.45,120.0,Yes,5.3851,0.0,5.3851
+2024-03-25 12:28:30,D1,"Temp: 39°C, Humidity: 56%",Image Processing,Edge,39,2850,41,4,225,IoT1,Cloud1,Cloud,IoT -> Cloud,22.5,115.0,0.75,138.25,300.0,Yes,4.5923,0.0,4.5923
+2024-03-25 12:28:40,D18,"Temp: 25°C, Humidity: 42%",Network Traffic,Cloud,44,3547,26,9,140,IoT18,Edge4,Edge,IoT -> Edge,50.21,43.0,16.73,109.94,150.0,Yes,1.9051,0.6025,2.5076
+2024-03-25 12:28:50,D9,"Temp: 38°C, Humidity: 58%",Video Processing,Fog,20,1210,26,1,233,IoT9,Cloud1,Cloud,IoT -> Cloud,23.3,97.0,1.55,121.85,120.0,No,1.9497,0.0,1.9497
+2024-03-25 12:29:00,D10,"Temp: 21°C, Humidity: 39%",Network Traffic,Device,79,2778,24,4,268,IoT10,Cloud1,Cloud,IoT -> Cloud,26.8,98.0,2.68,127.48,150.0,Yes,4.4763,0.0,4.4763
+2024-03-25 12:29:10,D10,"Temp: 36°C, Humidity: 71%",Network Traffic,Fog,72,3984,45,2,213,IoT10,Fog2,Fog,IoT -> Fog,47.08,77.0,17.65,141.73,150.0,Yes,4.2797,0.0,4.2797
+2024-03-25 12:29:20,D8,"Temp: 25°C, Humidity: 49%",Image Processing,Fog,60,3176,25,8,193,IoT8,Fog1,Fog,IoT -> Fog,43.79,63.0,16.42,123.22,300.0,Yes,3.4117,0.0,3.4117
+2024-03-25 12:29:30,D3,"Temp: 28°C, Humidity: 74%",Image Processing,Fog,55,1190,5,4,204,IoT3,Fog3,Fog,IoT -> Fog,37.09,39.0,23.18,99.26,300.0,Yes,1.2783,0.0,1.2783
+2024-03-25 12:29:40,D6,"Temp: 33°C, Humidity: 67%",Image Processing,Cloud,35,1445,30,7,102,IoT6,Edge1,Edge,IoT -> Edge,37.04,45.0,12.34,94.39,300.0,Yes,0.7761,0.4445,1.2206
+2024-03-25 12:29:50,D12,"Temp: 26°C, Humidity: 55%",Network Traffic,Device,17,8086,19,8,75,IoT12,IoT12,IoT,IoT (local),75.0,0.0,0.0,75.0,150.0,Yes,0.0,0.9,0.9
+2024-03-25 12:30:00,D18,"Temp: 26°C, Humidity: 68%",Image Processing,Edge,16,3242,5,3,106,IoT18,Edge2,Edge,IoT -> Edge,41.76,16.0,13.92,71.68,300.0,Yes,1.7413,0.5012,2.2425
+2024-03-25 12:30:10,D3,"Temp: 27°C, Humidity: 58%",Data Analytics,Edge,31,6282,19,9,268,IoT3,Cloud1,Cloud,IoT -> Cloud,26.8,98.0,3.57,128.37,500.0,Yes,10.1224,0.0,10.1224
+2024-03-25 12:30:20,D15,"Temp: 37°C, Humidity: 67%",Video Processing,Cloud,26,4192,13,6,53,IoT15,IoT15,IoT,IoT (local),53.0,0.0,0.0,53.0,120.0,Yes,0.0,0.636,0.636
+2024-03-25 12:30:30,D10,"Temp: 26°C, Humidity: 59%",Video Processing,Device,17,4216,28,2,275,IoT10,Cloud1,Cloud,IoT -> Cloud,27.5,100.0,4.58,132.08,120.0,No,6.7934,0.0,6.7934
+2024-03-25 12:30:40,D13,"Temp: 37°C, Humidity: 54%",Data Analytics,Device,46,681,47,6,196,IoT13,Fog2,Fog,IoT -> Fog,43.32,83.0,21.66,147.98,500.0,Yes,0.7315,0.0,0.7315
+2024-03-25 12:30:50,D15,"Temp: 36°C, Humidity: 67%",Network Traffic,Device,22,8155,36,2,163,IoT15,Fog1,Fog,IoT -> Fog,36.99,68.0,18.49,123.48,150.0,Yes,8.7603,0.0,8.7603
+2024-03-25 12:31:00,D11,"Temp: 29°C, Humidity: 53%",Video Processing,Device,65,7903,42,9,81,IoT11,IoT11,IoT,IoT (local),81.0,0.0,0.0,81.0,120.0,Yes,0.0,0.972,0.972
+2024-03-25 12:31:10,D12,"Temp: 28°C, Humidity: 35%",Network Traffic,Cloud,80,7965,27,8,202,IoT12,Fog3,Fog,IoT -> Fog,36.72,65.0,27.54,129.26,150.0,Yes,8.5562,0.0,8.5562
+2024-03-25 12:31:20,D13,"Temp: 34°C, Humidity: 70%",Image Processing,Fog,28,3769,30,9,271,IoT13,Cloud1,Cloud,IoT -> Cloud,27.1,109.0,5.42,141.52,300.0,Yes,6.0731,0.0,6.0731
+2024-03-25 12:31:30,D14,"Temp: 29°C, Humidity: 40%",Image Processing,Cloud,52,6504,30,1,59,IoT14,IoT14,IoT,IoT (local),59.0,0.0,0.0,59.0,300.0,Yes,0.0,0.708,0.708
+2024-03-25 12:31:40,D1,"Temp: 27°C, Humidity: 60%",Image Processing,Edge,63,3696,38,7,210,IoT1,Fog2,Fog,IoT -> Fog,46.41,75.0,29.0,150.42,300.0,Yes,3.9703,0.0,3.9703
+2024-03-25 12:31:50,D3,"Temp: 34°C, Humidity: 73%",Data Analytics,Edge,16,4798,16,8,256,IoT3,Cloud1,Cloud,IoT -> Cloud,25.6,94.0,5.97,125.57,500.0,Yes,7.7312,0.0,7.7312
+2024-03-25 12:32:00,D5,"Temp: 31°C, Humidity: 51%",Data Analytics,Cloud,34,5881,32,8,106,IoT5,IoT5,IoT,IoT (local),106.0,0.0,0.0,106.0,500.0,Yes,0.0,1.272,1.272
+2024-03-25 12:32:10,D4,"Temp: 38°C, Humidity: 55%",Image Processing,Edge,37,8173,27,5,259,IoT4,Cloud1,Cloud,IoT -> Cloud,25.9,102.0,6.91,134.81,300.0,Yes,13.1694,0.0,13.1694
+2024-03-25 12:32:20,D15,"Temp: 39°C, Humidity: 54%",Video Processing,Cloud,23,1264,14,6,206,IoT15,Fog3,Fog,IoT -> Fog,37.45,50.0,32.76,120.21,120.0,No,1.3578,0.0,1.3578
+2024-03-25 12:32:30,D12,"Temp: 39°C, Humidity: 57%",Data Analytics,Fog,62,2042,29,8,90,IoT12,Edge6,Edge,IoT -> Edge,36.68,45.0,12.22,93.91,500.0,Yes,1.0968,0.4402,1.537
+2024-03-25 12:32:40,D12,"Temp: 36°C, Humidity: 68%",Video Processing,Fog,43,3827,17,8,225,IoT12,Fog1,Fog,IoT -> Fog,51.06,55.0,31.91,137.96,120.0,No,4.111,0.0,4.111
+2024-03-25 12:32:50,D20,"Temp: 30°C, Humidity: 65%",Network Traffic,Device,74,1348,14,2,176,IoT20,Edge8,Edge,IoT -> Edge,73.24,24.0,24.4,121.64,150.0,Yes,0.724,0.8789,1.6029
+2024-03-25 12:33:00,D1,"Temp: 27°C, Humidity: 71%",Network Traffic,Fog,50,1040,42,6,83,IoT1,IoT1,IoT,IoT (local),83.0,0.0,0.0,83.0,150.0,Yes,0.0,0.996,0.996
+2024-03-25 12:33:10,D6,"Temp: 31°C, Humidity: 43%",Image Processing,Cloud,49,5507,18,6,229,IoT6,Cloud1,Cloud,IoT -> Cloud,22.9,94.0,6.87,123.77,300.0,Yes,8.8736,0.0,8.8736
+2024-03-25 12:33:20,D16,"Temp: 39°C, Humidity: 57%",Video Processing,Cloud,78,6776,21,9,103,IoT16,Edge4,Edge,IoT -> Edge,36.94,38.0,0.0,74.94,120.0,Yes,3.6395,0.4433,4.0827
+2024-03-25 12:33:30,D2,"Temp: 27°C, Humidity: 77%",Video Processing,Device,50,4187,12,1,165,IoT2,Fog3,Fog,IoT -> Fog,30.0,43.0,0.0,73.0,120.0,Yes,4.4978,0.0,4.4978
+2024-03-25 12:33:40,D19,"Temp: 24°C, Humidity: 48%",Image Processing,Fog,43,6844,5,1,233,IoT19,Fog3,Fog,IoT -> Fog,42.36,36.0,5.29,83.65,300.0,Yes,7.352,0.0,7.352
+2024-03-25 12:33:50,D16,"Temp: 39°C, Humidity: 65%",Video Processing,Device,44,4238,49,3,72,IoT16,IoT16,IoT,IoT (local),72.0,0.0,0.0,72.0,120.0,Yes,0.0,0.864,0.864
+2024-03-25 12:34:00,D12,"Temp: 20°C, Humidity: 57%",Image Processing,Cloud,64,6254,22,1,138,IoT12,Edge1,Edge,IoT -> Edge,50.12,31.0,0.0,81.12,300.0,Yes,3.3591,0.6014,3.9605
+2024-03-25 12:34:10,D7,"Temp: 23°C, Humidity: 53%",Data Analytics,Device,39,7196,32,8,263,IoT7,Fog2,Fog,IoT -> Fog,58.13,70.0,0.0,128.13,500.0,Yes,7.7301,0.0,7.7301
+2024-03-25 12:34:20,D4,"Temp: 24°C, Humidity: 70%",Data Analytics,Device,13,6568,42,2,184,IoT4,Fog1,Fog,IoT -> Fog,41.75,74.0,0.0,115.75,500.0,Yes,7.0555,0.0,7.0555
+2024-03-25 12:34:30,D18,"Temp: 29°C, Humidity: 56%",Data Analytics,Cloud,76,5363,13,2,141,IoT18,Edge2,Edge,IoT -> Edge,55.55,23.0,0.0,78.55,500.0,Yes,2.8805,0.6666,3.5471
+2024-03-25 12:34:40,D7,"Temp: 31°C, Humidity: 59%",Network Traffic,Edge,48,4192,8,3,73,IoT7,Edge6,Edge,IoT -> Edge,29.75,19.0,0.0,48.75,150.0,Yes,2.2516,0.357,2.6086
+2024-03-25 12:34:50,D17,"Temp: 39°C, Humidity: 72%",Data Analytics,Edge,85,2983,17,9,249,IoT17,Fog3,Fog,IoT -> Fog,45.27,56.0,11.32,112.58,500.0,Yes,3.2044,0.0,3.2044
+2024-03-25 12:35:00,D10,"Temp: 38°C, Humidity: 59%",Video Processing,Fog,81,7750,47,1,82,IoT10,IoT10,IoT,IoT (local),82.0,0.0,0.0,82.0,120.0,Yes,0.0,0.984,0.984
+2024-03-25 12:35:10,D17,"Temp: 27°C, Humidity: 34%",Image Processing,Cloud,19,3631,27,9,113,IoT17,Edge8,Edge,IoT -> Edge,47.02,44.0,0.0,91.02,300.0,Yes,1.9502,0.5643,2.5145
+2024-03-25 12:35:20,D19,"Temp: 25°C, Humidity: 35%",Video Processing,Fog,25,5595,8,8,215,IoT19,Fog2,Fog,IoT -> Fog,47.52,46.0,5.94,99.46,120.0,Yes,6.0103,0.0,6.0103
+2024-03-25 12:35:30,D7,"Temp: 21°C, Humidity: 66%",Video Processing,Fog,87,4390,44,8,263,IoT7,Fog1,Fog,IoT -> Fog,59.68,82.0,7.46,149.14,120.0,No,4.7158,0.0,4.7158
+2024-03-25 12:35:40,D19,"Temp: 28°C, Humidity: 73%",Network Traffic,Device,73,4955,18,7,281,IoT19,Cloud1,Cloud,IoT -> Cloud,28.1,95.0,0.0,123.1,150.0,Yes,7.9841,0.0,7.9841
+2024-03-25 12:35:50,D8,"Temp: 32°C, Humidity: 57%",Network Traffic,Edge,71,6208,31,9,167,IoT8,Edge3,Edge,IoT -> Edge,71.68,48.0,0.0,119.68,150.0,Yes,3.3344,0.8602,4.1946
+2024-03-25 12:36:00,D16,"Temp: 36°C, Humidity: 49%",Video Processing,Fog,87,2456,31,3,220,IoT16,Fog3,Fog,IoT -> Fog,39.99,64.0,15.0,118.99,120.0,Yes,2.6383,0.0,2.6383
+2024-03-25 12:36:10,D15,"Temp: 24°C, Humidity: 67%",Image Processing,Edge,23,6377,43,4,141,IoT15,Edge5,Edge,IoT -> Edge,61.22,55.0,0.0,116.22,300.0,Yes,3.4251,0.7346,4.1598
+2024-03-25 12:36:20,D9,"Temp: 33°C, Humidity: 64%",Data Analytics,Cloud,77,2761,34,6,248,IoT9,Fog2,Fog,IoT -> Fog,54.81,70.0,13.7,138.51,500.0,Yes,2.9659,0.0,2.9659
+2024-03-25 12:36:30,D3,"Temp: 24°C, Humidity: 45%",Image Processing,Cloud,70,1544,45,7,295,IoT3,Cloud1,Cloud,IoT -> Cloud,29.5,122.0,0.98,152.48,300.0,Yes,2.4879,0.0,2.4879
+2024-03-25 12:36:40,D5,"Temp: 39°C, Humidity: 58%",Image Processing,Cloud,29,7022,17,7,188,IoT5,Fog1,Fog,IoT -> Fog,42.66,54.0,10.66,107.32,300.0,Yes,7.5432,0.0,7.5432
+2024-03-25 12:36:50,D9,"Temp: 22°C, Humidity: 41%",Data Analytics,Fog,57,6195,25,1,176,IoT9,Fog3,Fog,IoT -> Fog,32.0,56.0,16.0,103.99,500.0,Yes,6.6548,0.0,6.6548
+2024-03-25 12:37:00,D19,"Temp: 23°C, Humidity: 39%",Network Traffic,Device,41,3533,18,1,124,IoT19,Edge7,Edge,IoT -> Edge,58.11,27.0,0.0,85.11,150.0,Yes,1.8976,0.6973,2.5949
+2024-03-25 12:37:10,D5,"Temp: 37°C, Humidity: 33%",Video Processing,Edge,31,5234,14,7,215,IoT5,Fog2,Fog,IoT -> Fog,47.52,51.0,17.82,116.33,120.0,Yes,5.6225,0.0,5.6225
+2024-03-25 12:37:20,D9,"Temp: 32°C, Humidity: 34%",Data Analytics,Edge,62,7102,33,4,136,IoT9,Edge4,Edge,IoT -> Edge,48.77,45.0,16.25,110.03,500.0,Yes,3.8146,0.5853,4.3998
+2024-03-25 12:37:30,D2,"Temp: 35°C, Humidity: 53%",Data Analytics,Edge,33,3618,38,2,269,IoT2,Cloud1,Cloud,IoT -> Cloud,26.9,110.0,1.79,138.69,500.0,Yes,5.8298,0.0,5.8298
+2024-03-25 12:37:40,D13,"Temp: 22°C, Humidity: 39%",Image Processing,Device,53,7750,46,5,202,IoT13,Fog1,Fog,IoT -> Fog,45.84,81.0,17.19,144.02,300.0,Yes,8.3252,0.0,8.3252
+2024-03-25 12:37:50,D4,"Temp: 26°C, Humidity: 36%",Video Processing,Device,43,5910,19,4,269,IoT4,Cloud1,Cloud,IoT -> Cloud,26.9,93.0,2.69,122.59,120.0,No,9.5229,0.0,9.5229
+2024-03-25 12:38:00,D18,"Temp: 36°C, Humidity: 71%",Network Traffic,Cloud,47,2006,14,1,82,IoT18,Edge1,Edge,IoT -> Edge,29.78,23.0,9.92,62.7,150.0,Yes,1.0774,0.3574,1.4348
+2024-03-25 12:38:10,D14,"Temp: 32°C, Humidity: 41%",Network Traffic,Cloud,62,7814,13,5,176,IoT14,Fog3,Fog,IoT -> Fog,32.0,48.0,19.99,99.99,150.0,Yes,8.3939,0.0,8.3939
+2024-03-25 12:38:20,D10,"Temp: 35°C, Humidity: 48%",Video Processing,Edge,28,4161,26,7,83,IoT10,Edge2,Edge,IoT -> Edge,32.7,41.0,10.9,84.6,120.0,Yes,2.2349,0.3924,2.6273
+2024-03-25 12:38:30,D17,"Temp: 26°C, Humidity: 30%",Data Analytics,Edge,34,1740,39,1,279,IoT17,Cloud1,Cloud,IoT -> Cloud,27.9,110.0,3.72,141.62,500.0,Yes,2.8037,0.0,2.8037
+2024-03-25 12:38:40,D20,"Temp: 35°C, Humidity: 66%",Video Processing,Device,54,6577,31,8,199,IoT20,Fog2,Fog,IoT -> Fog,43.98,69.0,21.99,134.97,120.0,No,7.0651,0.0,7.0651
+2024-03-25 12:38:50,D12,"Temp: 21°C, Humidity: 54%",Video Processing,Cloud,63,7573,34,5,243,IoT12,Cloud1,Cloud,IoT -> Cloud,24.3,109.0,4.05,137.35,120.0,No,12.2026,0.0,12.2026
+2024-03-25 12:39:00,D4,"Temp: 37°C, Humidity: 58%",Network Traffic,Device,74,1721,41,9,106,IoT4,IoT4,IoT,IoT (local),106.0,0.0,0.0,106.0,150.0,Yes,0.0,1.272,1.272
+2024-03-25 12:39:10,D9,"Temp: 38°C, Humidity: 71%",Image Processing,Fog,56,6492,19,9,247,IoT9,Fog3,Fog,IoT -> Fog,44.9,58.0,33.67,136.58,300.0,Yes,6.9738,0.0,6.9738
+2024-03-25 12:39:20,D8,"Temp: 29°C, Humidity: 72%",Video Processing,Cloud,60,3484,24,3,228,IoT8,Fog1,Fog,IoT -> Fog,51.74,57.0,25.87,134.6,120.0,No,3.7426,0.0,3.7426
+2024-03-25 12:39:30,D7,"Temp: 36°C, Humidity: 62%",Data Analytics,Edge,49,7459,14,6,227,IoT7,Cloud1,Cloud,IoT -> Cloud,22.7,90.0,4.54,117.24,500.0,Yes,12.0189,0.0,12.0189
+2024-03-25 12:39:40,D3,"Temp: 21°C, Humidity: 54%",Image Processing,Cloud,60,8035,26,8,193,IoT3,Fog2,Fog,IoT -> Fog,42.66,64.0,26.66,133.31,300.0,Yes,8.6313,0.0,8.6313
+2024-03-25 12:39:50,D16,"Temp: 38°C, Humidity: 31%",Data Analytics,Edge,37,6320,24,1,263,IoT16,Cloud1,Cloud,IoT -> Cloud,26.3,95.0,6.14,127.44,500.0,Yes,10.1836,0.0,10.1836
+2024-03-25 12:40:00,D5,"Temp: 31°C, Humidity: 77%",Video Processing,Edge,52,2914,9,9,108,IoT5,Edge6,Edge,IoT -> Edge,44.02,26.0,14.67,84.69,120.0,Yes,1.5651,0.5282,2.0934
+2024-03-25 12:40:10,D2,"Temp: 29°C, Humidity: 57%",Data Analytics,Edge,31,5082,37,7,240,IoT2,Fog3,Fog,IoT -> Fog,43.63,74.0,38.17,155.8,500.0,Yes,5.4592,0.0,5.4592
+2024-03-25 12:40:20,D4,"Temp: 25°C, Humidity: 43%",Network Traffic,Edge,55,6309,48,3,181,IoT4,Fog1,Fog,IoT -> Fog,41.07,81.0,25.67,147.74,150.0,Yes,6.7772,0.0,6.7772
+2024-03-25 12:40:30,D4,"Temp: 20°C, Humidity: 61%",Data Analytics,Fog,65,6931,31,6,286,IoT4,Cloud1,Cloud,IoT -> Cloud,28.6,107.0,7.63,143.23,500.0,Yes,11.1681,0.0,11.1681
+2024-03-25 12:40:40,D5,"Temp: 34°C, Humidity: 62%",Video Processing,Fog,74,5241,34,1,218,IoT5,Fog3,Fog,IoT -> Fog,39.63,65.0,39.63,144.26,120.0,No,5.63,0.0,5.63
+2024-03-25 12:40:50,D4,"Temp: 24°C, Humidity: 69%",Network Traffic,Device,82,2145,33,4,257,IoT4,Cloud1,Cloud,IoT -> Cloud,25.7,107.0,7.71,140.41,150.0,Yes,3.4563,0.0,3.4563
+2024-03-25 12:41:00,D14,"Temp: 32°C, Humidity: 76%",Video Processing,Edge,85,2676,11,3,112,IoT14,Edge8,Edge,IoT -> Edge,46.61,22.0,15.53,84.14,120.0,Yes,1.4373,0.5593,1.9966
+2024-03-25 12:41:10,D18,"Temp: 22°C, Humidity: 43%",Network Traffic,Edge,22,4775,11,8,285,IoT18,Cloud1,Cloud,IoT -> Cloud,28.5,89.0,9.5,127.0,150.0,Yes,7.6941,0.0,7.6941
+2024-03-25 12:41:20,D20,"Temp: 22°C, Humidity: 32%",Video Processing,Edge,33,3450,30,4,252,IoT20,Cloud1,Cloud,IoT -> Cloud,25.2,104.0,9.24,138.44,120.0,No,5.5591,0.0,5.5591
+2024-03-25 12:41:30,D12,"Temp: 20°C, Humidity: 41%",Video Processing,Device,43,2824,19,5,112,IoT12,Edge3,Edge,IoT -> Edge,48.07,32.0,16.02,96.09,120.0,Yes,1.5168,0.5769,2.0937
+2024-03-25 12:41:40,D11,"Temp: 20°C, Humidity: 60%",Image Processing,Cloud,22,4330,42,6,135,IoT11,Edge4,Edge,IoT -> Edge,48.41,56.0,0.0,104.41,300.0,Yes,2.3257,0.581,2.9067
+2024-03-25 12:41:50,D12,"Temp: 34°C, Humidity: 41%",Data Analytics,Device,20,7950,5,7,83,IoT12,Edge1,Edge,IoT -> Edge,30.14,20.0,0.0,50.14,500.0,Yes,4.27,0.3617,4.6317
+2024-03-25 12:42:00,D9,"Temp: 22°C, Humidity: 45%",Network Traffic,Device,73,4593,29,2,192,IoT9,Fog3,Fog,IoT -> Fog,34.9,61.0,4.36,100.27,150.0,Yes,4.9339,0.0,4.9339
+2024-03-25 12:42:10,D14,"Temp: 34°C, Humidity: 70%",Network Traffic,Fog,75,4915,23,5,195,IoT14,Fog2,Fog,IoT -> Fog,43.1,58.0,0.0,101.1,150.0,Yes,5.2798,0.0,5.2798
+2024-03-25 12:42:20,D20,"Temp: 29°C, Humidity: 42%",Network Traffic,Fog,65,7180,10,1,114,IoT20,Edge2,Edge,IoT -> Edge,44.91,19.0,0.0,63.91,150.0,Yes,3.8564,0.539,4.3954
+2024-03-25 12:42:30,D6,"Temp: 23°C, Humidity: 75%",Video Processing,Fog,44,6391,18,9,178,IoT6,Fog1,Fog,IoT -> Fog,40.39,57.0,0.0,97.39,120.0,Yes,6.8653,0.0,6.8653
+2024-03-25 12:42:40,D20,"Temp: 20°C, Humidity: 57%",Image Processing,Edge,68,3992,24,9,241,IoT20,Fog3,Fog,IoT -> Fog,43.81,63.0,10.95,117.76,300.0,Yes,4.2883,0.0,4.2883
+2024-03-25 12:42:50,D16,"Temp: 37°C, Humidity: 64%",Network Traffic,Device,73,5071,6,2,218,IoT16,Fog2,Fog,IoT -> Fog,48.18,38.0,6.02,92.2,150.0,Yes,5.4474,0.0,5.4474
+2024-03-25 12:43:00,D15,"Temp: 29°C, Humidity: 38%",Video Processing,Edge,74,6561,10,6,60,IoT15,Edge6,Edge,IoT -> Edge,24.45,24.0,0.0,48.45,120.0,Yes,3.524,0.2935,3.8174
+2024-03-25 12:43:10,D20,"Temp: 23°C, Humidity: 72%",Image Processing,Fog,80,2961,20,4,245,IoT20,Fog1,Fog,IoT -> Fog,55.59,54.0,6.95,116.54,300.0,Yes,3.1808,0.0,3.1808
+2024-03-25 12:43:20,D10,"Temp: 28°C, Humidity: 75%",Network Traffic,Fog,78,982,6,9,209,IoT10,Fog3,Fog,IoT -> Fog,37.99,45.0,14.25,97.24,150.0,Yes,1.0549,0.0,1.0549
+2024-03-25 12:43:30,D1,"Temp: 25°C, Humidity: 70%",Image Processing,Fog,51,695,18,1,212,IoT1,Fog2,Fog,IoT -> Fog,46.85,49.0,11.71,107.57,300.0,Yes,0.7466,0.0,0.7466
+2024-03-25 12:43:40,D15,"Temp: 36°C, Humidity: 73%",Image Processing,Cloud,40,657,31,6,292,IoT15,Cloud1,Cloud,IoT -> Cloud,29.2,107.0,0.0,136.2,300.0,Yes,1.0586,0.0,1.0586
+2024-03-25 12:43:50,D16,"Temp: 20°C, Humidity: 42%",Image Processing,Cloud,33,1736,41,4,212,IoT16,Fog1,Fog,IoT -> Fog,48.11,75.0,12.03,135.13,300.0,Yes,1.8648,0.0,1.8648
+2024-03-25 12:44:00,D14,"Temp: 21°C, Humidity: 42%",Network Traffic,Edge,29,2980,31,2,124,IoT14,Edge8,Edge,IoT -> Edge,51.6,41.0,0.0,92.6,150.0,Yes,1.6006,0.6192,2.2198
+2024-03-25 12:44:10,D1,"Temp: 37°C, Humidity: 34%",Image Processing,Edge,56,2241,42,6,98,IoT1,IoT1,IoT,IoT (local),98.0,0.0,0.0,98.0,300.0,Yes,0.0,1.176,1.176
+2024-03-25 12:44:20,D19,"Temp: 31°C, Humidity: 54%",Data Analytics,Fog,33,6814,8,8,200,IoT19,Edge3,Edge,IoT -> Edge,85.85,24.0,0.0,109.85,500.0,Yes,3.6599,1.0302,4.69
+2024-03-25 12:44:30,D6,"Temp: 33°C, Humidity: 56%",Data Analytics,Fog,61,3673,30,7,68,IoT6,IoT6,IoT,IoT (local),68.0,0.0,0.0,68.0,500.0,Yes,0.0,0.816,0.816
+2024-03-25 12:44:40,D18,"Temp: 26°C, Humidity: 44%",Video Processing,Fog,45,4716,26,8,298,IoT18,Cloud1,Cloud,IoT -> Cloud,29.8,104.0,0.99,134.79,120.0,No,7.599,0.0,7.599
+2024-03-25 12:44:50,D1,"Temp: 21°C, Humidity: 66%",Image Processing,Device,88,5824,5,8,121,IoT1,Edge5,Edge,IoT -> Edge,52.54,21.0,0.0,73.54,300.0,Yes,3.1281,0.6304,3.7586
+2024-03-25 12:45:00,D20,"Temp: 31°C, Humidity: 31%",Video Processing,Cloud,57,2665,16,9,191,IoT20,Fog3,Fog,IoT -> Fog,34.72,55.0,17.36,107.08,120.0,Yes,2.8628,0.0,2.8628
+2024-03-25 12:45:10,D16,"Temp: 35°C, Humidity: 32%",Data Analytics,Device,36,668,9,2,200,IoT16,Fog2,Fog,IoT -> Fog,44.2,41.0,16.57,101.78,500.0,Yes,0.7176,0.0,0.7176
+2024-03-25 12:45:20,D15,"Temp: 29°C, Humidity: 56%",Image Processing,Cloud,54,803,34,4,184,IoT15,Edge7,Edge,IoT -> Edge,86.22,46.0,0.0,132.22,300.0,Yes,0.4313,1.0347,1.466
+2024-03-25 12:45:30,D2,"Temp: 39°C, Humidity: 37%",Image Processing,Device,20,5739,15,4,98,IoT2,Edge4,Edge,IoT -> Edge,35.15,27.0,11.71,73.86,300.0,Yes,3.0825,0.4217,3.5042
+2024-03-25 12:45:40,D11,"Temp: 24°C, Humidity: 32%",Video Processing,Cloud,71,3322,43,4,219,IoT11,Fog1,Fog,IoT -> Fog,49.69,77.0,18.63,145.33,120.0,No,3.5686,0.0,3.5686
+2024-03-25 12:45:50,D11,"Temp: 25°C, Humidity: 35%",Data Analytics,Device,83,1480,30,5,93,IoT11,Edge1,Edge,IoT -> Edge,33.78,43.0,11.25,88.03,500.0,Yes,0.7949,0.4053,1.2002
+2024-03-25 12:46:00,D4,"Temp: 24°C, Humidity: 46%",Network Traffic,Cloud,43,8132,27,3,92,IoT4,Edge2,Edge,IoT -> Edge,36.25,38.0,12.08,86.33,150.0,Yes,4.3678,0.435,4.8027
+2024-03-25 12:46:10,D13,"Temp: 39°C, Humidity: 32%",Image Processing,Cloud,15,5885,12,5,127,IoT13,Edge6,Edge,IoT -> Edge,51.76,25.0,17.25,94.01,300.0,Yes,3.1609,0.6212,3.782
+2024-03-25 12:46:20,D11,"Temp: 28°C, Humidity: 68%",Image Processing,Cloud,64,6987,13,9,221,IoT11,Fog3,Fog,IoT -> Fog,40.18,52.0,25.11,117.28,300.0,Yes,7.5056,0.0,7.5056
+2024-03-25 12:46:30,D10,"Temp: 38°C, Humidity: 74%",Network Traffic,Fog,18,1499,42,5,69,IoT10,IoT10,IoT,IoT (local),69.0,0.0,0.0,69.0,150.0,Yes,0.0,0.828,0.828
+2024-03-25 12:46:40,D12,"Temp: 23°C, Humidity: 67%",Image Processing,Edge,29,2744,42,5,266,IoT12,Cloud1,Cloud,IoT -> Cloud,26.6,117.0,1.77,145.37,300.0,Yes,4.4215,0.0,4.4215
+2024-03-25 12:46:50,D5,"Temp: 21°C, Humidity: 35%",Network Traffic,Fog,77,4443,46,1,136,IoT5,Edge8,Edge,IoT -> Edge,56.59,55.0,18.86,130.45,150.0,Yes,2.3864,0.6791,3.0655
+2024-03-25 12:47:00,D13,"Temp: 33°C, Humidity: 46%",Image Processing,Cloud,45,1669,47,4,122,IoT13,IoT13,IoT,IoT (local),122.0,0.0,0.0,122.0,300.0,Yes,0.0,1.464,1.464
+2024-03-25 12:47:10,D15,"Temp: 36°C, Humidity: 36%",Network Traffic,Edge,34,7020,34,1,168,IoT15,Fog2,Fog,IoT -> Fog,37.13,65.0,18.56,120.69,150.0,Yes,7.541,0.0,7.541
+2024-03-25 12:47:20,D10,"Temp: 25°C, Humidity: 46%",Video Processing,Device,25,5501,13,9,51,IoT10,Edge3,Edge,IoT -> Edge,21.89,30.0,7.29,59.19,120.0,Yes,2.9546,0.2627,3.2173
+2024-03-25 12:47:30,D18,"Temp: 25°C, Humidity: 49%",Data Analytics,Fog,67,5768,24,4,219,IoT18,Cloud1,Cloud,IoT -> Cloud,21.9,98.0,2.19,122.09,500.0,Yes,9.2941,0.0,9.2941
+2024-03-25 12:47:40,D7,"Temp: 29°C, Humidity: 77%",Image Processing,Device,53,1185,34,2,181,IoT7,Fog1,Fog,IoT -> Fog,41.07,66.0,20.53,127.61,300.0,Yes,1.2729,0.0,1.2729
+2024-03-25 12:47:50,D17,"Temp: 34°C, Humidity: 62%",Image Processing,Fog,11,6396,36,3,292,IoT17,Cloud1,Cloud,IoT -> Cloud,29.2,109.0,3.89,142.09,300.0,Yes,10.3061,0.0,10.3061
+2024-03-25 12:48:00,D8,"Temp: 28°C, Humidity: 38%",Data Analytics,Device,14,695,29,3,258,IoT8,Cloud1,Cloud,IoT -> Cloud,25.8,102.0,4.3,132.1,500.0,Yes,1.1199,0.0,1.1199
+2024-03-25 12:48:10,D14,"Temp: 21°C, Humidity: 60%",Data Analytics,Cloud,10,1840,13,1,138,IoT14,Fog3,Fog,IoT -> Fog,25.09,44.0,18.81,87.9,500.0,Yes,1.9766,0.0,1.9766
+2024-03-25 12:48:20,D14,"Temp: 39°C, Humidity: 64%",Image Processing,Edge,73,2177,47,3,209,IoT14,Fog2,Fog,IoT -> Fog,46.19,80.0,28.87,155.06,300.0,Yes,2.3386,0.0,2.3386
+2024-03-25 12:48:30,D2,"Temp: 38°C, Humidity: 44%",Image Processing,Edge,49,765,42,1,151,IoT2,Edge5,Edge,IoT -> Edge,65.56,51.0,21.85,138.41,300.0,Yes,0.4109,0.7867,1.1976
+2024-03-25 12:48:40,D15,"Temp: 26°C, Humidity: 69%",Image Processing,Cloud,56,3148,23,6,59,IoT15,IoT15,IoT,IoT (local),59.0,0.0,0.0,59.0,300.0,Yes,0.0,0.708,0.708
+2024-03-25 12:48:50,D10,"Temp: 27°C, Humidity: 69%",Network Traffic,Fog,12,1657,42,8,150,IoT10,Fog1,Fog,IoT -> Fog,34.04,80.0,21.27,135.31,150.0,Yes,1.78,0.0,1.78
+2024-03-25 12:49:00,D10,"Temp: 23°C, Humidity: 40%",Network Traffic,Device,42,5375,27,8,200,IoT10,Fog3,Fog,IoT -> Fog,36.36,65.0,31.81,133.17,150.0,Yes,5.7739,0.0,5.7739
+2024-03-25 12:49:10,D9,"Temp: 24°C, Humidity: 74%",Network Traffic,Cloud,72,6625,38,2,149,IoT9,Edge4,Edge,IoT -> Edge,53.44,48.0,35.61,137.05,150.0,Yes,3.5583,0.6412,4.1996
+2024-03-25 12:49:20,D2,"Temp: 26°C, Humidity: 37%",Video Processing,Edge,49,2517,23,5,50,IoT2,IoT2,IoT,IoT (local),50.0,0.0,0.0,50.0,120.0,Yes,0.0,0.6,0.6
+2024-03-25 12:49:30,D14,"Temp: 36°C, Humidity: 35%",Image Processing,Fog,61,2499,36,1,210,IoT14,Cloud1,Cloud,IoT -> Cloud,21.0,107.0,4.2,132.2,300.0,Yes,4.0267,0.0,4.0267
+2024-03-25 12:49:40,D1,"Temp: 33°C, Humidity: 63%",Network Traffic,Fog,14,6388,44,8,112,IoT1,Edge7,Edge,IoT -> Edge,52.48,60.0,17.49,129.97,150.0,Yes,3.4311,0.6298,4.0608
+2024-03-25 12:49:50,D2,"Temp: 33°C, Humidity: 79%",Data Analytics,Fog,80,1150,5,8,291,IoT2,Cloud1,Cloud,IoT -> Cloud,29.1,83.0,6.79,118.89,500.0,Yes,1.853,0.0,1.853
+2024-03-25 12:50:00,D10,"Temp: 22°C, Humidity: 75%",Video Processing,Cloud,10,3036,49,1,99,IoT10,Edge4,Edge,IoT -> Edge,35.5,58.0,0.0,93.5,120.0,Yes,1.6307,0.426,2.0567
+2024-03-25 12:50:10,D20,"Temp: 32°C, Humidity: 40%",Video Processing,Device,84,7941,31,8,150,IoT20,Fog3,Fog,IoT -> Fog,27.27,69.0,0.0,96.27,120.0,Yes,8.5304,0.0,8.5304
+2024-03-25 12:50:20,D9,"Temp: 22°C, Humidity: 63%",Data Analytics,Cloud,22,4062,43,8,165,IoT9,Fog3,Fog,IoT -> Fog,30.0,81.0,3.75,114.75,500.0,Yes,4.3635,0.0,4.3635
+2024-03-25 12:50:30,D6,"Temp: 23°C, Humidity: 42%",Image Processing,Cloud,86,6387,32,8,289,IoT6,Fog2,Fog,IoT -> Fog,63.87,70.0,0.0,133.87,300.0,Yes,6.861,0.0,6.861
+2024-03-25 12:50:40,D20,"Temp: 28°C, Humidity: 70%",Video Processing,Fog,24,4126,47,7,200,IoT20,Fog1,Fog,IoT -> Fog,45.38,84.0,0.0,129.38,120.0,No,4.4322,0.0,4.4322
+2024-03-25 12:50:50,D14,"Temp: 25°C, Humidity: 60%",Image Processing,Device,13,7508,8,9,113,IoT14,Edge1,Edge,IoT -> Edge,41.04,25.0,0.0,66.04,300.0,Yes,4.0326,0.4925,4.5251
+2024-03-25 12:51:00,D16,"Temp: 21°C, Humidity: 73%",Image Processing,Cloud,68,6991,16,5,161,IoT16,Edge2,Edge,IoT -> Edge,63.43,29.0,0.0,92.43,300.0,Yes,3.7549,0.7612,4.5161
+2024-03-25 12:51:10,D8,"Temp: 27°C, Humidity: 74%",Data Analytics,Edge,43,5321,11,1,124,IoT8,Edge6,Edge,IoT -> Edge,50.54,20.0,0.0,70.54,500.0,Yes,2.858,0.6065,3.4644
+2024-03-25 12:51:20,D18,"Temp: 35°C, Humidity: 32%",Network Traffic,Edge,59,5443,10,5,257,IoT18,Fog3,Fog,IoT -> Fog,46.72,45.0,11.68,103.4,150.0,Yes,5.847,0.0,5.847
+2024-03-25 12:51:30,D3,"Temp: 34°C, Humidity: 54%",Network Traffic,Cloud,46,5893,39,5,141,IoT3,Edge8,Edge,IoT -> Edge,58.67,52.0,0.0,110.67,150.0,Yes,3.1652,0.7041,3.8693
+2024-03-25 12:51:40,D20,"Temp: 28°C, Humidity: 33%",Network Traffic,Cloud,32,3166,30,9,108,IoT20,Edge3,Edge,IoT -> Edge,46.36,47.0,0.0,93.36,150.0,Yes,1.7005,0.5563,2.2568
+2024-03-25 12:51:50,D16,"Temp: 37°C, Humidity: 39%",Video Processing,Cloud,22,2808,14,8,78,IoT16,Edge5,Edge,IoT -> Edge,33.87,30.0,0.0,63.87,120.0,Yes,1.5082,0.4064,1.9146
+2024-03-25 12:52:00,D5,"Temp: 24°C, Humidity: 50%",Network Traffic,Fog,88,6808,34,6,52,IoT5,IoT5,IoT,IoT (local),52.0,0.0,0.0,52.0,150.0,Yes,0.0,0.624,0.624
+2024-03-25 12:52:10,D1,"Temp: 21°C, Humidity: 55%",Data Analytics,Fog,40,5261,9,9,290,IoT1,Fog2,Fog,IoT -> Fog,64.09,48.0,8.01,120.1,500.0,Yes,5.6515,0.0,5.6515
+2024-03-25 12:52:20,D14,"Temp: 20°C, Humidity: 43%",Data Analytics,Cloud,43,6413,6,3,141,IoT14,Fog1,Fog,IoT -> Fog,32.0,39.0,4.0,74.99,500.0,Yes,6.889,0.0,6.889
+2024-03-25 12:52:30,D7,"Temp: 39°C, Humidity: 72%",Network Traffic,Device,19,8104,45,7,285,IoT7,Fog3,Fog,IoT -> Fog,51.81,82.0,19.43,153.24,150.0,No,8.7055,0.0,8.7055
+2024-03-25 12:52:40,D12,"Temp: 21°C, Humidity: 78%",Video Processing,Device,43,7801,38,4,182,IoT12,Fog2,Fog,IoT -> Fog,40.22,72.0,10.05,122.28,120.0,No,8.38,0.0,8.38
+2024-03-25 12:52:50,D14,"Temp: 28°C, Humidity: 44%",Network Traffic,Fog,36,6301,21,2,276,IoT14,Cloud1,Cloud,IoT -> Cloud,27.6,93.0,0.0,120.6,150.0,Yes,10.153,0.0,10.153
+2024-03-25 12:53:00,D7,"Temp: 39°C, Humidity: 48%",Data Analytics,Device,84,3034,37,7,202,IoT7,Fog1,Fog,IoT -> Fog,45.84,74.0,11.46,131.29,500.0,Yes,3.2592,0.0,3.2592
+2024-03-25 12:53:10,D13,"Temp: 37°C, Humidity: 49%",Network Traffic,Edge,22,7570,6,8,244,IoT13,Fog3,Fog,IoT -> Fog,44.36,44.0,22.18,110.53,150.0,Yes,8.1318,0.0,8.1318
+2024-03-25 12:53:20,D8,"Temp: 35°C, Humidity: 35%",Image Processing,Edge,49,5713,38,3,186,IoT8,Edge7,Edge,IoT -> Edge,87.16,49.0,0.0,136.16,300.0,Yes,3.0685,1.0459,4.1144
+2024-03-25 12:53:30,D19,"Temp: 29°C, Humidity: 71%",Network Traffic,Fog,10,1242,12,6,151,IoT19,Edge4,Edge,IoT -> Edge,54.15,26.0,18.04,98.2,150.0,Yes,0.6671,0.6498,1.3169
+2024-03-25 12:53:40,D14,"Temp: 32°C, Humidity: 55%",Data Analytics,Fog,86,6350,13,2,57,IoT14,Edge1,Edge,IoT -> Edge,20.7,23.0,6.9,50.6,500.0,Yes,3.4106,0.2484,3.6591
+2024-03-25 12:53:50,D10,"Temp: 26°C, Humidity: 59%",Data Analytics,Cloud,47,4920,42,3,165,IoT10,Fog2,Fog,IoT -> Fog,36.47,75.0,13.67,125.14,500.0,Yes,5.2852,0.0,5.2852
+2024-03-25 12:54:00,D18,"Temp: 39°C, Humidity: 49%",Image Processing,Device,50,1774,41,1,143,IoT18,Fog1,Fog,IoT -> Fog,32.45,72.0,12.17,116.62,300.0,Yes,1.9057,0.0,1.9057
+2024-03-25 12:54:10,D18,"Temp: 28°C, Humidity: 42%",Data Analytics,Edge,77,2291,14,1,166,IoT18,Fog3,Fog,IoT -> Fog,30.18,45.0,18.86,94.04,500.0,Yes,2.461,0.0,2.461
+2024-03-25 12:54:20,D11,"Temp: 37°C, Humidity: 31%",Network Traffic,Cloud,56,8045,10,6,221,IoT11,Cloud1,Cloud,IoT -> Cloud,22.1,86.0,0.74,108.84,150.0,Yes,12.9631,0.0,12.9631
+2024-03-25 12:54:30,D10,"Temp: 28°C, Humidity: 51%",Video Processing,Fog,58,5031,19,9,286,IoT10,Cloud1,Cloud,IoT -> Cloud,28.6,98.0,1.91,128.51,120.0,No,8.1066,0.0,8.1066
+2024-03-25 12:54:40,D2,"Temp: 33°C, Humidity: 78%",Network Traffic,Edge,77,6964,27,2,256,IoT2,Cloud1,Cloud,IoT -> Cloud,25.6,99.0,2.56,127.16,150.0,Yes,11.2213,0.0,11.2213
+2024-03-25 12:54:50,D18,"Temp: 21°C, Humidity: 60%",Data Analytics,Edge,18,7690,35,2,168,IoT18,Fog2,Fog,IoT -> Fog,37.13,67.0,18.56,122.69,500.0,Yes,8.2607,0.0,8.2607
+2024-03-25 12:55:00,D4,"Temp: 29°C, Humidity: 73%",Video Processing,Edge,45,2078,42,9,71,IoT4,IoT4,IoT,IoT (local),71.0,0.0,0.0,71.0,120.0,Yes,0.0,0.852,0.852
+2024-03-25 12:55:10,D15,"Temp: 38°C, Humidity: 53%",Network Traffic,Cloud,20,3689,9,3,186,IoT15,Fog1,Fog,IoT -> Fog,42.21,42.0,21.1,105.31,150.0,Yes,3.9628,0.0,3.9628
+2024-03-25 12:55:20,D13,"Temp: 39°C, Humidity: 57%",Network Traffic,Device,56,3472,24,9,129,IoT13,Edge2,Edge,IoT -> Edge,50.82,41.0,16.94,108.76,150.0,Yes,1.8648,0.6099,2.4747
+2024-03-25 12:55:30,D3,"Temp: 20°C, Humidity: 46%",Data Analytics,Fog,17,7233,11,5,118,IoT3,Edge6,Edge,IoT -> Edge,48.09,24.0,16.03,88.12,500.0,Yes,3.8849,0.5771,4.462
+2024-03-25 12:55:40,D8,"Temp: 24°C, Humidity: 74%",Data Analytics,Fog,37,971,42,7,201,IoT8,Fog3,Fog,IoT -> Fog,36.54,79.0,27.4,142.94,500.0,Yes,1.0431,0.0,1.0431
+2024-03-25 12:55:50,D5,"Temp: 38°C, Humidity: 45%",Network Traffic,Fog,69,2291,28,2,70,IoT5,Edge8,Edge,IoT -> Edge,29.13,38.0,9.71,76.84,150.0,Yes,1.2305,0.3495,1.5801
+2024-03-25 12:56:00,D16,"Temp: 33°C, Humidity: 37%",Data Analytics,Fog,13,6881,14,8,244,IoT16,Cloud1,Cloud,IoT -> Cloud,24.4,92.0,3.25,119.65,500.0,Yes,11.0875,0.0,11.0875
+2024-03-25 12:56:10,D15,"Temp: 21°C, Humidity: 46%",Image Processing,Edge,41,1018,19,5,70,IoT15,IoT15,IoT,IoT (local),70.0,0.0,0.0,70.0,300.0,Yes,0.0,0.84,0.84
+2024-03-25 12:56:20,D5,"Temp: 34°C, Humidity: 68%",Data Analytics,Fog,10,7395,25,1,265,IoT5,Cloud1,Cloud,IoT -> Cloud,26.5,96.0,4.42,126.92,500.0,Yes,11.9158,0.0,11.9158
+2024-03-25 12:56:30,D15,"Temp: 39°C, Humidity: 55%",Image Processing,Edge,87,3086,40,6,126,IoT15,Edge3,Edge,IoT -> Edge,54.08,54.0,18.02,126.11,300.0,Yes,1.6575,0.649,2.3065
+2024-03-25 12:56:40,D5,"Temp: 26°C, Humidity: 51%",Video Processing,Fog,83,3164,19,8,253,IoT5,Cloud1,Cloud,IoT -> Cloud,25.3,97.0,5.06,127.36,120.0,No,5.0982,0.0,5.0982
+2024-03-25 12:56:50,D3,"Temp: 23°C, Humidity: 63%",Network Traffic,Edge,77,2012,21,3,183,IoT3,Fog2,Fog,IoT -> Fog,40.45,54.0,25.28,119.72,150.0,Yes,2.1613,0.0,2.1613
+2024-03-25 12:57:00,D16,"Temp: 35°C, Humidity: 47%",Data Analytics,Edge,61,3456,15,6,180,IoT16,Fog3,Fog,IoT -> Fog,32.72,51.0,28.63,112.35,500.0,Yes,3.7125,0.0,3.7125
+2024-03-25 12:57:10,D4,"Temp: 34°C, Humidity: 60%",Data Analytics,Cloud,89,7650,36,6,234,IoT4,Cloud1,Cloud,IoT -> Cloud,23.4,112.0,5.46,140.86,500.0,Yes,12.3267,0.0,12.3267
+2024-03-25 12:57:20,D6,"Temp: 27°C, Humidity: 42%",Image Processing,Device,45,2369,25,9,129,IoT6,Edge5,Edge,IoT -> Edge,56.01,42.0,18.66,116.67,300.0,Yes,1.2724,0.6721,1.9445
+2024-03-25 12:57:30,D1,"Temp: 20°C, Humidity: 51%",Data Analytics,Device,45,8093,41,5,256,IoT1,Cloud1,Cloud,IoT -> Cloud,25.6,116.0,6.83,148.43,500.0,Yes,13.0405,0.0,13.0405
+2024-03-25 12:57:40,D20,"Temp: 27°C, Humidity: 64%",Image Processing,Cloud,70,4179,16,6,226,IoT20,Fog1,Fog,IoT -> Fog,51.28,52.0,32.05,135.33,300.0,Yes,4.4892,0.0,4.4892
+2024-03-25 12:57:50,D16,"Temp: 33°C, Humidity: 57%",Data Analytics,Cloud,41,1268,20,8,207,IoT16,Fog2,Fog,IoT -> Fog,45.75,58.0,34.31,138.06,500.0,Yes,1.3621,0.0,1.3621
+2024-03-25 12:58:00,D4,"Temp: 33°C, Humidity: 46%",Video Processing,Cloud,69,3572,24,9,83,IoT4,Edge7,Edge,IoT -> Edge,38.89,41.0,12.96,92.85,120.0,Yes,1.9186,0.4667,2.3853
+2024-03-25 12:58:10,D5,"Temp: 30°C, Humidity: 51%",Video Processing,Cloud,33,6226,8,5,51,IoT5,Edge4,Edge,IoT -> Edge,18.29,21.0,12.19,51.48,120.0,Yes,3.344,0.2195,3.5635
+2024-03-25 12:58:20,D16,"Temp: 21°C, Humidity: 73%",Network Traffic,Device,76,6448,36,4,85,IoT16,Edge4,Edge,IoT -> Edge,30.48,48.0,0.0,78.48,150.0,Yes,3.4633,0.3658,3.8291
+2024-03-25 12:58:30,D11,"Temp: 33°C, Humidity: 43%",Network Traffic,Device,46,4483,44,7,255,IoT11,Fog3,Fog,IoT -> Fog,46.36,81.0,0.0,127.36,150.0,Yes,4.8157,0.0,4.8157
+2024-03-25 12:58:40,D4,"Temp: 34°C, Humidity: 41%",Data Analytics,Device,30,5073,31,9,53,IoT4,IoT4,IoT,IoT (local),53.0,0.0,0.0,53.0,500.0,Yes,0.0,0.636,0.636
+2024-03-25 12:58:50,D16,"Temp: 37°C, Humidity: 38%",Network Traffic,Device,60,6978,12,4,52,IoT16,Edge1,Edge,IoT -> Edge,18.88,24.0,0.0,42.88,150.0,Yes,3.7479,0.2266,3.9746
+2024-03-25 12:59:00,D6,"Temp: 28°C, Humidity: 59%",Image Processing,Cloud,85,5086,43,6,67,IoT6,IoT6,IoT,IoT (local),67.0,0.0,0.0,67.0,300.0,Yes,0.0,0.804,0.804
+2024-03-25 12:59:10,D3,"Temp: 33°C, Humidity: 30%",Data Analytics,Fog,29,3855,21,2,80,IoT3,Edge2,Edge,IoT -> Edge,31.52,31.0,0.0,62.52,500.0,Yes,2.0706,0.3782,2.4488
+2024-03-25 12:59:20,D3,"Temp: 26°C, Humidity: 56%",Data Analytics,Cloud,36,2886,17,7,104,IoT3,Edge6,Edge,IoT -> Edge,42.39,32.0,0.0,74.39,500.0,Yes,1.5501,0.5087,2.0588
+2024-03-25 12:59:30,D9,"Temp: 23°C, Humidity: 77%",Video Processing,Device,12,2685,19,2,179,IoT9,Fog3,Fog,IoT -> Fog,32.54,51.0,4.07,87.61,120.0,Yes,2.8843,0.0,2.8843
+2024-03-25 12:59:40,D14,"Temp: 23°C, Humidity: 72%",Data Analytics,Device,63,3152,48,5,168,IoT14,Fog2,Fog,IoT -> Fog,37.13,83.0,0.0,120.13,500.0,Yes,3.3859,0.0,3.3859
+2024-03-25 12:59:50,D3,"Temp: 37°C, Humidity: 71%",Video Processing,Cloud,41,3211,7,8,161,IoT3,Fog1,Fog,IoT -> Fog,36.53,45.0,0.0,81.53,120.0,Yes,3.4493,0.0,3.4493
+2024-03-25 13:00:00,D14,"Temp: 33°C, Humidity: 70%",Data Analytics,Cloud,78,3305,36,6,193,IoT14,Fog3,Fog,IoT -> Fog,35.09,72.0,8.77,115.86,500.0,Yes,3.5503,0.0,3.5503
+2024-03-25 13:00:10,D16,"Temp: 24°C, Humidity: 76%",Video Processing,Device,54,1076,29,4,122,IoT16,Edge8,Edge,IoT -> Edge,50.77,41.0,0.0,91.77,120.0,Yes,0.5779,0.6092,1.1871
+2024-03-25 13:00:20,D1,"Temp: 35°C, Humidity: 61%",Data Analytics,Device,81,2345,5,5,175,IoT1,Fog2,Fog,IoT -> Fog,38.68,40.0,4.83,83.51,500.0,Yes,2.519,0.0,2.519
+2024-03-25 13:00:30,D2,"Temp: 37°C, Humidity: 70%",Image Processing,Edge,62,4358,45,2,142,IoT2,Edge3,Edge,IoT -> Edge,60.95,55.0,0.0,115.95,300.0,Yes,2.3407,0.7314,3.0721
+2024-03-25 13:00:40,D1,"Temp: 33°C, Humidity: 43%",Network Traffic,Device,18,3417,19,8,62,IoT1,IoT1,IoT,IoT (local),62.0,0.0,0.0,62.0,150.0,Yes,0.0,0.744,0.744
+2024-03-25 13:00:50,D4,"Temp: 36°C, Humidity: 78%",Data Analytics,Device,81,7439,8,8,165,IoT4,Fog1,Fog,IoT -> Fog,37.44,46.0,4.68,88.12,500.0,Yes,7.9911,0.0,7.9911
+2024-03-25 13:01:00,D8,"Temp: 37°C, Humidity: 76%",Video Processing,Cloud,61,6324,5,3,178,IoT8,Fog3,Fog,IoT -> Fog,32.36,38.0,12.13,82.49,120.0,Yes,6.7934,0.0,6.7934
+2024-03-25 13:01:10,D15,"Temp: 34°C, Humidity: 79%",Data Analytics,Edge,12,2270,12,8,60,IoT15,Edge5,Edge,IoT -> Edge,26.05,28.0,0.0,54.05,500.0,Yes,1.2192,0.3126,1.5318
+2024-03-25 13:01:20,D10,"Temp: 24°C, Humidity: 37%",Image Processing,Device,25,7660,31,2,64,IoT10,IoT10,IoT,IoT (local),64.0,0.0,0.0,64.0,300.0,Yes,0.0,0.768,0.768
+2024-03-25 13:01:30,D20,"Temp: 34°C, Humidity: 40%",Image Processing,Fog,67,5199,38,8,66,IoT20,IoT20,IoT,IoT (local),66.0,0.0,0.0,66.0,300.0,Yes,0.0,0.792,0.792
+2024-03-25 13:01:40,D5,"Temp: 25°C, Humidity: 73%",Video Processing,Edge,41,3281,15,7,128,IoT5,Edge7,Edge,IoT -> Edge,59.98,30.0,0.0,89.98,120.0,Yes,1.7623,0.7198,2.482
+2024-03-25 13:01:50,D14,"Temp: 21°C, Humidity: 53%",Data Analytics,Fog,57,6897,41,5,196,IoT14,Fog2,Fog,IoT -> Fog,43.32,76.0,10.83,130.15,500.0,Yes,7.4089,0.0,7.4089
+2024-03-25 13:02:00,D3,"Temp: 27°C, Humidity: 47%",Network Traffic,Device,17,6267,38,9,193,IoT3,Fog1,Fog,IoT -> Fog,43.79,77.0,10.95,131.74,150.0,Yes,6.7321,0.0,6.7321
+2024-03-25 13:02:10,D10,"Temp: 26°C, Humidity: 39%",Data Analytics,Edge,36,4496,39,7,171,IoT10,Fog3,Fog,IoT -> Fog,31.09,76.0,15.54,122.63,500.0,Yes,4.8297,0.0,4.8297
+2024-03-25 13:02:20,D18,"Temp: 28°C, Humidity: 48%",Network Traffic,Cloud,77,4072,39,5,124,IoT18,Edge4,Edge,IoT -> Edge,44.47,52.0,14.82,111.29,150.0,Yes,2.1871,0.5336,2.7207
+2024-03-25 13:02:30,D3,"Temp: 32°C, Humidity: 42%",Image Processing,Device,59,5301,49,3,156,IoT3,Edge1,Edge,IoT -> Edge,56.65,60.0,18.88,135.53,300.0,Yes,2.8472,0.6799,3.5271
+2024-03-25 13:02:40,D15,"Temp: 39°C, Humidity: 41%",Data Analytics,Device,29,5689,33,9,91,IoT15,IoT15,IoT,IoT (local),91.0,0.0,0.0,91.0,500.0,Yes,0.0,1.092,1.092
+2024-03-25 13:02:50,D14,"Temp: 22°C, Humidity: 30%",Image Processing,Edge,68,5966,18,4,136,IoT14,Fog2,Fog,IoT -> Fog,30.06,52.0,11.27,93.33,300.0,Yes,6.4088,0.0,6.4088
+2024-03-25 13:03:00,D3,"Temp: 34°C, Humidity: 43%",Video Processing,Cloud,86,1588,12,6,269,IoT3,Cloud1,Cloud,IoT -> Cloud,26.9,88.0,0.0,114.9,120.0,Yes,2.5588,0.0,2.5588
+2024-03-25 13:03:10,D15,"Temp: 29°C, Humidity: 55%",Network Traffic,Device,57,639,31,3,134,IoT15,Fog1,Fog,IoT -> Fog,30.41,64.0,11.4,105.81,150.0,Yes,0.6864,0.0,0.6864
+2024-03-25 13:03:20,D15,"Temp: 23°C, Humidity: 49%",Data Analytics,Fog,11,5678,26,3,116,IoT15,Edge2,Edge,IoT -> Edge,45.7,37.0,15.23,97.93,500.0,Yes,3.0497,0.5484,3.5981
+2024-03-25 13:03:30,D20,"Temp: 27°C, Humidity: 38%",Image Processing,Cloud,46,4995,17,4,218,IoT20,Cloud1,Cloud,IoT -> Cloud,21.8,91.0,0.73,113.53,300.0,Yes,8.0486,0.0,8.0486
+2024-03-25 13:03:40,D10,"Temp: 35°C, Humidity: 48%",Image Processing,Cloud,56,4492,26,3,161,IoT10,Fog3,Fog,IoT -> Fog,29.27,59.0,18.29,106.56,300.0,Yes,4.8254,0.0,4.8254
+2024-03-25 13:03:50,D8,"Temp: 29°C, Humidity: 35%",Video Processing,Cloud,61,5176,6,6,181,IoT8,Fog2,Fog,IoT -> Fog,40.0,42.0,20.0,102.0,120.0,Yes,5.5602,0.0,5.5602
+2024-03-25 13:04:00,D13,"Temp: 20°C, Humidity: 34%",Network Traffic,Fog,30,1259,23,3,255,IoT13,Cloud1,Cloud,IoT -> Cloud,25.5,96.0,1.7,123.2,150.0,Yes,2.0287,0.0,2.0287
+2024-03-25 13:04:10,D10,"Temp: 22°C, Humidity: 71%",Video Processing,Cloud,32,5157,42,5,75,IoT10,Edge6,Edge,IoT -> Edge,30.57,55.0,10.19,95.75,120.0,Yes,2.7699,0.3668,3.1367
+2024-03-25 13:04:20,D11,"Temp: 22°C, Humidity: 33%",Network Traffic,Cloud,84,3909,45,4,209,IoT11,Cloud1,Cloud,IoT -> Cloud,20.9,119.0,2.09,141.99,150.0,Yes,6.2987,0.0,6.2987
+2024-03-25 13:04:30,D4,"Temp: 35°C, Humidity: 64%",Data Analytics,Device,35,2081,16,6,216,IoT4,Cloud1,Cloud,IoT -> Cloud,21.6,92.0,2.88,116.48,500.0,Yes,3.3532,0.0,3.3532
+2024-03-25 13:04:40,D2,"Temp: 37°C, Humidity: 33%",Network Traffic,Edge,89,7386,7,1,74,IoT2,Edge8,Edge,IoT -> Edge,30.79,16.0,10.26,57.05,150.0,Yes,3.9671,0.3695,4.3366
+2024-03-25 13:04:50,D1,"Temp: 35°C, Humidity: 43%",Video Processing,Fog,21,7989,26,8,157,IoT1,Fog1,Fog,IoT -> Fog,35.63,64.0,17.81,117.44,120.0,Yes,8.5819,0.0,8.5819
+2024-03-25 13:05:00,D12,"Temp: 38°C, Humidity: 61%",Data Analytics,Cloud,50,4112,32,2,119,IoT12,Edge3,Edge,IoT -> Edge,51.08,42.0,17.02,110.1,500.0,Yes,2.2086,0.6129,2.8215
+2024-03-25 13:05:10,D2,"Temp: 22°C, Humidity: 58%",Network Traffic,Cloud,14,1541,41,1,72,IoT2,IoT2,IoT,IoT (local),72.0,0.0,0.0,72.0,150.0,Yes,0.0,0.864,0.864
+2024-03-25 13:05:20,D4,"Temp: 22°C, Humidity: 50%",Data Analytics,Device,26,4737,6,5,247,IoT4,Cloud1,Cloud,IoT -> Cloud,24.7,81.0,4.12,109.82,500.0,Yes,7.6329,0.0,7.6329
+2024-03-25 13:05:30,D9,"Temp: 20°C, Humidity: 74%",Image Processing,Cloud,41,4718,7,9,119,IoT9,Edge5,Edge,IoT -> Edge,51.67,24.0,17.22,92.88,300.0,Yes,2.5341,0.62,3.1541
+2024-03-25 13:05:40,D5,"Temp: 27°C, Humidity: 53%",Network Traffic,Edge,19,2907,44,2,117,IoT5,IoT5,IoT,IoT (local),117.0,0.0,0.0,117.0,150.0,Yes,0.0,1.404,1.404
+2024-03-25 13:05:50,D13,"Temp: 29°C, Humidity: 52%",Video Processing,Fog,28,8138,8,8,298,IoT13,Cloud1,Cloud,IoT -> Cloud,29.8,86.0,5.96,121.76,120.0,No,13.113,0.0,13.113
+2024-03-25 13:06:00,D16,"Temp: 39°C, Humidity: 39%",Video Processing,Cloud,75,7017,21,3,226,IoT16,Fog3,Fog,IoT -> Fog,41.09,54.0,30.81,125.9,120.0,No,7.5378,0.0,7.5378
+2024-03-25 13:06:10,D18,"Temp: 25°C, Humidity: 74%",Image Processing,Cloud,28,3563,46,8,223,IoT18,Fog2,Fog,IoT -> Fog,49.29,84.0,30.8,164.09,300.0,Yes,3.8274,0.0,3.8274
+2024-03-25 13:06:20,D16,"Temp: 22°C, Humidity: 68%",Data Analytics,Cloud,15,2526,28,6,68,IoT16,IoT16,IoT,IoT (local),68.0,0.0,0.0,68.0,500.0,Yes,0.0,0.816,0.816
+2024-03-25 13:06:30,D6,"Temp: 27°C, Humidity: 71%",Image Processing,Cloud,82,3095,21,6,165,IoT6,Fog1,Fog,IoT -> Fog,37.44,57.0,23.4,117.84,300.0,Yes,3.3247,0.0,3.3247
+2024-03-25 13:06:40,D17,"Temp: 21°C, Humidity: 59%",Video Processing,Device,72,6315,43,5,274,IoT17,Fog3,Fog,IoT -> Fog,49.81,78.0,0.0,127.81,120.0,No,6.7837,0.0,6.7837
+2024-03-25 13:06:50,D4,"Temp: 28°C, Humidity: 43%",Data Analytics,Device,15,1849,34,8,52,IoT4,IoT4,IoT,IoT (local),52.0,0.0,0.0,52.0,500.0,Yes,0.0,0.624,0.624
+2024-03-25 13:07:00,D6,"Temp: 29°C, Humidity: 30%",Network Traffic,Device,84,7534,29,7,143,IoT6,Edge4,Edge,IoT -> Edge,51.28,44.0,0.0,95.28,150.0,Yes,4.0466,0.6154,4.662
+2024-03-25 13:07:10,D4,"Temp: 33°C, Humidity: 73%",Network Traffic,Fog,61,7527,14,4,294,IoT4,Fog3,Fog,IoT -> Fog,53.45,48.0,6.68,108.13,150.0,Yes,8.0856,0.0,8.0856
+2024-03-25 13:07:20,D10,"Temp: 26°C, Humidity: 66%",Data Analytics,Device,33,3277,19,3,254,IoT10,Fog2,Fog,IoT -> Fog,56.14,52.0,0.0,108.14,500.0,Yes,3.5202,0.0,3.5202
+2024-03-25 13:07:30,D12,"Temp: 33°C, Humidity: 51%",Data Analytics,Fog,62,3263,38,1,260,IoT12,Fog1,Fog,IoT -> Fog,59.0,69.0,0.0,128.0,500.0,Yes,3.5052,0.0,3.5052
+2024-03-25 13:07:40,D13,"Temp: 23°C, Humidity: 67%",Network Traffic,Cloud,69,8093,48,3,164,IoT13,Edge1,Edge,IoT -> Edge,59.56,59.0,0.0,118.56,150.0,Yes,4.3468,0.7147,5.0615
+2024-03-25 13:07:50,D8,"Temp: 25°C, Humidity: 67%",Video Processing,Cloud,41,5459,20,3,272,IoT8,Fog3,Fog,IoT -> Fog,49.45,53.0,12.36,114.81,120.0,Yes,5.8642,0.0,5.8642
+2024-03-25 13:08:00,D11,"Temp: 35°C, Humidity: 38%",Video Processing,Fog,77,885,42,2,236,IoT11,Fog2,Fog,IoT -> Fog,52.16,74.0,6.52,132.68,120.0,No,0.9507,0.0,0.9507
+2024-03-25 13:08:10,D20,"Temp: 21°C, Humidity: 60%",Video Processing,Edge,21,6073,31,8,293,IoT20,Fog1,Fog,IoT -> Fog,66.49,69.0,8.31,143.8,120.0,No,6.5237,0.0,6.5237
+2024-03-25 13:08:20,D5,"Temp: 28°C, Humidity: 67%",Network Traffic,Device,38,3408,25,5,158,IoT5,Edge2,Edge,IoT -> Edge,62.25,38.0,0.0,100.25,150.0,Yes,1.8305,0.747,2.5775
+2024-03-25 13:08:30,D16,"Temp: 37°C, Humidity: 69%",Image Processing,Edge,24,5922,34,9,237,IoT16,Fog3,Fog,IoT -> Fog,43.09,73.0,16.15,132.24,300.0,Yes,6.3615,0.0,6.3615
+2024-03-25 13:08:40,D5,"Temp: 37°C, Humidity: 54%",Network Traffic,Device,57,5599,10,7,233,IoT5,Fog2,Fog,IoT -> Fog,51.5,47.0,12.87,111.37,150.0,Yes,6.0146,0.0,6.0146
+2024-03-25 13:08:50,D16,"Temp: 24°C, Humidity: 67%",Video Processing,Fog,73,711,25,5,144,IoT16,Edge6,Edge,IoT -> Edge,58.69,38.0,0.0,96.69,120.0,Yes,0.3819,0.7043,1.0862
+2024-03-25 13:09:00,D1,"Temp: 34°C, Humidity: 45%",Image Processing,Edge,37,5441,37,8,114,IoT1,Edge8,Edge,IoT -> Edge,47.44,53.0,0.0,100.44,300.0,Yes,2.9224,0.5693,3.4917
+2024-03-25 13:09:10,D9,"Temp: 26°C, Humidity: 71%",Image Processing,Device,25,4577,42,9,119,IoT9,Edge3,Edge,IoT -> Edge,51.08,59.0,0.0,110.08,300.0,Yes,2.4583,0.6129,3.0713
+2024-03-25 13:09:20,D18,"Temp: 25°C, Humidity: 55%",Video Processing,Edge,14,1446,41,6,113,IoT18,Edge5,Edge,IoT -> Edge,49.06,55.0,0.0,104.06,120.0,Yes,0.7767,0.5887,1.3654
+2024-03-25 13:09:30,D3,"Temp: 36°C, Humidity: 30%",Data Analytics,Device,10,4787,10,7,289,IoT3,Cloud1,Cloud,IoT -> Cloud,28.9,87.0,0.0,115.9,500.0,Yes,7.7134,0.0,7.7134
+2024-03-25 13:09:40,D3,"Temp: 20°C, Humidity: 31%",Image Processing,Cloud,46,2224,32,5,86,IoT3,Edge7,Edge,IoT -> Edge,40.3,45.0,0.0,85.3,300.0,Yes,1.1945,0.4836,1.6781
+2024-03-25 13:09:50,D6,"Temp: 30°C, Humidity: 35%",Data Analytics,Edge,73,7250,9,5,116,IoT6,Edge4,Edge,IoT -> Edge,41.6,22.0,13.86,77.46,500.0,Yes,3.894,0.4992,4.3932
+2024-03-25 13:10:00,D17,"Temp: 24°C, Humidity: 52%",Network Traffic,Device,37,616,19,3,81,IoT17,Edge1,Edge,IoT -> Edge,29.42,30.0,9.8,69.22,150.0,Yes,0.3309,0.353,0.6839
+2024-03-25 13:10:10,D18,"Temp: 22°C, Humidity: 57%",Video Processing,Device,58,5610,46,7,214,IoT18,Fog1,Fog,IoT -> Fog,48.56,83.0,12.14,143.7,120.0,No,6.0264,0.0,6.0264
+2024-03-25 13:10:20,D8,"Temp: 20°C, Humidity: 69%",Image Processing,Fog,11,4637,40,1,274,IoT8,Cloud1,Cloud,IoT -> Cloud,27.4,111.0,0.91,139.31,300.0,Yes,7.4717,0.0,7.4717
+2024-03-25 13:10:30,D6,"Temp: 26°C, Humidity: 35%",Image Processing,Fog,57,5976,32,9,97,IoT6,IoT6,IoT,IoT (local),97.0,0.0,0.0,97.0,300.0,Yes,0.0,1.164,1.164
+2024-03-25 13:10:40,D10,"Temp: 27°C, Humidity: 46%",Video Processing,Cloud,80,5392,26,9,112,IoT10,Edge2,Edge,IoT -> Edge,44.13,43.0,14.7,101.83,120.0,Yes,2.8961,0.5295,3.4256
+2024-03-25 13:10:50,D3,"Temp: 23°C, Humidity: 34%",Image Processing,Fog,86,3887,12,2,137,IoT3,Fog3,Fog,IoT -> Fog,24.91,44.0,12.45,81.36,300.0,Yes,4.1755,0.0,4.1755
+2024-03-25 13:11:00,D4,"Temp: 34°C, Humidity: 71%",Video Processing,Fog,22,5251,17,2,297,IoT4,Cloud1,Cloud,IoT -> Cloud,29.7,89.0,1.98,120.68,120.0,No,8.4611,0.0,8.4611
+2024-03-25 13:11:10,D15,"Temp: 32°C, Humidity: 39%",Image Processing,Cloud,41,2695,33,3,51,IoT15,IoT15,IoT,IoT (local),51.0,0.0,0.0,51.0,300.0,Yes,0.0,0.612,0.612
+2024-03-25 13:11:20,D13,"Temp: 31°C, Humidity: 78%",Image Processing,Cloud,58,5004,15,6,254,IoT13,Fog2,Fog,IoT -> Fog,56.14,51.0,21.05,128.19,300.0,Yes,5.3754,0.0,5.3754
+2024-03-25 13:11:30,D8,"Temp: 35°C, Humidity: 38%",Video Processing,Cloud,27,3931,8,8,244,IoT8,Cloud1,Cloud,IoT -> Cloud,24.4,86.0,2.44,112.84,120.0,Yes,6.3341,0.0,6.3341
+2024-03-25 13:11:40,D11,"Temp: 24°C, Humidity: 34%",Image Processing,Edge,78,4978,44,8,229,IoT11,Fog1,Fog,IoT -> Fog,51.96,82.0,19.48,153.45,300.0,Yes,5.3475,0.0,5.3475
+2024-03-25 13:11:50,D9,"Temp: 36°C, Humidity: 69%",Image Processing,Edge,65,6781,39,1,201,IoT9,Fog3,Fog,IoT -> Fog,36.54,70.0,22.84,129.38,300.0,Yes,7.2843,0.0,7.2843
+2024-03-25 13:12:00,D20,"Temp: 33°C, Humidity: 52%",Video Processing,Cloud,75,3864,24,8,84,IoT20,IoT20,IoT,IoT (local),84.0,0.0,0.0,84.0,120.0,Yes,0.0,1.008,1.008
+2024-03-25 13:12:10,D16,"Temp: 28°C, Humidity: 53%",Video Processing,Edge,48,4266,14,1,151,IoT16,Fog2,Fog,IoT -> Fog,33.37,45.0,16.68,95.06,120.0,Yes,4.5826,0.0,4.5826
+2024-03-25 13:12:20,D16,"Temp: 21°C, Humidity: 55%",Data Analytics,Cloud,62,1545,21,8,292,IoT16,Cloud1,Cloud,IoT -> Cloud,29.2,99.0,3.89,132.09,500.0,Yes,2.4895,0.0,2.4895
+2024-03-25 13:12:30,D8,"Temp: 36°C, Humidity: 40%",Network Traffic,Device,46,4413,36,8,278,IoT8,Cloud1,Cloud,IoT -> Cloud,27.8,114.0,4.63,146.43,150.0,Yes,7.1108,0.0,7.1108
+2024-03-25 13:12:40,D11,"Temp: 22°C, Humidity: 39%",Data Analytics,Cloud,49,6750,24,9,291,IoT11,Cloud1,Cloud,IoT -> Cloud,29.1,103.0,5.82,137.92,500.0,Yes,10.8765,0.0,10.8765
+2024-03-25 13:12:50,D12,"Temp: 20°C, Humidity: 37%",Network Traffic,Device,73,1036,33,3,263,IoT12,Cloud1,Cloud,IoT -> Cloud,26.3,106.0,6.14,138.44,150.0,Yes,1.6693,0.0,1.6693
+2024-03-25 13:13:00,D1,"Temp: 36°C, Humidity: 45%",Image Processing,Cloud,24,7385,13,6,276,IoT1,Fog3,Fog,IoT -> Fog,50.18,49.0,37.63,136.8,300.0,Yes,7.9331,0.0,7.9331
+2024-03-25 13:13:10,D8,"Temp: 24°C, Humidity: 77%",Data Analytics,Edge,34,5050,18,2,120,IoT8,Edge6,Edge,IoT -> Edge,48.91,28.0,16.3,93.21,500.0,Yes,2.7124,0.5869,3.2993
+2024-03-25 13:13:20,D19,"Temp: 24°C, Humidity: 48%",Image Processing,Cloud,61,7930,14,5,117,IoT19,Edge8,Edge,IoT -> Edge,48.69,27.0,16.22,91.91,300.0,Yes,4.2593,0.5842,4.8435
+2024-03-25 13:13:30,D7,"Temp: 35°C, Humidity: 45%",Data Analytics,Cloud,46,6843,45,1,227,IoT7,Fog1,Fog,IoT -> Fog,51.51,76.0,25.75,153.26,500.0,Yes,7.3509,0.0,7.3509
+2024-03-25 13:13:40,D19,"Temp: 31°C, Humidity: 53%",Video Processing,Edge,46,2960,5,7,205,IoT19,Fog2,Fog,IoT -> Fog,45.31,42.0,28.31,115.62,120.0,Yes,3.1797,0.0,3.1797
+2024-03-25 13:13:50,D3,"Temp: 36°C, Humidity: 79%",Network Traffic,Fog,38,2416,20,1,234,IoT3,Fog3,Fog,IoT -> Fog,42.54,51.0,37.22,130.76,150.0,Yes,2.5953,0.0,2.5953
+2024-03-25 13:14:00,D18,"Temp: 29°C, Humidity: 48%",Network Traffic,Fog,72,6913,39,9,72,IoT18,IoT18,IoT,IoT (local),72.0,0.0,0.0,72.0,150.0,Yes,0.0,0.864,0.864
+2024-03-25 13:14:10,D4,"Temp: 22°C, Humidity: 37%",Network Traffic,Fog,75,1006,33,2,205,IoT4,Fog1,Fog,IoT -> Fog,46.52,65.0,29.07,140.59,150.0,Yes,1.0807,0.0,1.0807
+2024-03-25 13:14:20,D9,"Temp: 35°C, Humidity: 63%",Network Traffic,Device,30,2568,30,8,73,IoT9,IoT9,IoT,IoT (local),73.0,0.0,0.0,73.0,150.0,Yes,0.0,0.876,0.876
+2024-03-25 13:14:30,D7,"Temp: 34°C, Humidity: 67%",Image Processing,Fog,84,1799,25,9,185,IoT7,Edge3,Edge,IoT -> Edge,79.41,42.0,26.46,147.87,300.0,Yes,0.9663,0.9529,1.9192
+2024-03-25 13:14:40,D10,"Temp: 20°C, Humidity: 71%",Network Traffic,Edge,14,7627,23,7,65,IoT10,IoT10,IoT,IoT (local),65.0,0.0,0.0,65.0,150.0,Yes,0.0,0.78,0.78
+2024-03-25 13:14:50,D18,"Temp: 25°C, Humidity: 78%",Video Processing,Device,27,8023,26,6,136,IoT18,Edge5,Edge,IoT -> Edge,59.05,40.0,19.68,118.72,120.0,Yes,4.3092,0.7086,5.0178
+2024-03-25 13:15:00,D4,"Temp: 28°C, Humidity: 75%",Video Processing,Cloud,33,4799,17,7,253,IoT4,Fog3,Fog,IoT -> Fog,45.99,54.0,0.0,99.99,120.0,Yes,5.1552,0.0,5.1552
+2024-03-25 13:15:10,D18,"Temp: 26°C, Humidity: 33%",Data Analytics,Cloud,38,616,28,4,272,IoT18,Fog3,Fog,IoT -> Fog,49.45,62.0,6.18,117.63,500.0,Yes,0.6617,0.0,0.6617
+2024-03-25 13:15:20,D9,"Temp: 38°C, Humidity: 54%",Network Traffic,Fog,13,3728,12,7,69,IoT9,Edge4,Edge,IoT -> Edge,24.75,27.0,0.0,51.75,150.0,Yes,2.0023,0.2969,2.2993
+2024-03-25 13:15:30,D12,"Temp: 22°C, Humidity: 50%",Video Processing,Edge,89,3583,49,2,244,IoT12,Fog2,Fog,IoT -> Fog,53.93,81.0,0.0,134.93,120.0,No,3.8489,0.0,3.8489
+2024-03-25 13:15:40,D4,"Temp: 35°C, Humidity: 39%",Network Traffic,Edge,34,5077,19,2,191,IoT4,Fog1,Fog,IoT -> Fog,43.34,51.0,0.0,94.34,150.0,Yes,5.4538,0.0,5.4538
+2024-03-25 13:15:50,D13,"Temp: 36°C, Humidity: 69%",Network Traffic,Edge,37,7885,18,9,236,IoT13,Fog3,Fog,IoT -> Fog,42.9,57.0,10.72,110.63,150.0,Yes,8.4702,0.0,8.4702
+2024-03-25 13:16:00,D4,"Temp: 35°C, Humidity: 58%",Video Processing,Fog,71,982,32,1,107,IoT4,Edge1,Edge,IoT -> Edge,38.86,41.0,0.0,79.86,120.0,Yes,0.5274,0.4663,0.9938
+2024-03-25 13:16:10,D3,"Temp: 35°C, Humidity: 60%",Image Processing,Cloud,86,3101,6,5,96,IoT3,Edge2,Edge,IoT -> Edge,37.82,19.0,0.0,56.82,300.0,Yes,1.6656,0.4539,2.1195
+2024-03-25 13:16:20,D5,"Temp: 28°C, Humidity: 66%",Data Analytics,Cloud,47,3650,33,4,295,IoT5,Fog2,Fog,IoT -> Fog,65.2,67.0,8.15,140.35,500.0,Yes,3.9209,0.0,3.9209
+2024-03-25 13:16:30,D8,"Temp: 24°C, Humidity: 41%",Data Analytics,Fog,75,3708,37,7,127,IoT8,Edge6,Edge,IoT -> Edge,51.76,52.0,0.0,103.76,500.0,Yes,1.9916,0.6212,2.6128
+2024-03-25 13:16:40,D11,"Temp: 27°C, Humidity: 56%",Image Processing,Fog,88,1829,41,7,103,IoT11,Edge8,Edge,IoT -> Edge,42.86,56.0,0.0,98.86,300.0,Yes,0.9824,0.5143,1.4967
+2024-03-25 13:16:50,D2,"Temp: 34°C, Humidity: 73%",Data Analytics,Device,60,6556,37,8,84,IoT2,IoT2,IoT,IoT (local),84.0,0.0,0.0,84.0,500.0,Yes,0.0,1.008,1.008
+2024-03-25 13:17:00,D3,"Temp: 35°C, Humidity: 65%",Network Traffic,Fog,22,5299,15,6,114,IoT3,Edge3,Edge,IoT -> Edge,48.93,29.0,0.0,77.93,150.0,Yes,2.8461,0.5872,3.4333
+2024-03-25 13:17:10,D18,"Temp: 30°C, Humidity: 73%",Video Processing,Fog,70,3392,5,4,279,IoT18,Fog1,Fog,IoT -> Fog,63.31,39.0,7.91,110.22,120.0,Yes,3.6438,0.0,3.6438
+2024-03-25 13:17:20,D8,"Temp: 39°C, Humidity: 78%",Video Processing,Device,60,7408,41,4,106,IoT8,Edge5,Edge,IoT -> Edge,46.02,53.0,0.0,99.02,120.0,Yes,3.9789,0.5523,4.5312
+2024-03-25 13:17:30,D1,"Temp: 33°C, Humidity: 42%",Image Processing,Edge,73,6939,48,3,93,IoT1,IoT1,IoT,IoT (local),93.0,0.0,0.0,93.0,300.0,Yes,0.0,1.116,1.116
+2024-03-25 13:17:40,D11,"Temp: 22°C, Humidity: 69%",Data Analytics,Device,79,2493,19,6,282,IoT11,Cloud1,Cloud,IoT -> Cloud,28.2,95.0,0.0,123.2,500.0,Yes,4.017,0.0,4.017
+2024-03-25 13:17:50,D10,"Temp: 25°C, Humidity: 61%",Video Processing,Fog,81,7017,11,1,65,IoT10,Edge7,Edge,IoT -> Edge,30.46,20.0,0.0,50.46,120.0,Yes,3.7689,0.3655,4.1344
+2024-03-25 13:18:00,D1,"Temp: 24°C, Humidity: 72%",Network Traffic,Cloud,69,3357,24,8,251,IoT1,Fog3,Fog,IoT -> Fog,45.63,62.0,17.11,124.74,150.0,Yes,3.6062,0.0,3.6062
+2024-03-25 13:18:10,D11,"Temp: 23°C, Humidity: 79%",Network Traffic,Device,27,6620,44,4,250,IoT11,Fog2,Fog,IoT -> Fog,55.25,78.0,13.81,147.06,150.0,Yes,7.1113,0.0,7.1113
+2024-03-25 13:18:20,D5,"Temp: 39°C, Humidity: 30%",Network Traffic,Fog,57,7064,37,6,74,IoT5,IoT5,IoT,IoT (local),74.0,0.0,0.0,74.0,150.0,Yes,0.0,0.888,0.888
+2024-03-25 13:18:30,D1,"Temp: 34°C, Humidity: 45%",Data Analytics,Device,39,2140,13,9,51,IoT1,Edge4,Edge,IoT -> Edge,18.29,30.0,6.09,54.38,500.0,Yes,1.1494,0.2195,1.3689
+2024-03-25 13:18:40,D7,"Temp: 24°C, Humidity: 32%",Data Analytics,Device,84,3899,9,5,123,IoT7,Edge1,Edge,IoT -> Edge,44.67,22.0,14.89,81.56,500.0,Yes,2.0942,0.536,2.6302
+2024-03-25 13:18:50,D10,"Temp: 33°C, Humidity: 54%",Video Processing,Fog,68,3723,9,7,204,IoT10,Fog1,Fog,IoT -> Fog,46.29,46.0,11.57,103.86,120.0,Yes,3.9993,0.0,3.9993
+2024-03-25 13:19:00,D17,"Temp: 30°C, Humidity: 37%",Data Analytics,Cloud,44,6258,28,9,149,IoT17,Fog3,Fog,IoT -> Fog,27.09,67.0,13.54,107.63,500.0,Yes,6.7225,0.0,6.7225
+2024-03-25 13:19:10,D12,"Temp: 23°C, Humidity: 74%",Image Processing,Edge,23,6163,48,1,173,IoT12,Fog2,Fog,IoT -> Fog,38.24,79.0,14.34,131.57,300.0,Yes,6.6204,0.0,6.6204
+2024-03-25 13:19:20,D16,"Temp: 28°C, Humidity: 35%",Data Analytics,Cloud,17,7487,13,4,173,IoT16,Fog1,Fog,IoT -> Fog,39.26,47.0,14.72,100.98,500.0,Yes,8.0427,0.0,8.0427
+2024-03-25 13:19:30,D14,"Temp: 25°C, Humidity: 59%",Network Traffic,Fog,51,1742,32,1,62,IoT14,IoT14,IoT,IoT (local),62.0,0.0,0.0,62.0,150.0,Yes,0.0,0.744,0.744
+2024-03-25 13:19:40,D15,"Temp: 39°C, Humidity: 66%",Video Processing,Device,40,1782,38,1,121,IoT15,Edge2,Edge,IoT -> Edge,47.67,47.0,15.89,110.56,120.0,Yes,0.9571,0.5721,1.5292
+2024-03-25 13:19:50,D18,"Temp: 30°C, Humidity: 41%",Data Analytics,Device,12,7865,20,7,230,IoT18,Cloud1,Cloud,IoT -> Cloud,23.0,97.0,0.77,120.77,500.0,Yes,12.6731,0.0,12.6731
+2024-03-25 13:20:00,D15,"Temp: 20°C, Humidity: 67%",Network Traffic,Edge,18,4434,48,8,240,IoT15,Cloud1,Cloud,IoT -> Cloud,24.0,126.0,1.6,151.6,150.0,No,7.1446,0.0,7.1446
+2024-03-25 13:20:10,D7,"Temp: 39°C, Humidity: 78%",Data Analytics,Fog,11,1181,35,7,175,IoT7,Fog3,Fog,IoT -> Fog,31.81,72.0,19.88,123.7,500.0,Yes,1.2687,0.0,1.2687
+2024-03-25 13:20:20,D13,"Temp: 20°C, Humidity: 47%",Image Processing,Fog,53,622,37,3,187,IoT13,Fog2,Fog,IoT -> Fog,41.33,70.0,20.66,131.99,300.0,Yes,0.6682,0.0,0.6682
+2024-03-25 13:20:30,D8,"Temp: 24°C, Humidity: 61%",Image Processing,Edge,63,4288,39,6,193,IoT8,Fog1,Fog,IoT -> Fog,43.79,75.0,21.89,140.69,300.0,Yes,4.6063,0.0,4.6063
+2024-03-25 13:20:40,D11,"Temp: 27°C, Humidity: 42%",Video Processing,Device,75,3888,27,3,56,IoT11,IoT11,IoT,IoT (local),56.0,0.0,0.0,56.0,120.0,Yes,0.0,0.672,0.672
+2024-03-25 13:20:50,D9,"Temp: 34°C, Humidity: 77%",Data Analytics,Fog,32,6692,21,9,262,IoT9,Cloud1,Cloud,IoT -> Cloud,26.2,100.0,2.62,128.82,500.0,Yes,10.783,0.0,10.783
+2024-03-25 13:21:00,D9,"Temp: 20°C, Humidity: 78%",Image Processing,Device,79,740,47,1,65,IoT9,IoT9,IoT,IoT (local),65.0,0.0,0.0,65.0,300.0,Yes,0.0,0.78,0.78
+2024-03-25 13:21:10,D11,"Temp: 27°C, Humidity: 61%",Network Traffic,Cloud,30,8049,39,9,94,IoT11,Edge6,Edge,IoT -> Edge,38.31,56.0,12.77,107.08,150.0,Yes,4.3232,0.4598,4.7829
+2024-03-25 13:21:20,D9,"Temp: 22°C, Humidity: 59%",Image Processing,Fog,83,2605,47,3,118,IoT9,Edge8,Edge,IoT -> Edge,49.1,58.0,16.36,123.47,300.0,Yes,1.3992,0.5892,1.9884
+2024-03-25 13:21:30,D11,"Temp: 28°C, Humidity: 43%",Image Processing,Edge,62,3345,48,4,299,IoT11,Cloud1,Cloud,IoT -> Cloud,29.9,122.0,3.99,155.89,300.0,Yes,5.3899,0.0,5.3899
+2024-03-25 13:21:40,D10,"Temp: 29°C, Humidity: 40%",Image Processing,Cloud,81,6397,13,6,244,IoT10,Cloud1,Cloud,IoT -> Cloud,24.4,89.0,4.07,117.47,300.0,Yes,10.3077,0.0,10.3077
+2024-03-25 13:21:50,D4,"Temp: 34°C, Humidity: 79%",Video Processing,Device,76,4515,44,5,262,IoT4,Cloud1,Cloud,IoT -> Cloud,26.2,119.0,5.24,150.44,120.0,No,7.2751,0.0,7.2751
+2024-03-25 13:22:00,D8,"Temp: 22°C, Humidity: 60%",Image Processing,Device,16,4946,25,3,66,IoT8,IoT8,IoT,IoT (local),66.0,0.0,0.0,66.0,300.0,Yes,0.0,0.792,0.792
+2024-03-25 13:22:10,D10,"Temp: 27°C, Humidity: 55%",Network Traffic,Device,56,3426,47,4,145,IoT10,Fog3,Fog,IoT -> Fog,26.36,81.0,19.77,127.13,150.0,Yes,3.6803,0.0,3.6803
+2024-03-25 13:22:20,D15,"Temp: 39°C, Humidity: 47%",Image Processing,Fog,17,7483,26,3,170,IoT15,Fog2,Fog,IoT -> Fog,37.57,59.0,23.48,120.05,300.0,Yes,8.0384,0.0,8.0384
+2024-03-25 13:22:30,D4,"Temp: 36°C, Humidity: 44%",Image Processing,Device,51,4061,20,3,153,IoT4,Edge3,Edge,IoT -> Edge,65.67,31.0,21.88,118.56,300.0,Yes,2.1812,0.7881,2.9693
+2024-03-25 13:22:40,D8,"Temp: 32°C, Humidity: 52%",Data Analytics,Edge,76,7410,31,6,93,IoT8,Edge5,Edge,IoT -> Edge,40.38,45.0,13.46,98.83,500.0,Yes,3.98,0.4845,4.4645
+2024-03-25 13:22:50,D13,"Temp: 22°C, Humidity: 74%",Image Processing,Device,14,3053,43,6,209,IoT13,Fog3,Fog,IoT -> Fog,37.99,79.0,33.24,150.24,300.0,Yes,3.2796,0.0,3.2796
+2024-03-25 13:23:00,D10,"Temp: 36°C, Humidity: 34%",Network Traffic,Edge,41,7853,9,1,119,IoT10,Edge4,Edge,IoT -> Edge,42.68,18.0,28.44,89.12,150.0,Yes,4.2179,0.5121,4.73
+2024-03-25 13:23:10,D13,"Temp: 24°C, Humidity: 50%",Network Traffic,Device,25,5738,22,8,246,IoT13,Cloud1,Cloud,IoT -> Cloud,24.6,100.0,5.74,130.34,150.0,Yes,9.2458,0.0,9.2458
+2024-03-25 13:23:20,D12,"Temp: 35°C, Humidity: 73%",Video Processing,Edge,85,5893,44,5,254,IoT12,Fog3,Fog,IoT -> Fog,46.18,79.0,0.0,125.18,120.0,No,6.3304,0.0,6.3304
+2024-03-25 13:23:30,D14,"Temp: 21°C, Humidity: 32%",Video Processing,Fog,53,6870,42,4,117,IoT14,Edge4,Edge,IoT -> Edge,41.96,54.0,0.0,95.96,120.0,Yes,3.6899,0.5035,4.1935
+2024-03-25 13:23:40,D12,"Temp: 22°C, Humidity: 40%",Video Processing,Fog,84,3407,27,5,299,IoT12,Fog3,Fog,IoT -> Fog,54.36,62.0,6.79,123.15,120.0,No,3.6599,0.0,3.6599
+2024-03-25 13:23:50,D10,"Temp: 36°C, Humidity: 57%",Video Processing,Edge,12,1615,34,2,244,IoT10,Fog2,Fog,IoT -> Fog,53.93,66.0,0.0,119.93,120.0,Yes,1.7349,0.0,1.7349
+2024-03-25 13:24:00,D14,"Temp: 25°C, Humidity: 71%",Image Processing,Fog,40,4319,41,4,228,IoT14,Fog1,Fog,IoT -> Fog,51.74,75.0,0.0,126.74,300.0,Yes,4.6396,0.0,4.6396
+2024-03-25 13:24:10,D14,"Temp: 34°C, Humidity: 49%",Video Processing,Cloud,50,4547,17,9,126,IoT14,Edge1,Edge,IoT -> Edge,45.76,34.0,0.0,79.76,120.0,Yes,2.4422,0.5491,2.9914
+2024-03-25 13:24:20,D6,"Temp: 24°C, Humidity: 41%",Image Processing,Cloud,22,820,8,1,167,IoT6,Fog3,Fog,IoT -> Fog,30.36,39.0,7.59,76.95,300.0,Yes,0.8809,0.0,0.8809
+2024-03-25 13:24:30,D5,"Temp: 29°C, Humidity: 49%",Video Processing,Cloud,86,525,27,2,152,IoT5,Edge2,Edge,IoT -> Edge,59.89,37.0,0.0,96.89,120.0,Yes,0.282,0.7186,1.0006
+2024-03-25 13:24:40,D3,"Temp: 31°C, Humidity: 76%",Network Traffic,Device,12,2160,6,3,121,IoT3,Edge6,Edge,IoT -> Edge,49.32,17.0,0.0,66.32,150.0,Yes,1.1602,0.5918,1.752
+2024-03-25 13:24:50,D3,"Temp: 31°C, Humidity: 43%",Image Processing,Fog,60,7474,24,4,224,IoT3,Fog2,Fog,IoT -> Fog,49.51,58.0,6.19,113.69,300.0,Yes,8.0287,0.0,8.0287
+2024-03-25 13:25:00,D6,"Temp: 22°C, Humidity: 66%",Data Analytics,Device,17,6326,48,4,52,IoT6,IoT6,IoT,IoT (local),52.0,0.0,0.0,52.0,500.0,Yes,0.0,0.624,0.624
+2024-03-25 13:25:10,D18,"Temp: 28°C, Humidity: 38%",Video Processing,Device,62,2597,27,8,226,IoT18,Fog1,Fog,IoT -> Fog,51.28,65.0,6.41,122.69,120.0,No,2.7897,0.0,2.7897
+2024-03-25 13:25:20,D6,"Temp: 20°C, Humidity: 70%",Video Processing,Fog,25,2535,22,1,281,IoT6,Cloud1,Cloud,IoT -> Cloud,28.1,93.0,0.0,121.1,120.0,No,4.0847,0.0,4.0847
+2024-03-25 13:25:30,D11,"Temp: 29°C, Humidity: 60%",Image Processing,Edge,41,6249,23,1,51,IoT11,IoT11,IoT,IoT (local),51.0,0.0,0.0,51.0,300.0,Yes,0.0,0.612,0.612
+2024-03-25 13:25:40,D5,"Temp: 39°C, Humidity: 58%",Image Processing,Cloud,29,3869,12,7,154,IoT5,Edge8,Edge,IoT -> Edge,64.08,27.0,0.0,91.08,300.0,Yes,2.0781,0.769,2.8471
+2024-03-25 13:25:50,D8,"Temp: 23°C, Humidity: 56%",Data Analytics,Cloud,18,7986,7,9,124,IoT8,Edge3,Edge,IoT -> Edge,53.23,24.0,0.0,77.23,500.0,Yes,4.2894,0.6387,4.9281
+2024-03-25 13:26:00,D11,"Temp: 35°C, Humidity: 57%",Data Analytics,Edge,76,7964,35,8,214,IoT11,Fog3,Fog,IoT -> Fog,38.9,73.0,14.59,126.49,500.0,Yes,8.5551,0.0,8.5551
+2024-03-25 13:26:10,D17,"Temp: 29°C, Humidity: 62%",Network Traffic,Cloud,56,6736,31,4,75,IoT17,IoT17,IoT,IoT (local),75.0,0.0,0.0,75.0,150.0,Yes,0.0,0.9,0.9
+2024-03-25 13:26:20,D13,"Temp: 24°C, Humidity: 77%",Data Analytics,Edge,89,7888,18,5,53,IoT13,IoT13,IoT,IoT (local),53.0,0.0,0.0,53.0,500.0,Yes,0.0,0.636,0.636
+2024-03-25 13:26:30,D5,"Temp: 24°C, Humidity: 59%",Network Traffic,Cloud,29,2616,17,3,62,IoT5,Edge5,Edge,IoT -> Edge,26.92,28.0,0.0,54.92,150.0,Yes,1.4051,0.323,1.7281
+2024-03-25 13:26:40,D9,"Temp: 21°C, Humidity: 32%",Video Processing,Fog,64,7414,23,5,247,IoT9,Fog2,Fog,IoT -> Fog,54.59,58.0,13.65,126.24,120.0,No,7.9643,0.0,7.9643
+2024-03-25 13:26:50,D11,"Temp: 26°C, Humidity: 55%",Video Processing,Cloud,44,7455,6,7,193,IoT11,Fog1,Fog,IoT -> Fog,43.79,43.0,10.95,97.74,120.0,Yes,8.0083,0.0,8.0083
+2024-03-25 13:27:00,D6,"Temp: 31°C, Humidity: 67%",Image Processing,Cloud,36,6168,40,2,107,IoT6,Edge7,Edge,IoT -> Edge,50.14,50.0,0.0,100.14,300.0,Yes,3.3129,0.6017,3.9146
+2024-03-25 13:27:10,D20,"Temp: 23°C, Humidity: 50%",Video Processing,Cloud,88,3861,23,6,99,IoT20,Edge4,Edge,IoT -> Edge,35.5,37.0,11.83,84.33,120.0,Yes,2.0738,0.426,2.4998
+2024-03-25 13:27:20,D9,"Temp: 36°C, Humidity: 62%",Video Processing,Edge,20,5116,40,4,50,IoT9,IoT9,IoT,IoT (local),50.0,0.0,0.0,50.0,120.0,Yes,0.0,0.6,0.6
+2024-03-25 13:27:30,D17,"Temp: 22°C, Humidity: 38%",Data Analytics,Edge,68,2771,29,6,243,IoT17,Fog3,Fog,IoT -> Fog,44.18,65.0,22.09,131.26,500.0,Yes,2.9767,0.0,2.9767
+2024-03-25 13:27:40,D10,"Temp: 33°C, Humidity: 40%",Video Processing,Cloud,89,5981,10,4,226,IoT10,Cloud1,Cloud,IoT -> Cloud,22.6,84.0,0.75,107.35,120.0,Yes,9.6374,0.0,9.6374
+2024-03-25 13:27:50,D4,"Temp: 31°C, Humidity: 33%",Data Analytics,Fog,37,897,16,1,188,IoT4,Fog2,Fog,IoT -> Fog,41.55,47.0,15.58,104.13,500.0,Yes,0.9636,0.0,0.9636
+2024-03-25 13:28:00,D19,"Temp: 38°C, Humidity: 75%",Image Processing,Fog,52,1139,45,7,218,IoT19,Fog1,Fog,IoT -> Fog,49.47,82.0,18.55,150.02,300.0,Yes,1.2235,0.0,1.2235
+2024-03-25 13:28:10,D20,"Temp: 34°C, Humidity: 61%",Network Traffic,Cloud,79,3623,14,8,59,IoT20,IoT20,IoT,IoT (local),59.0,0.0,0.0,59.0,150.0,Yes,0.0,0.708,0.708
+2024-03-25 13:28:20,D5,"Temp: 28°C, Humidity: 55%",Video Processing,Edge,28,1923,26,3,253,IoT5,Cloud1,Cloud,IoT -> Cloud,25.3,99.0,1.69,125.99,120.0,No,3.0986,0.0,3.0986
+2024-03-25 13:28:30,D15,"Temp: 28°C, Humidity: 32%",Network Traffic,Device,69,2162,15,5,105,IoT15,Edge1,Edge,IoT -> Edge,38.13,28.0,12.71,78.84,150.0,Yes,1.1612,0.4576,1.6188
+2024-03-25 13:28:40,D9,"Temp: 31°C, Humidity: 67%",Video Processing,Edge,52,7355,27,4,118,IoT9,Edge2,Edge,IoT -> Edge,46.49,39.0,15.49,100.98,120.0,Yes,3.9504,0.5579,4.5083
+2024-03-25 13:28:50,D6,"Temp: 25°C, Humidity: 33%",Network Traffic,Device,50,3607,37,8,263,IoT6,Cloud1,Cloud,IoT -> Cloud,26.3,115.0,2.63,143.93,150.0,Yes,5.8121,0.0,5.8121
+2024-03-25 13:29:00,D4,"Temp: 36°C, Humidity: 52%",Network Traffic,Fog,58,4076,43,9,60,IoT4,IoT4,IoT,IoT (local),60.0,0.0,0.0,60.0,150.0,Yes,0.0,0.72,0.72
+2024-03-25 13:29:10,D3,"Temp: 38°C, Humidity: 35%",Data Analytics,Fog,23,1087,28,2,113,IoT3,Edge6,Edge,IoT -> Edge,46.06,38.0,15.35,99.4,500.0,Yes,0.5838,0.5527,1.1365
+2024-03-25 13:29:20,D19,"Temp: 31°C, Humidity: 45%",Video Processing,Cloud,11,2301,25,3,211,IoT19,Fog3,Fog,IoT -> Fog,38.36,58.0,23.97,120.33,120.0,No,2.4718,0.0,2.4718
+2024-03-25 13:29:30,D16,"Temp: 32°C, Humidity: 54%",Image Processing,Device,50,4603,19,8,290,IoT16,Cloud1,Cloud,IoT -> Cloud,29.0,97.0,3.87,129.87,300.0,Yes,7.4169,0.0,7.4169
+2024-03-25 13:29:40,D10,"Temp: 35°C, Humidity: 38%",Data Analytics,Fog,72,7903,39,6,246,IoT10,Fog2,Fog,IoT -> Fog,54.37,75.0,27.18,156.55,500.0,Yes,8.4896,0.0,8.4896
+2024-03-25 13:29:50,D2,"Temp: 35°C, Humidity: 48%",Network Traffic,Edge,27,5861,14,1,211,IoT2,Fog1,Fog,IoT -> Fog,47.88,45.0,23.94,116.82,150.0,Yes,6.296,0.0,6.296
+2024-03-25 13:30:00,D7,"Temp: 24°C, Humidity: 69%",Image Processing,Edge,55,6154,15,4,204,IoT7,Fog3,Fog,IoT -> Fog,37.09,49.0,27.81,113.9,300.0,Yes,6.6107,0.0,6.6107
+2024-03-25 13:30:10,D14,"Temp: 23°C, Humidity: 41%",Image Processing,Cloud,29,535,39,4,90,IoT14,IoT14,IoT,IoT (local),90.0,0.0,0.0,90.0,300.0,Yes,0.0,1.08,1.08
+2024-03-25 13:30:20,D1,"Temp: 35°C, Humidity: 68%",Video Processing,Device,33,3617,18,9,85,IoT1,IoT1,IoT,IoT (local),85.0,0.0,0.0,85.0,120.0,Yes,0.0,1.02,1.02
+2024-03-25 13:30:30,D14,"Temp: 31°C, Humidity: 56%",Network Traffic,Cloud,44,7942,13,4,144,IoT14,Edge8,Edge,IoT -> Edge,59.92,25.0,19.97,104.89,150.0,Yes,4.2657,0.7191,4.9848
+2024-03-25 13:30:40,D19,"Temp: 21°C, Humidity: 36%",Network Traffic,Device,68,4716,42,5,151,IoT19,Edge3,Edge,IoT -> Edge,64.81,55.0,21.6,141.41,150.0,Yes,2.533,0.7778,3.3108
+2024-03-25 13:30:50,D14,"Temp: 28°C, Humidity: 67%",Image Processing,Edge,31,2799,22,7,167,IoT14,Fog2,Fog,IoT -> Fog,36.91,59.0,23.07,118.97,300.0,Yes,3.0067,0.0,3.0067
+2024-03-25 13:31:00,D3,"Temp: 27°C, Humidity: 57%",Network Traffic,Fog,22,3232,33,5,127,IoT3,Edge5,Edge,IoT -> Edge,55.14,46.0,18.37,119.51,150.0,Yes,1.7359,0.6617,2.3976
+2024-03-25 13:31:10,D10,"Temp: 35°C, Humidity: 32%",Network Traffic,Edge,11,1121,40,9,234,IoT10,Cloud1,Cloud,IoT -> Cloud,23.4,119.0,3.9,146.3,150.0,Yes,1.8063,0.0,1.8063
+2024-03-25 13:31:20,D6,"Temp: 28°C, Humidity: 42%",Video Processing,Device,11,6857,18,5,219,IoT6,Cloud1,Cloud,IoT -> Cloud,21.9,93.0,4.38,119.28,120.0,Yes,11.0489,0.0,11.0489
+2024-03-25 13:31:30,D11,"Temp: 21°C, Humidity: 35%",Network Traffic,Fog,18,6151,26,5,100,IoT11,Edge4,Edge,IoT -> Edge,35.86,39.0,23.9,98.76,150.0,Yes,3.3038,0.4303,3.7341
+2024-03-25 13:31:40,D6,"Temp: 39°C, Humidity: 77%",Video Processing,Cloud,35,1601,43,5,177,IoT6,Fog3,Fog,IoT -> Fog,32.18,78.0,0.0,110.18,120.0,Yes,1.7198,0.0,1.7198
+2024-03-25 13:31:50,D16,"Temp: 31°C, Humidity: 67%",Video Processing,Cloud,83,1618,19,8,239,IoT16,Fog3,Fog,IoT -> Fog,43.45,57.0,5.43,105.88,120.0,Yes,1.7381,0.0,1.7381
+2024-03-25 13:32:00,D12,"Temp: 30°C, Humidity: 70%",Image Processing,Edge,49,1558,41,1,226,IoT12,Fog2,Fog,IoT -> Fog,49.95,72.0,0.0,121.95,300.0,Yes,1.6736,0.0,1.6736
+2024-03-25 13:32:10,D18,"Temp: 20°C, Humidity: 32%",Network Traffic,Cloud,69,1626,21,6,104,IoT18,Edge4,Edge,IoT -> Edge,37.3,35.0,0.0,72.3,150.0,Yes,0.8733,0.4476,1.3209
+2024-03-25 13:32:20,D12,"Temp: 37°C, Humidity: 60%",Image Processing,Cloud,72,7273,24,4,262,IoT12,Fog1,Fog,IoT -> Fog,59.45,58.0,0.0,117.45,300.0,Yes,7.8128,0.0,7.8128
+2024-03-25 13:32:30,D15,"Temp: 39°C, Humidity: 61%",Image Processing,Fog,54,6549,29,4,202,IoT15,Edge1,Edge,IoT -> Edge,73.36,41.0,0.0,114.36,300.0,Yes,3.5175,0.8803,4.3979
+2024-03-25 13:32:40,D7,"Temp: 38°C, Humidity: 36%",Network Traffic,Edge,15,7858,49,4,163,IoT7,Edge2,Edge,IoT -> Edge,64.22,61.0,0.0,125.22,150.0,Yes,4.2206,0.7706,4.9912
+2024-03-25 13:32:50,D11,"Temp: 29°C, Humidity: 78%",Network Traffic,Cloud,82,1284,10,7,197,IoT11,Fog3,Fog,IoT -> Fog,35.81,47.0,8.95,91.77,150.0,Yes,1.3793,0.0,1.3793
+2024-03-25 13:33:00,D1,"Temp: 21°C, Humidity: 30%",Data Analytics,Edge,74,1535,47,1,55,IoT1,IoT1,IoT,IoT (local),55.0,0.0,0.0,55.0,500.0,Yes,0.0,0.66,0.66
+2024-03-25 13:33:10,D6,"Temp: 34°C, Humidity: 59%",Video Processing,Fog,77,3096,30,3,284,IoT6,Fog2,Fog,IoT -> Fog,62.77,63.0,7.84,133.61,120.0,No,3.3258,0.0,3.3258
+2024-03-25 13:33:20,D11,"Temp: 33°C, Humidity: 34%",Data Analytics,Fog,78,2596,33,5,259,IoT11,Fog1,Fog,IoT -> Fog,58.77,68.0,7.35,134.12,500.0,Yes,2.7887,0.0,2.7887
+2024-03-25 13:33:30,D11,"Temp: 20°C, Humidity: 67%",Video Processing,Fog,17,7298,12,3,275,IoT11,Fog3,Fog,IoT -> Fog,49.99,45.0,18.75,113.74,120.0,Yes,7.8396,0.0,7.8396
+2024-03-25 13:33:40,D18,"Temp: 26°C, Humidity: 46%",Network Traffic,Fog,27,648,46,1,86,IoT18,IoT18,IoT,IoT (local),86.0,0.0,0.0,86.0,150.0,Yes,0.0,1.032,1.032
+2024-03-25 13:33:50,D10,"Temp: 30°C, Humidity: 48%",Data Analytics,Cloud,33,700,29,3,231,IoT10,Fog2,Fog,IoT -> Fog,51.05,62.0,12.76,125.82,500.0,Yes,0.752,0.0,0.752
+2024-03-25 13:34:00,D9,"Temp: 39°C, Humidity: 45%",Video Processing,Fog,39,968,28,2,193,IoT9,Edge6,Edge,IoT -> Edge,78.66,38.0,0.0,116.66,120.0,Yes,0.5199,0.944,1.4639
+2024-03-25 13:34:10,D7,"Temp: 22°C, Humidity: 30%",Image Processing,Device,72,6477,44,4,135,IoT7,Edge8,Edge,IoT -> Edge,56.18,56.0,0.0,112.18,300.0,Yes,3.4789,0.6741,4.153
+2024-03-25 13:34:20,D14,"Temp: 25°C, Humidity: 68%",Data Analytics,Device,56,964,45,9,141,IoT14,Edge3,Edge,IoT -> Edge,60.52,62.0,0.0,122.52,500.0,Yes,0.5178,0.7263,1.244
+2024-03-25 13:34:30,D3,"Temp: 33°C, Humidity: 32%",Video Processing,Fog,48,2728,25,2,156,IoT3,Edge5,Edge,IoT -> Edge,67.73,35.0,0.0,102.73,120.0,Yes,1.4652,0.8128,2.278
+2024-03-25 13:34:40,D17,"Temp: 22°C, Humidity: 47%",Video Processing,Device,29,3185,34,2,238,IoT17,Fog1,Fog,IoT -> Fog,54.01,66.0,13.5,133.51,120.0,No,3.4214,0.0,3.4214
+2024-03-25 13:34:50,D10,"Temp: 37°C, Humidity: 40%",Video Processing,Fog,57,6711,42,4,253,IoT10,Cloud1,Cloud,IoT -> Cloud,25.3,116.0,0.0,141.3,120.0,No,10.8136,0.0,10.8136
+2024-03-25 13:35:00,D9,"Temp: 28°C, Humidity: 43%",Image Processing,Device,34,8006,17,4,272,IoT9,Cloud1,Cloud,IoT -> Cloud,27.2,91.0,0.91,119.11,300.0,Yes,12.9003,0.0,12.9003
+2024-03-25 13:35:10,D6,"Temp: 22°C, Humidity: 78%",Data Analytics,Cloud,42,3632,34,8,241,IoT6,Fog3,Fog,IoT -> Fog,43.81,72.0,21.9,137.72,500.0,Yes,3.9016,0.0,3.9016
+2024-03-25 13:35:20,D5,"Temp: 36°C, Humidity: 78%",Data Analytics,Edge,75,4206,24,9,223,IoT5,Fog2,Fog,IoT -> Fog,49.29,63.0,18.48,130.77,500.0,Yes,4.5182,0.0,4.5182
+2024-03-25 13:35:30,D1,"Temp: 32°C, Humidity: 57%",Network Traffic,Device,42,7497,8,5,206,IoT1,Fog1,Fog,IoT -> Fog,46.74,43.0,17.53,107.27,150.0,Yes,8.0534,0.0,8.0534
+2024-03-25 13:35:40,D17,"Temp: 20°C, Humidity: 45%",Network Traffic,Fog,21,3535,8,1,72,IoT17,Edge7,Edge,IoT -> Edge,33.74,17.0,0.0,50.74,150.0,Yes,1.8987,0.4049,2.3035
+2024-03-25 13:35:50,D19,"Temp: 22°C, Humidity: 54%",Network Traffic,Fog,43,2385,24,9,283,IoT19,Cloud1,Cloud,IoT -> Cloud,28.3,103.0,1.89,133.19,150.0,Yes,3.843,0.0,3.843
+2024-03-25 13:36:00,D6,"Temp: 39°C, Humidity: 42%",Data Analytics,Fog,10,3413,30,6,236,IoT6,Fog3,Fog,IoT -> Fog,42.9,66.0,26.81,135.71,500.0,Yes,3.6663,0.0,3.6663
+2024-03-25 13:36:10,D5,"Temp: 31°C, Humidity: 79%",Video Processing,Device,50,1819,14,2,118,IoT5,Edge4,Edge,IoT -> Edge,42.32,24.0,14.1,80.42,120.0,Yes,0.977,0.5078,1.4848
+2024-03-25 13:36:20,D20,"Temp: 28°C, Humidity: 32%",Data Analytics,Device,26,6245,9,1,289,IoT20,Cloud1,Cloud,IoT -> Cloud,28.9,80.0,2.89,111.79,500.0,Yes,10.0627,0.0,10.0627
+2024-03-25 13:36:30,D11,"Temp: 23°C, Humidity: 61%",Image Processing,Cloud,39,7664,46,2,294,IoT11,Cloud1,Cloud,IoT -> Cloud,29.4,118.0,3.92,151.32,300.0,Yes,12.3492,0.0,12.3492
+2024-03-25 13:36:40,D11,"Temp: 29°C, Humidity: 45%",Network Traffic,Cloud,65,6941,30,1,101,IoT11,Edge1,Edge,IoT -> Edge,36.68,39.0,12.22,87.9,150.0,Yes,3.7281,0.4402,4.1682
+2024-03-25 13:36:50,D20,"Temp: 20°C, Humidity: 38%",Network Traffic,Edge,21,6609,8,6,95,IoT20,Edge2,Edge,IoT -> Edge,37.43,22.0,12.47,71.9,150.0,Yes,3.5498,0.4491,3.9989
+2024-03-25 13:37:00,D6,"Temp: 24°C, Humidity: 76%",Image Processing,Device,66,6788,37,8,105,IoT6,IoT6,IoT,IoT (local),105.0,0.0,0.0,105.0,300.0,Yes,0.0,1.26,1.26
+2024-03-25 13:37:10,D9,"Temp: 32°C, Humidity: 41%",Data Analytics,Fog,68,5328,8,7,273,IoT9,Cloud1,Cloud,IoT -> Cloud,27.3,85.0,4.55,116.85,500.0,Yes,8.5852,0.0,8.5852
+2024-03-25 13:37:20,D20,"Temp: 34°C, Humidity: 48%",Network Traffic,Fog,32,4749,24,7,287,IoT20,Cloud1,Cloud,IoT -> Cloud,28.7,101.0,5.74,135.44,150.0,Yes,7.6522,0.0,7.6522
+2024-03-25 13:37:30,D1,"Temp: 35°C, Humidity: 45%",Network Traffic,Cloud,58,7368,23,1,293,IoT1,Cloud1,Cloud,IoT -> Cloud,29.3,94.0,6.84,130.14,150.0,Yes,11.8723,0.0,11.8723
+2024-03-25 13:37:40,D4,"Temp: 36°C, Humidity: 62%",Video Processing,Edge,54,4828,41,1,166,IoT4,Fog2,Fog,IoT -> Fog,36.69,72.0,18.34,127.03,120.0,No,5.1863,0.0,5.1863
+2024-03-25 13:37:50,D11,"Temp: 24°C, Humidity: 33%",Data Analytics,Edge,32,2186,44,5,86,IoT11,IoT11,IoT,IoT (local),86.0,0.0,0.0,86.0,500.0,Yes,0.0,1.032,1.032
+2024-03-25 13:38:00,D13,"Temp: 32°C, Humidity: 36%",Data Analytics,Edge,63,631,46,8,254,IoT13,Fog3,Fog,IoT -> Fog,46.18,84.0,34.63,164.8,500.0,Yes,0.6778,0.0,0.6778
+2024-03-25 13:38:10,D16,"Temp: 35°C, Humidity: 63%",Image Processing,Cloud,70,1321,13,7,215,IoT16,Fog1,Fog,IoT -> Fog,48.79,50.0,24.39,123.18,300.0,Yes,1.419,0.0,1.419
+2024-03-25 13:38:20,D19,"Temp: 31°C, Humidity: 61%",Image Processing,Edge,78,7081,9,2,141,IoT19,Edge6,Edge,IoT -> Edge,57.47,19.0,19.15,95.62,300.0,Yes,3.8033,0.6896,4.4929
+2024-03-25 13:38:30,D5,"Temp: 23°C, Humidity: 37%",Network Traffic,Cloud,77,7095,12,7,283,IoT5,Cloud1,Cloud,IoT -> Cloud,28.3,89.0,7.55,124.85,150.0,Yes,11.4324,0.0,11.4324
+2024-03-25 13:38:40,D2,"Temp: 28°C, Humidity: 42%",Video Processing,Edge,30,2327,16,6,187,IoT2,Fog2,Fog,IoT -> Fog,41.33,52.0,25.83,119.16,120.0,Yes,2.4997,0.0,2.4997
+2024-03-25 13:38:50,D3,"Temp: 36°C, Humidity: 69%",Network Traffic,Cloud,18,2151,24,4,183,IoT3,Fog3,Fog,IoT -> Fog,33.27,58.0,29.11,120.37,150.0,Yes,2.3106,0.0,2.3106
+2024-03-25 13:39:00,D19,"Temp: 36°C, Humidity: 77%",Network Traffic,Edge,57,2750,14,1,136,IoT19,Edge8,Edge,IoT -> Edge,56.59,23.0,18.86,98.45,150.0,Yes,1.4771,0.6791,2.1562
+2024-03-25 13:39:10,D15,"Temp: 25°C, Humidity: 64%",Video Processing,Fog,46,5877,32,8,253,IoT15,Cloud1,Cloud,IoT -> Cloud,25.3,110.0,7.59,142.89,120.0,No,9.4698,0.0,9.4698
+2024-03-25 13:39:20,D11,"Temp: 32°C, Humidity: 43%",Image Processing,Edge,10,2351,37,7,76,IoT11,Edge3,Edge,IoT -> Edge,32.62,52.0,10.87,95.49,300.0,Yes,1.2627,0.3915,1.6542
+2024-03-25 13:39:30,D14,"Temp: 37°C, Humidity: 40%",Data Analytics,Device,80,4914,17,5,169,IoT14,Fog1,Fog,IoT -> Fog,38.35,52.0,23.97,114.31,500.0,Yes,5.2787,0.0,5.2787
+2024-03-25 13:39:40,D8,"Temp: 39°C, Humidity: 52%",Data Analytics,Cloud,60,1192,6,3,254,IoT8,Cloud1,Cloud,IoT -> Cloud,25.4,79.0,8.47,112.87,500.0,Yes,1.9207,0.0,1.9207
+2024-03-25 13:39:50,D19,"Temp: 25°C, Humidity: 52%",Video Processing,Edge,25,2818,39,8,74,IoT19,IoT19,IoT,IoT (local),74.0,0.0,0.0,74.0,120.0,Yes,0.0,0.888,0.888
+2024-03-25 13:40:00,D4,"Temp: 23°C, Humidity: 36%",Data Analytics,Cloud,54,4099,6,8,222,IoT4,Fog3,Fog,IoT -> Fog,40.36,44.0,0.0,84.36,500.0,Yes,4.4032,0.0,4.4032
+2024-03-25 13:40:10,D4,"Temp: 21°C, Humidity: 38%",Video Processing,Edge,78,7212,11,8,180,IoT4,Fog3,Fog,IoT -> Fog,32.72,49.0,4.09,85.81,120.0,Yes,7.7473,0.0,7.7473
+2024-03-25 13:40:20,D10,"Temp: 26°C, Humidity: 62%",Image Processing,Edge,53,1979,47,2,274,IoT10,Fog2,Fog,IoT -> Fog,60.56,79.0,0.0,139.56,300.0,Yes,2.1259,0.0,2.1259
+2024-03-25 13:40:30,D18,"Temp: 25°C, Humidity: 32%",Network Traffic,Fog,53,2725,24,8,250,IoT18,Fog1,Fog,IoT -> Fog,56.73,62.0,0.0,118.73,150.0,Yes,2.9272,0.0,2.9272
+2024-03-25 13:40:40,D20,"Temp: 33°C, Humidity: 76%",Video Processing,Edge,67,6900,37,9,223,IoT20,Fog3,Fog,IoT -> Fog,40.54,76.0,10.13,126.67,120.0,No,7.4121,0.0,7.4121
+2024-03-25 13:40:50,D7,"Temp: 35°C, Humidity: 46%",Video Processing,Fog,36,3566,28,6,260,IoT7,Fog2,Fog,IoT -> Fog,57.46,64.0,7.18,128.65,120.0,No,3.8307,0.0,3.8307
+2024-03-25 13:41:00,D17,"Temp: 35°C, Humidity: 75%",Image Processing,Cloud,81,582,47,7,292,IoT17,Fog1,Fog,IoT -> Fog,66.26,84.0,8.28,158.54,300.0,Yes,0.6252,0.0,0.6252
+2024-03-25 13:41:10,D6,"Temp: 20°C, Humidity: 75%",Data Analytics,Device,83,2181,30,6,120,IoT6,Edge4,Edge,IoT -> Edge,43.03,44.0,0.0,87.03,500.0,Yes,1.1714,0.5164,1.6879
+2024-03-25 13:41:20,D12,"Temp: 24°C, Humidity: 49%",Image Processing,Edge,40,2156,9,8,231,IoT12,Edge1,Edge,IoT -> Edge,83.89,25.0,0.0,108.89,300.0,Yes,1.158,1.0067,2.1647
+2024-03-25 13:41:30,D7,"Temp: 34°C, Humidity: 57%",Image Processing,Device,60,8133,26,4,200,IoT7,Edge2,Edge,IoT -> Edge,78.8,38.0,0.0,116.8,300.0,Yes,4.3683,0.9456,5.3139
+2024-03-25 13:41:40,D10,"Temp: 25°C, Humidity: 52%",Image Processing,Device,24,7083,48,9,250,IoT10,Fog3,Fog,IoT -> Fog,45.45,87.0,17.04,149.49,300.0,Yes,7.6087,0.0,7.6087
+2024-03-25 13:41:50,D15,"Temp: 38°C, Humidity: 66%",Video Processing,Device,59,1342,28,3,79,IoT15,Edge6,Edge,IoT -> Edge,32.2,39.0,0.0,71.2,120.0,Yes,0.7208,0.3864,1.1072
+2024-03-25 13:42:00,D2,"Temp: 27°C, Humidity: 68%",Image Processing,Device,73,4981,12,2,283,IoT2,Cloud1,Cloud,IoT -> Cloud,28.3,84.0,0.0,112.3,300.0,Yes,8.026,0.0,8.026
+2024-03-25 13:42:10,D18,"Temp: 32°C, Humidity: 66%",Data Analytics,Device,73,7229,22,3,209,IoT18,Fog2,Fog,IoT -> Fog,46.19,55.0,11.55,112.74,500.0,Yes,7.7655,0.0,7.7655
+2024-03-25 13:42:20,D20,"Temp: 34°C, Humidity: 65%",Data Analytics,Fog,56,7894,28,7,226,IoT20,Fog1,Fog,IoT -> Fog,51.28,65.0,12.82,129.1,500.0,Yes,8.4799,0.0,8.4799
+2024-03-25 13:42:30,D10,"Temp: 28°C, Humidity: 62%",Data Analytics,Device,39,7426,36,2,123,IoT10,Edge8,Edge,IoT -> Edge,51.18,46.0,0.0,97.18,500.0,Yes,3.9886,0.6142,4.6028
+2024-03-25 13:42:40,D9,"Temp: 35°C, Humidity: 62%",Data Analytics,Device,68,7185,39,1,234,IoT9,Fog3,Fog,IoT -> Fog,42.54,70.0,21.27,133.81,500.0,Yes,7.7183,0.0,7.7183
+2024-03-25 13:42:50,D11,"Temp: 35°C, Humidity: 52%",Image Processing,Fog,76,6225,39,3,294,IoT11,Cloud1,Cloud,IoT -> Cloud,29.4,112.0,0.98,142.38,300.0,Yes,10.0305,0.0,10.0305
+2024-03-25 13:43:00,D4,"Temp: 34°C, Humidity: 77%",Video Processing,Fog,57,7276,19,4,268,IoT4,Cloud1,Cloud,IoT -> Cloud,26.8,93.0,1.79,121.59,120.0,No,11.724,0.0,11.724
+2024-03-25 13:43:10,D5,"Temp: 39°C, Humidity: 76%",Image Processing,Fog,35,5981,40,2,273,IoT5,Cloud1,Cloud,IoT -> Cloud,27.3,112.0,2.73,142.03,300.0,Yes,9.6374,0.0,9.6374
+2024-03-25 13:43:20,D1,"Temp: 26°C, Humidity: 72%",Data Analytics,Fog,69,5484,20,1,154,IoT1,Edge3,Edge,IoT -> Edge,66.1,29.0,0.0,95.1,500.0,Yes,2.9455,0.7932,3.7387
+2024-03-25 13:43:30,D1,"Temp: 27°C, Humidity: 70%",Network Traffic,Fog,64,5378,6,1,59,IoT1,Edge5,Edge,IoT -> Edge,25.62,15.0,0.0,40.62,150.0,Yes,2.8886,0.3074,3.196
+2024-03-25 13:43:40,D8,"Temp: 28°C, Humidity: 31%",Video Processing,Fog,54,7811,13,8,132,IoT8,Edge7,Edge,IoT -> Edge,61.85,29.0,0.0,90.85,120.0,Yes,4.1954,0.7423,4.9376
+2024-03-25 13:43:50,D14,"Temp: 31°C, Humidity: 36%",Network Traffic,Cloud,48,2284,7,4,114,IoT14,Edge4,Edge,IoT -> Edge,40.88,19.0,13.62,73.51,150.0,Yes,1.2268,0.4906,1.7174
+2024-03-25 13:44:00,D13,"Temp: 33°C, Humidity: 44%",Video Processing,Edge,12,996,33,2,267,IoT13,Cloud1,Cloud,IoT -> Cloud,26.7,105.0,3.56,135.26,120.0,No,1.6049,0.0,1.6049
+2024-03-25 13:44:10,D11,"Temp: 20°C, Humidity: 53%",Image Processing,Edge,62,5398,41,1,225,IoT11,Fog2,Fog,IoT -> Fog,49.73,72.0,18.65,140.37,300.0,Yes,5.7986,0.0,5.7986
+2024-03-25 13:44:20,D1,"Temp: 24°C, Humidity: 64%",Data Analytics,Cloud,77,6200,41,4,98,IoT1,IoT1,IoT,IoT (local),98.0,0.0,0.0,98.0,500.0,Yes,0.0,1.176,1.176
+2024-03-25 13:44:30,D12,"Temp: 21°C, Humidity: 65%",Video Processing,Device,35,1998,35,3,290,IoT12,Cloud1,Cloud,IoT -> Cloud,29.0,108.0,4.83,141.83,120.0,No,3.2194,0.0,3.2194
+2024-03-25 13:44:40,D3,"Temp: 23°C, Humidity: 41%",Network Traffic,Device,47,6284,10,7,234,IoT3,Fog1,Fog,IoT -> Fog,53.1,47.0,19.91,120.01,150.0,Yes,6.7504,0.0,6.7504
+2024-03-25 13:44:50,D3,"Temp: 33°C, Humidity: 60%",Video Processing,Cloud,13,7534,29,1,115,IoT3,Edge1,Edge,IoT -> Edge,41.76,38.0,13.92,93.68,120.0,Yes,4.0466,0.5012,4.5478
+2024-03-25 13:45:00,D1,"Temp: 32°C, Humidity: 54%",Image Processing,Device,86,7227,28,9,127,IoT1,Edge2,Edge,IoT -> Edge,50.04,45.0,16.67,111.71,300.0,Yes,3.8817,0.6004,4.4821
+2024-03-25 13:45:10,D1,"Temp: 29°C, Humidity: 79%",Video Processing,Edge,10,8184,12,5,272,IoT1,Fog3,Fog,IoT -> Fog,49.45,47.0,30.9,127.35,120.0,No,8.7914,0.0,8.7914
+2024-03-25 13:45:20,D17,"Temp: 35°C, Humidity: 44%",Network Traffic,Device,10,1605,30,8,270,IoT17,Cloud1,Cloud,IoT -> Cloud,27.0,108.0,5.4,140.4,150.0,Yes,2.5862,0.0,2.5862
+2024-03-25 13:45:30,D6,"Temp: 36°C, Humidity: 47%",Network Traffic,Edge,16,620,11,8,275,IoT6,Cloud1,Cloud,IoT -> Cloud,27.5,89.0,6.42,122.92,150.0,Yes,0.999,0.0,0.999
+2024-03-25 13:45:40,D2,"Temp: 23°C, Humidity: 34%",Data Analytics,Cloud,60,6485,23,4,155,IoT2,Fog2,Fog,IoT -> Fog,34.26,57.0,17.13,108.38,500.0,Yes,6.9663,0.0,6.9663
+2024-03-25 13:45:50,D16,"Temp: 27°C, Humidity: 70%",Image Processing,Device,67,7565,28,5,145,IoT16,Edge6,Edge,IoT -> Edge,59.1,41.0,19.69,119.79,300.0,Yes,4.0632,0.7092,4.7724
+2024-03-25 13:46:00,D4,"Temp: 24°C, Humidity: 32%",Video Processing,Device,70,5519,30,9,239,IoT4,Fog3,Fog,IoT -> Fog,43.45,69.0,32.58,145.03,120.0,No,5.9286,0.0,5.9286
+2024-03-25 13:46:10,D11,"Temp: 32°C, Humidity: 69%",Data Analytics,Cloud,31,3933,9,7,59,IoT11,IoT11,IoT,IoT (local),59.0,0.0,0.0,59.0,500.0,Yes,0.0,0.708,0.708
+2024-03-25 13:46:20,D12,"Temp: 24°C, Humidity: 60%",Data Analytics,Fog,50,5236,45,3,272,IoT12,Fog1,Fog,IoT -> Fog,61.72,78.0,30.86,170.58,500.0,Yes,5.6246,0.0,5.6246
+2024-03-25 13:46:30,D13,"Temp: 31°C, Humidity: 56%",Video Processing,Fog,47,5411,21,9,257,IoT13,Cloud1,Cloud,IoT -> Cloud,25.7,100.0,6.85,132.55,120.0,No,8.7189,0.0,8.7189
+2024-03-25 13:46:40,D6,"Temp: 31°C, Humidity: 39%",Data Analytics,Cloud,47,3013,28,9,147,IoT6,Edge8,Edge,IoT -> Edge,61.17,45.0,20.38,126.55,500.0,Yes,1.6183,0.734,2.3524
+2024-03-25 13:46:50,D8,"Temp: 35°C, Humidity: 69%",Data Analytics,Device,35,4723,29,9,213,IoT8,Fog2,Fog,IoT -> Fog,47.08,68.0,29.42,144.49,500.0,Yes,5.0735,0.0,5.0735
+2024-03-25 13:47:00,D10,"Temp: 38°C, Humidity: 44%",Image Processing,Cloud,42,7329,43,3,136,IoT10,IoT10,IoT,IoT (local),136.0,0.0,0.0,136.0,300.0,Yes,0.0,1.632,1.632
+2024-03-25 13:47:10,D5,"Temp: 34°C, Humidity: 55%",Image Processing,Cloud,53,8127,24,2,251,IoT5,Fog3,Fog,IoT -> Fog,45.63,56.0,39.92,141.55,300.0,Yes,8.7302,0.0,8.7302
+2024-03-25 13:47:20,D5,"Temp: 25°C, Humidity: 32%",Network Traffic,Cloud,89,2025,33,4,85,IoT5,IoT5,IoT,IoT (local),85.0,0.0,0.0,85.0,150.0,Yes,0.0,1.02,1.02
+2024-03-25 13:47:30,D16,"Temp: 23°C, Humidity: 52%",Video Processing,Fog,31,7927,38,5,100,IoT16,IoT16,IoT,IoT (local),100.0,0.0,0.0,100.0,120.0,Yes,0.0,1.2,1.2
+2024-03-25 13:47:40,D9,"Temp: 31°C, Humidity: 53%",Data Analytics,Device,87,1784,15,3,221,IoT9,Fog1,Fog,IoT -> Fog,50.15,48.0,31.34,129.49,500.0,Yes,1.9164,0.0,1.9164
+2024-03-25 13:47:50,D16,"Temp: 30°C, Humidity: 58%",Data Analytics,Device,81,1890,37,7,86,IoT16,Edge3,Edge,IoT -> Edge,36.91,52.0,12.3,101.21,500.0,Yes,1.0151,0.443,1.4581
+2024-03-25 13:48:00,D19,"Temp: 38°C, Humidity: 76%",Image Processing,Cloud,82,6565,18,6,59,IoT19,IoT19,IoT,IoT (local),59.0,0.0,0.0,59.0,300.0,Yes,0.0,0.708,0.708
+2024-03-25 13:48:10,D18,"Temp: 31°C, Humidity: 46%",Data Analytics,Cloud,89,2912,20,4,205,IoT18,Fog2,Fog,IoT -> Fog,45.31,54.0,33.98,133.28,500.0,Yes,3.1281,0.0,3.1281
+2024-03-25 13:48:20,D11,"Temp: 26°C, Humidity: 40%",Image Processing,Cloud,89,2862,13,9,129,IoT11,Fog3,Fog,IoT -> Fog,23.45,52.0,0.0,75.45,300.0,Yes,3.0744,0.0,3.0744
+2024-03-25 13:48:30,D15,"Temp: 31°C, Humidity: 30%",Network Traffic,Cloud,59,5102,19,2,163,IoT15,Edge4,Edge,IoT -> Edge,58.46,29.0,0.0,87.46,150.0,Yes,2.7403,0.7015,3.4418
+2024-03-25 13:48:40,D7,"Temp: 24°C, Humidity: 46%",Video Processing,Fog,78,809,23,7,57,IoT7,IoT7,IoT,IoT (local),57.0,0.0,0.0,57.0,120.0,Yes,0.0,0.684,0.684
+2024-03-25 13:48:50,D16,"Temp: 39°C, Humidity: 37%",Video Processing,Fog,74,4618,23,3,66,IoT16,Edge1,Edge,IoT -> Edge,23.97,34.0,0.0,57.97,120.0,Yes,2.4804,0.2876,2.768
+2024-03-25 13:49:00,D10,"Temp: 39°C, Humidity: 74%",Network Traffic,Fog,86,3219,16,6,92,IoT10,Edge2,Edge,IoT -> Edge,36.25,30.0,0.0,66.25,150.0,Yes,1.729,0.435,2.1639
+2024-03-25 13:49:10,D4,"Temp: 30°C, Humidity: 78%",Data Analytics,Cloud,15,1284,7,5,177,IoT4,Fog3,Fog,IoT -> Fog,32.18,42.0,4.02,78.2,500.0,Yes,1.3793,0.0,1.3793
+2024-03-25 13:49:20,D12,"Temp: 31°C, Humidity: 41%",Video Processing,Device,53,4204,44,7,188,IoT12,Fog2,Fog,IoT -> Fog,41.55,81.0,0.0,122.55,120.0,No,4.516,0.0,4.516
+2024-03-25 13:49:30,D18,"Temp: 24°C, Humidity: 69%",Image Processing,Cloud,31,6650,46,1,163,IoT18,Fog1,Fog,IoT -> Fog,36.99,77.0,0.0,113.99,300.0,Yes,7.1436,0.0,7.1436
+2024-03-25 13:49:40,D19,"Temp: 37°C, Humidity: 61%",Image Processing,Cloud,28,3552,30,9,187,IoT19,Fog3,Fog,IoT -> Fog,34.0,69.0,8.5,111.49,300.0,Yes,3.8156,0.0,3.8156
+2024-03-25 13:49:50,D11,"Temp: 24°C, Humidity: 59%",Video Processing,Fog,32,5660,25,9,52,IoT11,IoT11,IoT,IoT (local),52.0,0.0,0.0,52.0,120.0,Yes,0.0,0.624,0.624
+2024-03-25 13:50:00,D17,"Temp: 21°C, Humidity: 70%",Data Analytics,Fog,50,1461,45,5,149,IoT17,Edge6,Edge,IoT -> Edge,60.73,58.0,0.0,118.73,500.0,Yes,0.7847,0.7288,1.5135
+2024-03-25 13:50:10,D10,"Temp: 22°C, Humidity: 78%",Data Analytics,Fog,36,2900,20,1,258,IoT10,Fog2,Fog,IoT -> Fog,57.02,51.0,7.13,115.15,500.0,Yes,3.1152,0.0,3.1152
+2024-03-25 13:50:20,D2,"Temp: 31°C, Humidity: 70%",Data Analytics,Device,12,2650,6,9,228,IoT2,Fog1,Fog,IoT -> Fog,51.74,45.0,6.47,103.2,500.0,Yes,2.8467,0.0,2.8467
+2024-03-25 13:50:30,D3,"Temp: 23°C, Humidity: 42%",Video Processing,Fog,85,5737,13,8,162,IoT3,Edge8,Edge,IoT -> Edge,67.41,29.0,0.0,96.41,120.0,Yes,3.0814,0.809,3.8903
+2024-03-25 13:50:40,D20,"Temp: 29°C, Humidity: 64%",Image Processing,Device,24,1245,37,9,60,IoT20,IoT20,IoT,IoT (local),60.0,0.0,0.0,60.0,300.0,Yes,0.0,0.72,0.72
+2024-03-25 13:50:50,D19,"Temp: 31°C, Humidity: 72%",Network Traffic,Cloud,39,2034,32,5,218,IoT19,Fog3,Fog,IoT -> Fog,39.63,67.0,14.86,121.49,150.0,Yes,2.185,0.0,2.185
+2024-03-25 13:51:00,D9,"Temp: 34°C, Humidity: 76%",Data Analytics,Device,12,1148,32,9,257,IoT9,Cloud1,Cloud,IoT -> Cloud,25.7,111.0,0.0,136.7,500.0,Yes,1.8498,0.0,1.8498
+2024-03-25 13:51:10,D13,"Temp: 26°C, Humidity: 57%",Video Processing,Cloud,62,2309,27,8,206,IoT13,Fog2,Fog,IoT -> Fog,45.53,65.0,11.38,121.91,120.0,No,2.4804,0.0,2.4804
+2024-03-25 13:51:20,D4,"Temp: 29°C, Humidity: 37%",Video Processing,Edge,54,2073,31,6,98,IoT4,Edge3,Edge,IoT -> Edge,42.06,45.0,0.0,87.06,120.0,Yes,1.1134,0.5048,1.6182
+2024-03-25 13:51:30,D5,"Temp: 20°C, Humidity: 69%",Data Analytics,Fog,64,7458,18,4,143,IoT5,Edge5,Edge,IoT -> Edge,62.09,30.0,0.0,92.09,500.0,Yes,4.0058,0.7451,4.7508
+2024-03-25 13:51:40,D2,"Temp: 26°C, Humidity: 66%",Video Processing,Fog,45,1101,38,9,176,IoT2,Fog1,Fog,IoT -> Fog,39.94,77.0,9.98,126.92,120.0,No,1.1827,0.0,1.1827
+2024-03-25 13:51:50,D7,"Temp: 35°C, Humidity: 33%",Data Analytics,Cloud,53,5502,6,5,89,IoT7,Edge7,Edge,IoT -> Edge,41.7,19.0,0.0,60.7,500.0,Yes,2.9552,0.5005,3.4556
+2024-03-25 13:52:00,D6,"Temp: 39°C, Humidity: 40%",Image Processing,Cloud,23,3748,44,5,286,IoT6,Cloud1,Cloud,IoT -> Cloud,28.6,119.0,0.95,148.55,300.0,Yes,6.0393,0.0,6.0393
+2024-03-25 13:52:10,D15,"Temp: 22°C, Humidity: 63%",Image Processing,Fog,27,6356,38,5,146,IoT15,Edge4,Edge,IoT -> Edge,52.36,51.0,17.45,120.81,300.0,Yes,3.4139,0.6283,4.0422
+2024-03-25 13:52:20,D16,"Temp: 36°C, Humidity: 73%",Network Traffic,Device,13,2282,27,3,87,IoT16,Edge1,Edge,IoT -> Edge,31.6,38.0,10.53,80.12,150.0,Yes,1.2257,0.3792,1.6048
+2024-03-25 13:52:30,D3,"Temp: 35°C, Humidity: 33%",Data Analytics,Edge,86,4073,14,1,82,IoT3,Edge2,Edge,IoT -> Edge,32.31,23.0,10.77,66.07,500.0,Yes,2.1876,0.3877,2.5753
+2024-03-25 13:52:40,D10,"Temp: 35°C, Humidity: 49%",Video Processing,Edge,77,7914,26,7,206,IoT10,Fog3,Fog,IoT -> Fog,37.45,63.0,18.72,119.17,120.0,Yes,8.5014,0.0,8.5014
+2024-03-25 13:52:50,D17,"Temp: 31°C, Humidity: 64%",Image Processing,Fog,19,1693,21,4,150,IoT17,Fog2,Fog,IoT -> Fog,33.15,55.0,12.43,100.58,300.0,Yes,1.8187,0.0,1.8187
+2024-03-25 13:53:00,D3,"Temp: 27°C, Humidity: 71%",Network Traffic,Device,81,5532,27,3,210,IoT3,Fog1,Fog,IoT -> Fog,47.65,60.0,17.87,125.52,150.0,Yes,5.9426,0.0,5.9426
+2024-03-25 13:53:10,D2,"Temp: 29°C, Humidity: 52%",Data Analytics,Fog,83,6203,47,6,59,IoT2,IoT2,IoT,IoT (local),59.0,0.0,0.0,59.0,500.0,Yes,0.0,0.708,0.708
+2024-03-25 13:53:20,D1,"Temp: 26°C, Humidity: 59%",Data Analytics,Device,65,6066,33,8,140,IoT1,Fog3,Fog,IoT -> Fog,25.45,71.0,15.9,112.36,500.0,Yes,6.5162,0.0,6.5162
+2024-03-25 13:53:30,D3,"Temp: 34°C, Humidity: 74%",Video Processing,Cloud,52,4936,15,9,260,IoT3,Cloud1,Cloud,IoT -> Cloud,26.0,94.0,1.73,121.73,120.0,No,7.9535,0.0,7.9535
+2024-03-25 13:53:40,D5,"Temp: 37°C, Humidity: 60%",Data Analytics,Cloud,55,7180,42,8,136,IoT5,IoT5,IoT,IoT (local),136.0,0.0,0.0,136.0,500.0,Yes,0.0,1.632,1.632
+2024-03-25 13:53:50,D9,"Temp: 38°C, Humidity: 40%",Image Processing,Edge,34,7912,44,7,218,IoT9,Cloud1,Cloud,IoT -> Cloud,21.8,121.0,2.18,144.98,300.0,Yes,12.7488,0.0,12.7488
+2024-03-25 13:54:00,D12,"Temp: 32°C, Humidity: 57%",Image Processing,Cloud,26,5964,25,6,215,IoT12,Fog2,Fog,IoT -> Fog,47.52,61.0,23.76,132.27,300.0,Yes,6.4066,0.0,6.4066
+2024-03-25 13:54:10,D3,"Temp: 20°C, Humidity: 58%",Video Processing,Fog,10,4216,30,5,209,IoT3,Fog1,Fog,IoT -> Fog,47.43,65.0,23.71,136.14,120.0,No,4.5289,0.0,4.5289
+2024-03-25 13:54:20,D15,"Temp: 22°C, Humidity: 31%",Network Traffic,Device,22,2909,25,2,68,IoT15,IoT15,IoT,IoT (local),68.0,0.0,0.0,68.0,150.0,Yes,0.0,0.816,0.816
+2024-03-25 13:54:30,D5,"Temp: 22°C, Humidity: 62%",Video Processing,Device,45,3683,28,4,189,IoT5,Fog3,Fog,IoT -> Fog,34.36,62.0,25.77,122.13,120.0,No,3.9563,0.0,3.9563
+2024-03-25 13:54:40,D13,"Temp: 35°C, Humidity: 51%",Network Traffic,Edge,86,4517,7,6,274,IoT13,Cloud1,Cloud,IoT -> Cloud,27.4,83.0,3.65,114.05,150.0,Yes,7.2784,0.0,7.2784
+2024-03-25 13:54:50,D1,"Temp: 32°C, Humidity: 75%",Data Analytics,Edge,79,3762,28,3,280,IoT1,Cloud1,Cloud,IoT -> Cloud,28.0,101.0,4.67,133.67,500.0,Yes,6.0618,0.0,6.0618
+2024-03-25 13:55:00,D17,"Temp: 23°C, Humidity: 78%",Network Traffic,Fog,74,5998,48,7,104,IoT17,IoT17,IoT,IoT (local),104.0,0.0,0.0,104.0,150.0,Yes,0.0,1.248,1.248
+2024-03-25 13:55:10,D12,"Temp: 31°C, Humidity: 58%",Image Processing,Edge,23,2834,13,2,56,IoT12,IoT12,IoT,IoT (local),56.0,0.0,0.0,56.0,300.0,Yes,0.0,0.672,0.672
+2024-03-25 13:55:20,D14,"Temp: 39°C, Humidity: 52%",Data Analytics,Fog,17,5968,40,7,141,IoT14,Edge6,Edge,IoT -> Edge,57.47,55.0,19.15,131.62,500.0,Yes,3.2055,0.6896,3.8951
+2024-03-25 13:55:30,D14,"Temp: 25°C, Humidity: 59%",Video Processing,Cloud,66,1532,13,2,217,IoT14,Cloud1,Cloud,IoT -> Cloud,21.7,85.0,4.34,111.04,120.0,Yes,2.4686,0.0,2.4686
+2024-03-25 13:55:40,D6,"Temp: 39°C, Humidity: 60%",Video Processing,Device,10,2084,38,1,142,IoT6,Edge8,Edge,IoT -> Edge,59.09,47.0,19.69,125.78,120.0,No,1.1193,0.7091,1.8284
+2024-03-25 13:55:50,D13,"Temp: 28°C, Humidity: 59%",Image Processing,Edge,27,569,33,4,177,IoT13,Fog2,Fog,IoT -> Fog,39.12,67.0,24.45,130.57,300.0,Yes,0.6112,0.0,0.6112
+2024-03-25 13:56:00,D8,"Temp: 20°C, Humidity: 60%",Network Traffic,Device,22,4787,9,9,129,IoT8,Edge3,Edge,IoT -> Edge,55.37,26.0,18.45,99.82,150.0,Yes,2.5711,0.6645,3.2356
+2024-03-25 13:56:10,D5,"Temp: 32°C, Humidity: 36%",Network Traffic,Fog,21,6386,36,3,207,IoT5,Fog3,Fog,IoT -> Fog,37.63,69.0,32.92,139.55,150.0,Yes,6.86,0.0,6.86
+2024-03-25 13:56:20,D20,"Temp: 29°C, Humidity: 79%",Video Processing,Cloud,18,1355,5,2,137,IoT20,Edge5,Edge,IoT -> Edge,59.48,15.0,19.82,94.3,120.0,Yes,0.7278,0.7138,1.4416
+2024-03-25 13:56:30,D2,"Temp: 21°C, Humidity: 72%",Video Processing,Edge,82,4093,11,9,207,IoT2,Fog1,Fog,IoT -> Fog,46.97,50.0,29.35,126.33,120.0,No,4.3968,0.0,4.3968
+2024-03-25 13:56:40,D11,"Temp: 37°C, Humidity: 50%",Data Analytics,Fog,81,7067,22,9,243,IoT11,Fog3,Fog,IoT -> Fog,44.18,61.0,0.0,105.18,500.0,Yes,7.5915,0.0,7.5915
+2024-03-25 13:56:50,D3,"Temp: 27°C, Humidity: 75%",Data Analytics,Cloud,79,6599,44,3,250,IoT3,Fog3,Fog,IoT -> Fog,45.45,77.0,5.68,128.13,500.0,Yes,7.0888,0.0,7.0888
+2024-03-25 13:57:00,D6,"Temp: 23°C, Humidity: 41%",Video Processing,Edge,74,3105,29,9,253,IoT6,Fog2,Fog,IoT -> Fog,55.92,68.0,0.0,123.92,120.0,No,3.3354,0.0,3.3354
+2024-03-25 13:57:10,D10,"Temp: 25°C, Humidity: 46%",Network Traffic,Edge,30,3160,10,5,229,IoT10,Fog1,Fog,IoT -> Fog,51.96,45.0,0.0,96.96,150.0,Yes,3.3945,0.0,3.3945
+2024-03-25 13:57:20,D14,"Temp: 25°C, Humidity: 47%",Data Analytics,Cloud,35,4552,41,8,157,IoT14,Edge4,Edge,IoT -> Edge,56.3,57.0,0.0,113.3,500.0,Yes,2.4449,0.6756,3.1206
+2024-03-25 13:57:30,D3,"Temp: 30°C, Humidity: 71%",Image Processing,Cloud,25,5948,45,2,274,IoT3,Fog3,Fog,IoT -> Fog,49.81,77.0,12.45,139.26,300.0,Yes,6.3895,0.0,6.3895
+2024-03-25 13:57:40,D20,"Temp: 26°C, Humidity: 51%",Data Analytics,Cloud,73,4571,44,3,182,IoT20,Edge1,Edge,IoT -> Edge,66.1,55.0,0.0,121.1,500.0,Yes,2.4551,0.7932,3.2483
+2024-03-25 13:57:50,D7,"Temp: 20°C, Humidity: 55%",Data Analytics,Device,33,2540,24,5,77,IoT7,Edge2,Edge,IoT -> Edge,30.34,37.0,0.0,67.34,500.0,Yes,1.3643,0.364,1.7283
+2024-03-25 13:58:00,D3,"Temp: 35°C, Humidity: 46%",Data Analytics,Edge,47,1959,34,9,150,IoT3,Edge6,Edge,IoT -> Edge,61.14,51.0,0.0,112.14,500.0,Yes,1.0522,0.7336,1.7858
+2024-03-25 13:58:10,D9,"Temp: 22°C, Humidity: 71%",Video Processing,Fog,26,6350,21,2,207,IoT9,Fog2,Fog,IoT -> Fog,45.75,53.0,5.72,104.47,120.0,Yes,6.8213,0.0,6.8213
+2024-03-25 13:58:20,D3,"Temp: 39°C, Humidity: 59%",Data Analytics,Cloud,66,1182,24,5,145,IoT3,Edge8,Edge,IoT -> Edge,60.34,37.0,0.0,97.34,500.0,Yes,0.6349,0.7241,1.3589
+2024-03-25 13:58:30,D8,"Temp: 39°C, Humidity: 43%",Image Processing,Fog,75,3855,36,9,122,IoT8,Edge3,Edge,IoT -> Edge,52.37,53.0,0.0,105.37,300.0,Yes,2.0706,0.6284,2.699
+2024-03-25 13:58:40,D12,"Temp: 25°C, Humidity: 42%",Image Processing,Device,38,4385,40,8,238,IoT12,Fog1,Fog,IoT -> Fog,54.01,78.0,6.75,138.76,300.0,Yes,4.7104,0.0,4.7104
+2024-03-25 13:58:50,D12,"Temp: 23°C, Humidity: 54%",Network Traffic,Cloud,50,2692,18,5,214,IoT12,Fog3,Fog,IoT -> Fog,38.9,53.0,14.59,106.49,150.0,Yes,2.8918,0.0,2.8918
+2024-03-25 13:59:00,D17,"Temp: 24°C, Humidity: 34%",Network Traffic,Device,68,1100,44,1,102,IoT17,Edge5,Edge,IoT -> Edge,44.29,53.0,0.0,97.29,150.0,Yes,0.5908,0.5314,1.1223
+2024-03-25 13:59:10,D15,"Temp: 32°C, Humidity: 59%",Image Processing,Edge,63,3321,23,7,62,IoT15,IoT15,IoT,IoT (local),62.0,0.0,0.0,62.0,300.0,Yes,0.0,0.744,0.744
+2024-03-25 13:59:20,D5,"Temp: 37°C, Humidity: 79%",Data Analytics,Edge,67,1080,19,7,60,IoT5,IoT5,IoT,IoT (local),60.0,0.0,0.0,60.0,500.0,Yes,0.0,0.72,0.72
+2024-03-25 13:59:30,D18,"Temp: 24°C, Humidity: 57%",Network Traffic,Edge,49,2803,15,1,256,IoT18,Cloud1,Cloud,IoT -> Cloud,25.6,86.0,0.0,111.6,150.0,Yes,4.5166,0.0,4.5166
+2024-03-25 13:59:40,D5,"Temp: 20°C, Humidity: 43%",Network Traffic,Device,48,557,32,8,266,IoT5,Cloud1,Cloud,IoT -> Cloud,26.6,110.0,0.89,137.49,150.0,Yes,0.8975,0.0,0.8975
+2024-03-25 13:59:50,D16,"Temp: 36°C, Humidity: 48%",Image Processing,Edge,15,1815,34,8,208,IoT16,Fog2,Fog,IoT -> Fog,45.97,72.0,11.49,129.46,300.0,Yes,1.9497,0.0,1.9497
+2024-03-25 14:00:00,D9,"Temp: 22°C, Humidity: 69%",Video Processing,Fog,51,5517,34,6,295,IoT9,Cloud1,Cloud,IoT -> Cloud,29.5,110.0,1.97,141.47,120.0,No,8.8897,0.0,8.8897
+2024-03-25 14:00:10,D17,"Temp: 29°C, Humidity: 61%",Image Processing,Device,80,2529,25,3,185,IoT17,Fog1,Fog,IoT -> Fog,41.98,58.0,10.49,110.47,300.0,Yes,2.7167,0.0,2.7167
+2024-03-25 14:00:20,D20,"Temp: 23°C, Humidity: 79%",Image Processing,Device,12,6079,36,7,158,IoT20,Edge7,Edge,IoT -> Edge,74.04,51.0,0.0,125.04,300.0,Yes,3.2651,0.8885,4.1535
+2024-03-25 14:00:30,D10,"Temp: 29°C, Humidity: 47%",Network Traffic,Cloud,15,539,39,2,233,IoT10,Fog3,Fog,IoT -> Fog,42.36,71.0,21.18,134.53,150.0,Yes,0.579,0.0,0.579
+2024-03-25 14:00:40,D14,"Temp: 30°C, Humidity: 44%",Video Processing,Edge,40,7739,9,3,147,IoT14,Edge4,Edge,IoT -> Edge,52.72,20.0,17.57,90.28,120.0,Yes,4.1567,0.6326,4.7893
+2024-03-25 14:00:50,D6,"Temp: 28°C, Humidity: 75%",Data Analytics,Device,20,7999,41,6,161,IoT6,Edge1,Edge,IoT -> Edge,58.47,55.0,19.48,132.95,500.0,Yes,4.2963,0.7016,4.998
+2024-03-25 14:01:00,D9,"Temp: 34°C, Humidity: 45%",Video Processing,Fog,33,6074,45,7,246,IoT9,Fog2,Fog,IoT -> Fog,54.37,82.0,20.39,156.76,120.0,No,6.5248,0.0,6.5248
+2024-03-25 14:01:10,D5,"Temp: 23°C, Humidity: 68%",Data Analytics,Cloud,74,7869,35,9,295,IoT5,Cloud1,Cloud,IoT -> Cloud,29.5,114.0,2.95,146.45,500.0,Yes,12.6795,0.0,12.6795
+2024-03-25 14:01:20,D6,"Temp: 22°C, Humidity: 72%",Data Analytics,Edge,17,7173,37,5,156,IoT6,Fog1,Fog,IoT -> Fog,35.4,72.0,13.27,120.67,500.0,Yes,7.7054,0.0,7.7054
+2024-03-25 14:01:30,D6,"Temp: 20°C, Humidity: 41%",Video Processing,Fog,37,2635,34,5,130,IoT6,Edge2,Edge,IoT -> Edge,51.22,47.0,17.07,115.29,120.0,Yes,1.4153,0.6146,2.0299
+2024-03-25 14:01:40,D10,"Temp: 34°C, Humidity: 61%",Video Processing,Edge,30,5186,38,7,61,IoT10,IoT10,IoT,IoT (local),61.0,0.0,0.0,61.0,120.0,Yes,0.0,0.732,0.732
+2024-03-25 14:01:50,D9,"Temp: 33°C, Humidity: 73%",Video Processing,Edge,88,5875,43,7,239,IoT9,Fog3,Fog,IoT -> Fog,43.45,80.0,27.15,150.6,120.0,No,6.311,0.0,6.311
+2024-03-25 14:02:00,D14,"Temp: 37°C, Humidity: 61%",Image Processing,Edge,25,6132,17,1,287,IoT14,Cloud1,Cloud,IoT -> Cloud,28.7,88.0,3.83,120.53,300.0,Yes,9.8807,0.0,9.8807
+2024-03-25 14:02:10,D4,"Temp: 25°C, Humidity: 77%",Network Traffic,Device,79,3792,16,4,272,IoT4,Cloud1,Cloud,IoT -> Cloud,27.2,90.0,4.53,121.73,150.0,Yes,6.1102,0.0,6.1102
+2024-03-25 14:02:20,D13,"Temp: 36°C, Humidity: 36%",Network Traffic,Fog,13,2691,15,9,54,IoT13,IoT13,IoT,IoT (local),54.0,0.0,0.0,54.0,150.0,Yes,0.0,0.648,0.648
+2024-03-25 14:02:30,D9,"Temp: 34°C, Humidity: 50%",Network Traffic,Fog,38,4949,8,6,60,IoT9,Edge6,Edge,IoT -> Edge,24.45,22.0,8.15,54.6,150.0,Yes,2.6582,0.2935,2.9516
+2024-03-25 14:02:40,D4,"Temp: 35°C, Humidity: 73%",Data Analytics,Cloud,40,7101,31,7,211,IoT4,Fog2,Fog,IoT -> Fog,46.63,68.0,23.31,137.95,500.0,Yes,7.628,0.0,7.628
+2024-03-25 14:02:50,D14,"Temp: 29°C, Humidity: 38%",Image Processing,Fog,77,6973,38,1,104,IoT14,IoT14,IoT,IoT (local),104.0,0.0,0.0,104.0,300.0,Yes,0.0,1.248,1.248
+2024-03-25 14:03:00,D6,"Temp: 20°C, Humidity: 39%",Image Processing,Edge,31,6343,8,3,135,IoT6,Edge8,Edge,IoT -> Edge,56.18,19.0,18.72,93.9,300.0,Yes,3.4069,0.6741,4.081
+2024-03-25 14:03:10,D17,"Temp: 32°C, Humidity: 47%",Network Traffic,Cloud,35,3172,12,5,194,IoT17,Fog1,Fog,IoT -> Fog,44.02,47.0,22.01,113.03,150.0,Yes,3.4074,0.0,3.4074
+2024-03-25 14:03:20,D2,"Temp: 28°C, Humidity: 39%",Data Analytics,Cloud,45,1372,38,1,215,IoT2,Fog3,Fog,IoT -> Fog,39.09,69.0,29.31,137.4,500.0,Yes,1.4738,0.0,1.4738
+2024-03-25 14:03:30,D7,"Temp: 23°C, Humidity: 74%",Video Processing,Device,89,7340,19,5,104,IoT7,Edge3,Edge,IoT -> Edge,44.64,32.0,14.88,91.52,120.0,Yes,3.9424,0.5357,4.4781
+2024-03-25 14:03:40,D20,"Temp: 25°C, Humidity: 54%",Image Processing,Fog,84,3220,44,2,65,IoT20,IoT20,IoT,IoT (local),65.0,0.0,0.0,65.0,300.0,Yes,0.0,0.78,0.78
+2024-03-25 14:03:50,D5,"Temp: 37°C, Humidity: 65%",Network Traffic,Device,46,7318,11,1,136,IoT5,Edge5,Edge,IoT -> Edge,59.05,20.0,19.68,98.72,150.0,Yes,3.9306,0.7086,4.6391
+2024-03-25 14:04:00,D2,"Temp: 27°C, Humidity: 44%",Network Traffic,Cloud,64,2995,9,5,245,IoT2,Cloud1,Cloud,IoT -> Cloud,24.5,84.0,4.9,113.4,150.0,Yes,4.8259,0.0,4.8259
+2024-03-25 14:04:10,D18,"Temp: 28°C, Humidity: 78%",Network Traffic,Device,43,3632,21,7,222,IoT18,Fog2,Fog,IoT -> Fog,49.06,58.0,30.66,137.73,150.0,Yes,3.9016,0.0,3.9016
+2024-03-25 14:04:20,D16,"Temp: 28°C, Humidity: 65%",Image Processing,Edge,11,3117,28,2,124,IoT16,Edge4,Edge,IoT -> Edge,44.47,38.0,29.64,112.11,300.0,Yes,1.6742,0.5336,2.2078
+2024-03-25 14:04:30,D1,"Temp: 26°C, Humidity: 50%",Data Analytics,Fog,53,7065,29,9,141,IoT1,Fog1,Fog,IoT -> Fog,32.0,68.0,19.99,119.99,500.0,Yes,7.5894,0.0,7.5894
+2024-03-25 14:04:40,D19,"Temp: 30°C, Humidity: 56%",Data Analytics,Fog,86,4208,23,4,90,IoT19,IoT19,IoT,IoT (local),90.0,0.0,0.0,90.0,500.0,Yes,0.0,1.08,1.08
+2024-03-25 14:04:50,D5,"Temp: 34°C, Humidity: 76%",Data Analytics,Fog,53,1052,11,8,98,IoT5,Edge7,Edge,IoT -> Edge,45.92,27.0,15.3,88.22,500.0,Yes,0.565,0.5511,1.1161
+2024-03-25 14:05:00,D3,"Temp: 33°C, Humidity: 73%",Data Analytics,Fog,60,6310,21,6,294,IoT3,Fog3,Fog,IoT -> Fog,53.45,57.0,0.0,110.45,500.0,Yes,6.7783,0.0,6.7783
+2024-03-25 14:05:10,D19,"Temp: 21°C, Humidity: 53%",Data Analytics,Device,55,6238,14,1,188,IoT19,Fog3,Fog,IoT -> Fog,34.18,45.0,4.27,83.45,500.0,Yes,6.701,0.0,6.701
+2024-03-25 14:05:20,D11,"Temp: 26°C, Humidity: 32%",Data Analytics,Edge,59,7731,20,6,194,IoT11,Fog2,Fog,IoT -> Fog,42.88,56.0,0.0,98.88,500.0,Yes,8.3048,0.0,8.3048
+2024-03-25 14:05:30,D17,"Temp: 35°C, Humidity: 67%",Video Processing,Edge,88,4793,33,5,231,IoT17,Fog1,Fog,IoT -> Fog,52.42,68.0,0.0,120.42,120.0,No,5.1487,0.0,5.1487
+2024-03-25 14:05:40,D14,"Temp: 35°C, Humidity: 32%",Network Traffic,Fog,46,5132,23,5,262,IoT14,Fog3,Fog,IoT -> Fog,47.63,58.0,11.91,117.54,150.0,Yes,5.5129,0.0,5.5129
+2024-03-25 14:05:50,D3,"Temp: 26°C, Humidity: 43%",Video Processing,Device,87,6237,16,4,84,IoT3,Edge4,Edge,IoT -> Edge,30.12,28.0,0.0,58.12,120.0,Yes,3.35,0.3615,3.7114
+2024-03-25 14:06:00,D4,"Temp: 37°C, Humidity: 67%",Video Processing,Device,33,6523,38,1,242,IoT4,Fog2,Fog,IoT -> Fog,53.49,69.0,6.68,129.17,120.0,No,7.0071,0.0,7.0071
+2024-03-25 14:06:10,D3,"Temp: 32°C, Humidity: 65%",Network Traffic,Fog,55,5562,14,9,295,IoT3,Fog1,Fog,IoT -> Fog,66.94,53.0,8.37,128.31,150.0,Yes,5.9748,0.0,5.9748
+2024-03-25 14:06:20,D15,"Temp: 33°C, Humidity: 77%",Data Analytics,Device,74,2270,6,8,60,IoT15,Edge1,Edge,IoT -> Edge,21.79,22.0,0.0,43.79,500.0,Yes,1.2192,0.2615,1.4807
+2024-03-25 14:06:30,D1,"Temp: 32°C, Humidity: 67%",Data Analytics,Cloud,59,1252,33,2,297,IoT1,Cloud1,Cloud,IoT -> Cloud,29.7,105.0,0.0,134.7,500.0,Yes,2.0174,0.0,2.0174
+2024-03-25 14:06:40,D14,"Temp: 32°C, Humidity: 35%",Video Processing,Device,57,7508,28,3,53,IoT14,IoT14,IoT,IoT (local),53.0,0.0,0.0,53.0,120.0,Yes,0.0,0.636,0.636
+2024-03-25 14:06:50,D6,"Temp: 24°C, Humidity: 75%",Image Processing,Edge,73,1442,47,6,76,IoT6,IoT6,IoT,IoT (local),76.0,0.0,0.0,76.0,300.0,Yes,0.0,0.912,0.912
+2024-03-25 14:07:00,D6,"Temp: 35°C, Humidity: 73%",Image Processing,Cloud,11,6133,25,8,247,IoT6,Fog3,Fog,IoT -> Fog,44.9,63.0,16.84,124.74,300.0,Yes,6.5882,0.0,6.5882
+2024-03-25 14:07:10,D19,"Temp: 25°C, Humidity: 57%",Image Processing,Fog,88,6973,46,7,197,IoT19,Edge2,Edge,IoT -> Edge,77.62,61.0,0.0,138.62,300.0,Yes,3.7453,0.9314,4.6767
+2024-03-25 14:07:20,D12,"Temp: 34°C, Humidity: 37%",Image Processing,Edge,34,5693,48,9,155,IoT12,Edge6,Edge,IoT -> Edge,63.18,65.0,0.0,128.18,300.0,Yes,3.0578,0.7581,3.8159
+2024-03-25 14:07:30,D6,"Temp: 21°C, Humidity: 34%",Video Processing,Edge,24,7220,11,2,148,IoT6,Edge8,Edge,IoT -> Edge,61.59,21.0,0.0,82.59,120.0,Yes,3.8779,0.739,4.617
+2024-03-25 14:07:40,D19,"Temp: 26°C, Humidity: 54%",Video Processing,Edge,52,5732,8,1,71,IoT19,Edge3,Edge,IoT -> Edge,30.48,17.0,0.0,47.48,120.0,Yes,3.0787,0.3657,3.4444
+2024-03-25 14:07:50,D11,"Temp: 37°C, Humidity: 45%",Image Processing,Edge,11,5426,38,5,210,IoT11,Fog2,Fog,IoT -> Fog,46.41,73.0,11.6,131.01,300.0,Yes,5.8287,0.0,5.8287
+2024-03-25 14:08:00,D20,"Temp: 34°C, Humidity: 49%",Network Traffic,Device,34,6372,39,5,144,IoT20,Edge5,Edge,IoT -> Edge,62.52,52.0,0.0,114.52,150.0,Yes,3.4225,0.7503,4.1727
+2024-03-25 14:08:10,D20,"Temp: 29°C, Humidity: 41%",Image Processing,Cloud,43,6020,17,1,266,IoT20,Cloud1,Cloud,IoT -> Cloud,26.6,88.0,0.89,115.49,300.0,Yes,9.7002,0.0,9.7002
+2024-03-25 14:08:20,D17,"Temp: 20°C, Humidity: 46%",Network Traffic,Cloud,25,6352,43,6,101,IoT17,IoT17,IoT,IoT (local),101.0,0.0,0.0,101.0,150.0,Yes,0.0,1.212,1.212
+2024-03-25 14:08:30,D10,"Temp: 33°C, Humidity: 77%",Network Traffic,Edge,69,7856,37,4,176,IoT10,Fog1,Fog,IoT -> Fog,39.94,71.0,9.98,120.92,150.0,Yes,8.4391,0.0,8.4391
+2024-03-25 14:08:40,D5,"Temp: 33°C, Humidity: 44%",Image Processing,Fog,84,4895,32,6,134,IoT5,Edge7,Edge,IoT -> Edge,62.79,46.0,0.0,108.79,300.0,Yes,2.6292,0.7535,3.3827
+2024-03-25 14:08:50,D20,"Temp: 28°C, Humidity: 38%",Image Processing,Fog,44,2372,26,4,282,IoT20,Cloud1,Cloud,IoT -> Cloud,28.2,100.0,1.88,130.08,300.0,Yes,3.8221,0.0,3.8221
+2024-03-25 14:09:00,D14,"Temp: 33°C, Humidity: 44%",Network Traffic,Edge,79,1537,21,3,75,IoT14,Edge4,Edge,IoT -> Edge,26.9,32.0,8.96,67.86,150.0,Yes,0.8255,0.3228,1.1483
+2024-03-25 14:09:10,D8,"Temp: 31°C, Humidity: 36%",Network Traffic,Device,38,5400,15,6,74,IoT8,Edge1,Edge,IoT -> Edge,26.87,29.0,8.96,64.83,150.0,Yes,2.9004,0.3225,3.2229
+2024-03-25 14:09:20,D20,"Temp: 29°C, Humidity: 42%",Network Traffic,Fog,12,4123,9,8,207,IoT20,Fog3,Fog,IoT -> Fog,37.63,47.0,18.81,103.44,150.0,Yes,4.429,0.0,4.429
+2024-03-25 14:09:30,D2,"Temp: 38°C, Humidity: 35%",Video Processing,Cloud,67,6797,11,3,86,IoT2,Edge2,Edge,IoT -> Edge,33.88,22.0,11.29,67.17,120.0,Yes,3.6507,0.4066,4.0573
+2024-03-25 14:09:40,D9,"Temp: 39°C, Humidity: 40%",Image Processing,Fog,56,4518,45,7,284,IoT9,Cloud1,Cloud,IoT -> Cloud,28.4,122.0,2.84,153.24,300.0,Yes,7.28,0.0,7.28
+2024-03-25 14:09:50,D3,"Temp: 35°C, Humidity: 50%",Video Processing,Edge,54,1288,46,1,144,IoT3,Fog2,Fog,IoT -> Fog,31.83,77.0,11.93,120.76,120.0,No,1.3836,0.0,1.3836
+2024-03-25 14:10:00,D14,"Temp: 39°C, Humidity: 31%",Video Processing,Device,43,6453,13,4,251,IoT14,Fog1,Fog,IoT -> Fog,56.96,47.0,21.36,125.31,120.0,No,6.9319,0.0,6.9319
+2024-03-25 14:10:10,D20,"Temp: 20°C, Humidity: 44%",Video Processing,Cloud,81,1735,15,1,116,IoT20,Edge6,Edge,IoT -> Edge,47.28,24.0,15.75,87.03,120.0,Yes,0.9319,0.5674,1.4992
+2024-03-25 14:10:20,D13,"Temp: 23°C, Humidity: 78%",Data Analytics,Edge,76,5584,5,4,88,IoT13,Edge8,Edge,IoT -> Edge,36.62,17.0,12.2,65.82,500.0,Yes,2.9992,0.4394,3.4386
+2024-03-25 14:10:30,D18,"Temp: 29°C, Humidity: 74%",Network Traffic,Cloud,19,4524,9,4,284,IoT18,Cloud1,Cloud,IoT -> Cloud,28.4,83.0,3.79,115.19,150.0,Yes,7.2896,0.0,7.2896
+2024-03-25 14:10:40,D1,"Temp: 27°C, Humidity: 67%",Image Processing,Device,76,5797,7,5,172,IoT1,Fog3,Fog,IoT -> Fog,31.27,42.0,19.54,92.81,300.0,Yes,6.2272,0.0,6.2272
+2024-03-25 14:10:50,D13,"Temp: 21°C, Humidity: 69%",Network Traffic,Edge,30,4376,30,3,54,IoT13,IoT13,IoT,IoT (local),54.0,0.0,0.0,54.0,150.0,Yes,0.0,0.648,0.648
+2024-03-25 14:11:00,D13,"Temp: 20°C, Humidity: 61%",Image Processing,Device,67,5873,38,1,188,IoT13,Fog2,Fog,IoT -> Fog,41.55,69.0,20.77,131.32,300.0,Yes,6.3089,0.0,6.3089
+2024-03-25 14:11:10,D17,"Temp: 30°C, Humidity: 78%",Network Traffic,Fog,59,1232,16,8,167,IoT17,Fog1,Fog,IoT -> Fog,37.9,54.0,18.95,110.84,150.0,Yes,1.3234,0.0,1.3234
+2024-03-25 14:11:20,D13,"Temp: 33°C, Humidity: 61%",Image Processing,Edge,47,3518,22,6,265,IoT13,Cloud1,Cloud,IoT -> Cloud,26.5,98.0,4.42,128.92,300.0,Yes,5.6687,0.0,5.6687
+2024-03-25 14:11:30,D10,"Temp: 20°C, Humidity: 40%",Network Traffic,Edge,48,3170,41,8,150,IoT10,Fog3,Fog,IoT -> Fog,27.27,79.0,20.45,126.72,150.0,Yes,3.4053,0.0,3.4053
+2024-03-25 14:11:40,D14,"Temp: 31°C, Humidity: 34%",Data Analytics,Edge,11,4871,23,1,145,IoT14,Edge3,Edge,IoT -> Edge,62.24,32.0,20.74,114.98,500.0,Yes,2.6163,0.7469,3.3631
+2024-03-25 14:11:50,D14,"Temp: 31°C, Humidity: 36%",Data Analytics,Fog,69,3678,15,7,107,IoT14,Edge5,Edge,IoT -> Edge,46.46,30.0,15.48,91.94,500.0,Yes,1.9755,0.5575,2.533
+2024-03-25 14:12:00,D13,"Temp: 36°C, Humidity: 69%",Data Analytics,Device,30,7416,40,3,257,IoT13,Cloud1,Cloud,IoT -> Cloud,25.7,113.0,5.14,143.84,500.0,Yes,11.9496,0.0,11.9496
+2024-03-25 14:12:10,D17,"Temp: 34°C, Humidity: 43%",Image Processing,Device,41,3919,25,2,244,IoT17,Cloud1,Cloud,IoT -> Cloud,24.4,97.0,5.69,127.09,300.0,Yes,6.3148,0.0,6.3148
+2024-03-25 14:12:20,D18,"Temp: 29°C, Humidity: 55%",Network Traffic,Cloud,83,881,33,9,63,IoT18,IoT18,IoT,IoT (local),63.0,0.0,0.0,63.0,150.0,Yes,0.0,0.756,0.756
+2024-03-25 14:12:30,D1,"Temp: 24°C, Humidity: 33%",Data Analytics,Fog,63,1275,33,1,136,IoT1,Fog2,Fog,IoT -> Fog,30.06,64.0,18.78,112.84,500.0,Yes,1.3696,0.0,1.3696
+2024-03-25 14:12:40,D3,"Temp: 39°C, Humidity: 55%",Data Analytics,Cloud,19,7595,23,8,227,IoT3,Fog3,Fog,IoT -> Fog,41.27,61.0,36.1,138.37,500.0,Yes,8.1587,0.0,8.1587
+2024-03-25 14:12:50,D11,"Temp: 38°C, Humidity: 72%",Data Analytics,Fog,19,5649,22,2,111,IoT11,Edge4,Edge,IoT -> Edge,39.81,32.0,26.53,98.34,500.0,Yes,3.0341,0.4777,3.5118
+2024-03-25 14:13:00,D17,"Temp: 23°C, Humidity: 43%",Data Analytics,Device,63,5548,20,9,92,IoT17,Edge7,Edge,IoT -> Edge,43.11,37.0,14.37,94.48,500.0,Yes,2.9799,0.5173,3.4972
+2024-03-25 14:13:10,D19,"Temp: 21°C, Humidity: 61%",Network Traffic,Fog,26,5609,26,7,273,IoT19,Cloud1,Cloud,IoT -> Cloud,27.3,103.0,7.28,137.58,150.0,Yes,9.0379,0.0,9.0379
+2024-03-25 14:13:20,D2,"Temp: 32°C, Humidity: 47%",Image Processing,Fog,30,3059,33,8,60,IoT2,IoT2,IoT,IoT (local),60.0,0.0,0.0,60.0,300.0,Yes,0.0,0.72,0.72
+2024-03-25 14:13:30,D19,"Temp: 36°C, Humidity: 48%",Image Processing,Fog,43,5126,43,4,72,IoT19,IoT19,IoT,IoT (local),72.0,0.0,0.0,72.0,300.0,Yes,0.0,0.864,0.864
+2024-03-25 14:13:40,D11,"Temp: 22°C, Humidity: 54%",Video Processing,Fog,50,7380,8,4,232,IoT11,Fog3,Fog,IoT -> Fog,42.18,42.0,0.0,84.18,120.0,Yes,7.9277,0.0,7.9277
+2024-03-25 14:13:50,D5,"Temp: 25°C, Humidity: 54%",Network Traffic,Edge,28,5833,10,7,184,IoT5,Fog3,Fog,IoT -> Fog,33.45,47.0,4.18,84.63,150.0,Yes,6.2659,0.0,6.2659
+2024-03-25 14:14:00,D15,"Temp: 25°C, Humidity: 79%",Network Traffic,Device,65,7233,34,5,166,IoT15,Edge4,Edge,IoT -> Edge,59.53,47.0,0.0,106.53,150.0,Yes,3.8849,0.7144,4.5993
+2024-03-25 14:14:10,D2,"Temp: 30°C, Humidity: 56%",Image Processing,Edge,86,7843,38,3,223,IoT2,Fog2,Fog,IoT -> Fog,49.29,71.0,0.0,120.29,300.0,Yes,8.4251,0.0,8.4251
+2024-03-25 14:14:20,D1,"Temp: 34°C, Humidity: 46%",Image Processing,Cloud,63,1355,19,7,73,IoT1,Edge1,Edge,IoT -> Edge,26.51,34.0,0.0,60.51,300.0,Yes,0.7278,0.3181,1.0459
+2024-03-25 14:14:30,D12,"Temp: 39°C, Humidity: 52%",Data Analytics,Device,50,3359,21,7,182,IoT12,Fog1,Fog,IoT -> Fog,41.3,58.0,0.0,99.3,500.0,Yes,3.6083,0.0,3.6083
+2024-03-25 14:14:40,D6,"Temp: 39°C, Humidity: 39%",Image Processing,Fog,41,7455,42,4,82,IoT6,IoT6,IoT,IoT (local),82.0,0.0,0.0,82.0,300.0,Yes,0.0,0.984,0.984
+2024-03-25 14:14:50,D11,"Temp: 28°C, Humidity: 66%",Data Analytics,Device,20,6570,43,2,217,IoT11,Fog3,Fog,IoT -> Fog,39.45,75.0,9.86,124.31,500.0,Yes,7.0576,0.0,7.0576
+2024-03-25 14:15:00,D17,"Temp: 22°C, Humidity: 70%",Network Traffic,Edge,55,2297,25,4,256,IoT17,Fog2,Fog,IoT -> Fog,56.58,59.0,7.07,122.65,150.0,Yes,2.4675,0.0,2.4675
+2024-03-25 14:15:10,D12,"Temp: 34°C, Humidity: 34%",Video Processing,Edge,72,4321,10,5,214,IoT12,Fog1,Fog,IoT -> Fog,48.56,45.0,6.07,99.63,120.0,Yes,4.6417,0.0,4.6417
+2024-03-25 14:15:20,D17,"Temp: 24°C, Humidity: 79%",Network Traffic,Fog,14,8076,21,6,150,IoT17,Edge2,Edge,IoT -> Edge,59.1,35.0,0.0,94.1,150.0,Yes,4.3377,0.7092,5.0469
+2024-03-25 14:15:30,D20,"Temp: 36°C, Humidity: 31%",Data Analytics,Fog,43,3158,37,3,251,IoT20,Fog3,Fog,IoT -> Fog,45.63,70.0,17.11,132.74,500.0,Yes,3.3924,0.0,3.3924
+2024-03-25 14:15:40,D15,"Temp: 32°C, Humidity: 68%",Data Analytics,Fog,28,3676,34,7,245,IoT15,Fog2,Fog,IoT -> Fog,54.15,71.0,13.54,138.68,500.0,Yes,3.9488,0.0,3.9488
+2024-03-25 14:15:50,D16,"Temp: 39°C, Humidity: 75%",Image Processing,Fog,66,3347,45,6,104,IoT16,Edge6,Edge,IoT -> Edge,42.39,59.0,0.0,101.39,300.0,Yes,1.7977,0.5087,2.3064
+2024-03-25 14:16:00,D9,"Temp: 29°C, Humidity: 65%",Network Traffic,Edge,76,790,32,1,218,IoT9,Fog1,Fog,IoT -> Fog,49.47,63.0,12.37,124.83,150.0,Yes,0.8486,0.0,0.8486
+2024-03-25 14:16:10,D15,"Temp: 38°C, Humidity: 68%",Data Analytics,Device,63,3430,24,1,56,IoT15,IoT15,IoT,IoT (local),56.0,0.0,0.0,56.0,500.0,Yes,0.0,0.672,0.672
+2024-03-25 14:16:20,D8,"Temp: 31°C, Humidity: 42%",Data Analytics,Edge,73,2853,29,8,144,IoT8,Edge8,Edge,IoT -> Edge,59.92,45.0,0.0,104.92,500.0,Yes,1.5324,0.7191,2.2514
+2024-03-25 14:16:30,D14,"Temp: 25°C, Humidity: 63%",Video Processing,Cloud,80,7144,21,9,160,IoT14,Edge3,Edge,IoT -> Edge,68.68,38.0,0.0,106.68,120.0,Yes,3.8371,0.8241,4.6612
+2024-03-25 14:16:40,D6,"Temp: 21°C, Humidity: 56%",Image Processing,Fog,10,6902,49,3,64,IoT6,Edge5,Edge,IoT -> Edge,27.79,60.0,0.0,87.79,300.0,Yes,3.7071,0.3334,4.0406
+2024-03-25 14:16:50,D18,"Temp: 24°C, Humidity: 67%",Image Processing,Device,72,7595,45,3,106,IoT18,IoT18,IoT,IoT (local),106.0,0.0,0.0,106.0,300.0,Yes,0.0,1.272,1.272
+2024-03-25 14:17:00,D6,"Temp: 31°C, Humidity: 54%",Image Processing,Edge,25,7818,30,8,231,IoT6,Fog3,Fog,IoT -> Fog,41.99,68.0,20.99,130.99,300.0,Yes,8.3982,0.0,8.3982
+2024-03-25 14:17:10,D9,"Temp: 23°C, Humidity: 41%",Data Analytics,Edge,26,3066,34,1,189,IoT9,Fog2,Fog,IoT -> Fog,41.77,65.0,15.66,122.43,500.0,Yes,3.2936,0.0,3.2936
+2024-03-25 14:17:20,D2,"Temp: 38°C, Humidity: 54%",Data Analytics,Fog,58,7681,30,9,57,IoT2,Edge7,Edge,IoT -> Edge,26.71,47.0,0.0,73.71,500.0,Yes,4.1255,0.3205,4.4461
+2024-03-25 14:17:30,D8,"Temp: 32°C, Humidity: 78%",Network Traffic,Cloud,82,7490,27,2,177,IoT8,Fog1,Fog,IoT -> Fog,40.16,59.0,15.06,114.22,150.0,Yes,8.0459,0.0,8.0459
+2024-03-25 14:17:40,D15,"Temp: 35°C, Humidity: 58%",Data Analytics,Fog,14,2604,14,3,205,IoT15,Cloud1,Cloud,IoT -> Cloud,20.5,87.0,0.0,107.5,500.0,Yes,4.1959,0.0,4.1959
+2024-03-25 14:17:50,D2,"Temp: 24°C, Humidity: 57%",Video Processing,Edge,35,640,41,4,107,IoT2,Edge4,Edge,IoT -> Edge,38.37,53.0,12.79,104.16,120.0,Yes,0.3438,0.4605,0.8042
+2024-03-25 14:18:00,D5,"Temp: 23°C, Humidity: 41%",Data Analytics,Device,82,7569,46,4,93,IoT5,IoT5,IoT,IoT (local),93.0,0.0,0.0,93.0,500.0,Yes,0.0,1.116,1.116
+2024-03-25 14:18:10,D13,"Temp: 31°C, Humidity: 57%",Data Analytics,Device,37,1688,29,8,103,IoT13,Edge1,Edge,IoT -> Edge,37.41,45.0,12.46,94.87,500.0,Yes,0.9066,0.4489,1.3555
+2024-03-25 14:18:20,D4,"Temp: 36°C, Humidity: 48%",Data Analytics,Fog,29,1887,9,6,272,IoT4,Cloud1,Cloud,IoT -> Cloud,27.2,85.0,0.91,113.11,500.0,Yes,3.0406,0.0,3.0406
+2024-03-25 14:18:30,D19,"Temp: 34°C, Humidity: 53%",Data Analytics,Device,20,5379,32,4,287,IoT19,Cloud1,Cloud,IoT -> Cloud,28.7,106.0,1.91,136.61,500.0,Yes,8.6673,0.0,8.6673
+2024-03-25 14:18:40,D20,"Temp: 23°C, Humidity: 53%",Network Traffic,Edge,52,5239,5,9,156,IoT20,Fog3,Fog,IoT -> Fog,28.36,44.0,17.72,90.08,150.0,Yes,5.6278,0.0,5.6278
+2024-03-25 14:18:50,D15,"Temp: 35°C, Humidity: 49%",Network Traffic,Device,79,7050,41,6,110,IoT15,Edge2,Edge,IoT -> Edge,43.34,55.0,14.44,112.78,150.0,Yes,3.7866,0.5201,4.3067
+2024-03-25 14:19:00,D3,"Temp: 25°C, Humidity: 68%",Image Processing,Cloud,61,1517,28,7,257,IoT3,Cloud1,Cloud,IoT -> Cloud,25.7,105.0,2.57,133.27,300.0,Yes,2.4444,0.0,2.4444
+2024-03-25 14:19:10,D17,"Temp: 21°C, Humidity: 72%",Video Processing,Device,79,4342,10,1,296,IoT17,Cloud1,Cloud,IoT -> Cloud,29.6,81.0,3.95,114.55,120.0,Yes,6.9964,0.0,6.9964
+2024-03-25 14:19:20,D18,"Temp: 25°C, Humidity: 71%",Image Processing,Cloud,22,7198,36,1,77,IoT18,Edge6,Edge,IoT -> Edge,31.38,45.0,10.46,86.84,300.0,Yes,3.8661,0.3766,4.2427
+2024-03-25 14:19:30,D17,"Temp: 32°C, Humidity: 59%",Image Processing,Fog,32,555,39,5,137,IoT17,Fog2,Fog,IoT -> Fog,30.28,74.0,15.14,119.42,300.0,Yes,0.5962,0.0,0.5962
+2024-03-25 14:19:40,D11,"Temp: 25°C, Humidity: 38%",Network Traffic,Edge,86,7135,29,2,191,IoT11,Fog1,Fog,IoT -> Fog,43.34,61.0,21.67,126.01,150.0,Yes,7.6646,0.0,7.6646
+2024-03-25 14:19:50,D8,"Temp: 27°C, Humidity: 39%",Network Traffic,Device,30,6818,40,4,181,IoT8,Fog3,Fog,IoT -> Fog,32.9,74.0,24.68,131.58,150.0,Yes,7.324,0.0,7.324
+2024-03-25 14:20:00,D14,"Temp: 28°C, Humidity: 59%",Image Processing,Cloud,33,7175,13,4,101,IoT14,Edge8,Edge,IoT -> Edge,42.03,25.0,14.0,81.03,300.0,Yes,3.8538,0.5043,4.3581
+2024-03-25 14:20:10,D11,"Temp: 38°C, Humidity: 73%",Network Traffic,Edge,54,3292,26,8,253,IoT11,Cloud1,Cloud,IoT -> Cloud,25.3,104.0,4.22,133.52,150.0,Yes,5.3045,0.0,5.3045
+2024-03-25 14:20:20,D20,"Temp: 20°C, Humidity: 35%",Video Processing,Cloud,29,6978,46,6,299,IoT20,Cloud1,Cloud,IoT -> Cloud,29.9,122.0,5.98,157.88,120.0,No,11.2438,0.0,11.2438
+2024-03-25 14:20:30,D13,"Temp: 28°C, Humidity: 70%",Network Traffic,Device,59,934,48,7,271,IoT13,Cloud1,Cloud,IoT -> Cloud,27.1,125.0,6.32,158.42,150.0,No,1.505,0.0,1.505
+2024-03-25 14:20:40,D17,"Temp: 34°C, Humidity: 68%",Data Analytics,Device,24,5842,45,9,248,IoT17,Cloud1,Cloud,IoT -> Cloud,24.8,124.0,6.61,155.41,500.0,Yes,9.4134,0.0,9.4134
+2024-03-25 14:20:50,D8,"Temp: 22°C, Humidity: 74%",Data Analytics,Cloud,65,6135,35,4,51,IoT8,IoT8,IoT,IoT (local),51.0,0.0,0.0,51.0,500.0,Yes,0.0,0.612,0.612
+2024-03-25 14:21:00,D1,"Temp: 24°C, Humidity: 54%",Image Processing,Edge,43,4255,21,6,120,IoT1,Edge3,Edge,IoT -> Edge,51.51,35.0,17.16,103.67,300.0,Yes,2.2854,0.6181,2.9035
+2024-03-25 14:21:10,D19,"Temp: 31°C, Humidity: 51%",Video Processing,Edge,30,3756,22,2,109,IoT19,Edge5,Edge,IoT -> Edge,47.33,32.0,15.77,95.1,120.0,Yes,2.0174,0.5679,2.5853
+2024-03-25 14:21:20,D8,"Temp: 33°C, Humidity: 50%",Image Processing,Cloud,18,1334,45,9,288,IoT8,Cloud1,Cloud,IoT -> Cloud,28.8,124.0,8.64,161.44,300.0,Yes,2.1495,0.0,2.1495
+2024-03-25 14:21:30,D12,"Temp: 24°C, Humidity: 38%",Image Processing,Cloud,18,4966,24,8,97,IoT12,IoT12,IoT,IoT (local),97.0,0.0,0.0,97.0,300.0,Yes,0.0,1.164,1.164
+2024-03-25 14:21:40,D6,"Temp: 39°C, Humidity: 32%",Video Processing,Device,68,5327,33,7,210,IoT6,Fog3,Fog,IoT -> Fog,38.18,70.0,0.0,108.18,120.0,Yes,5.7224,0.0,5.7224
+2024-03-25 14:21:50,D8,"Temp: 30°C, Humidity: 52%",Video Processing,Edge,27,3042,40,8,290,IoT8,Fog3,Fog,IoT -> Fog,52.72,78.0,6.59,137.31,120.0,No,3.2678,0.0,3.2678
+2024-03-25 14:22:00,D20,"Temp: 37°C, Humidity: 53%",Network Traffic,Device,46,3734,16,6,53,IoT20,Edge4,Edge,IoT -> Edge,19.01,30.0,0.0,49.01,150.0,Yes,2.0056,0.2281,2.2337
+2024-03-25 14:22:10,D6,"Temp: 25°C, Humidity: 64%",Video Processing,Edge,66,7082,38,4,83,IoT6,Edge1,Edge,IoT -> Edge,30.14,50.0,0.0,80.14,120.0,Yes,3.8038,0.3617,4.1655
+2024-03-25 14:22:20,D14,"Temp: 23°C, Humidity: 50%",Image Processing,Fog,55,2963,27,1,213,IoT14,Fog2,Fog,IoT -> Fog,47.08,58.0,0.0,105.08,300.0,Yes,3.1829,0.0,3.1829
+2024-03-25 14:22:30,D7,"Temp: 34°C, Humidity: 53%",Data Analytics,Cloud,77,6175,15,6,197,IoT7,Fog1,Fog,IoT -> Fog,44.7,51.0,0.0,95.7,500.0,Yes,6.6333,0.0,6.6333
+2024-03-25 14:22:40,D10,"Temp: 25°C, Humidity: 69%",Network Traffic,Fog,72,3294,38,3,125,IoT10,Edge2,Edge,IoT -> Edge,49.25,49.0,0.0,98.25,150.0,Yes,1.7692,0.591,2.3602
+2024-03-25 14:22:50,D20,"Temp: 26°C, Humidity: 34%",Video Processing,Cloud,65,3203,14,7,192,IoT20,Fog3,Fog,IoT -> Fog,34.9,51.0,8.73,94.63,120.0,Yes,3.4407,0.0,3.4407
+2024-03-25 14:23:00,D19,"Temp: 34°C, Humidity: 46%",Network Traffic,Edge,71,3915,8,2,94,IoT19,Edge6,Edge,IoT -> Edge,38.31,18.0,0.0,56.31,150.0,Yes,2.1028,0.4598,2.5625
+2024-03-25 14:23:10,D6,"Temp: 29°C, Humidity: 65%",Video Processing,Edge,27,5226,11,2,214,IoT6,Fog2,Fog,IoT -> Fog,47.3,43.0,5.91,96.21,120.0,Yes,5.6139,0.0,5.6139
+2024-03-25 14:23:20,D6,"Temp: 30°C, Humidity: 50%",Data Analytics,Fog,19,3421,5,3,112,IoT6,Edge8,Edge,IoT -> Edge,46.61,16.0,0.0,62.61,500.0,Yes,1.8375,0.5593,2.3967
+2024-03-25 14:23:30,D18,"Temp: 25°C, Humidity: 61%",Data Analytics,Device,64,1515,28,8,260,IoT18,Fog1,Fog,IoT -> Fog,59.0,66.0,7.37,132.37,500.0,Yes,1.6274,0.0,1.6274
+2024-03-25 14:23:40,D7,"Temp: 29°C, Humidity: 57%",Image Processing,Device,40,2020,32,3,86,IoT7,Edge3,Edge,IoT -> Edge,36.91,43.0,0.0,79.91,300.0,Yes,1.085,0.443,1.5279
+2024-03-25 14:23:50,D12,"Temp: 25°C, Humidity: 37%",Image Processing,Fog,75,2541,21,3,262,IoT12,Fog3,Fog,IoT -> Fog,47.63,54.0,17.86,119.49,300.0,Yes,2.7296,0.0,2.7296
+2024-03-25 14:24:00,D6,"Temp: 27°C, Humidity: 52%",Image Processing,Edge,36,2022,44,5,195,IoT6,Fog2,Fog,IoT -> Fog,43.1,79.0,10.77,132.87,300.0,Yes,2.1721,0.0,2.1721
+2024-03-25 14:24:10,D7,"Temp: 23°C, Humidity: 59%",Data Analytics,Cloud,18,6035,49,8,192,IoT7,Fog1,Fog,IoT -> Fog,43.57,87.0,10.89,141.46,500.0,Yes,6.4829,0.0,6.4829
+2024-03-25 14:24:20,D11,"Temp: 24°C, Humidity: 62%",Data Analytics,Edge,47,3877,41,3,149,IoT11,Edge5,Edge,IoT -> Edge,64.69,52.0,0.0,116.69,500.0,Yes,2.0824,0.7763,2.8587
+2024-03-25 14:24:30,D5,"Temp: 29°C, Humidity: 60%",Network Traffic,Fog,21,4993,38,9,215,IoT5,Fog3,Fog,IoT -> Fog,39.09,77.0,19.54,135.63,150.0,Yes,5.3636,0.0,5.3636
+2024-03-25 14:24:40,D20,"Temp: 35°C, Humidity: 33%",Video Processing,Fog,47,7308,47,2,271,IoT20,Cloud1,Cloud,IoT -> Cloud,27.1,119.0,0.0,146.1,120.0,No,11.7756,0.0,11.7756
+2024-03-25 14:24:50,D15,"Temp: 39°C, Humidity: 67%",Image Processing,Edge,43,2448,48,7,287,IoT15,Cloud1,Cloud,IoT -> Cloud,28.7,125.0,0.96,154.66,300.0,Yes,3.9445,0.0,3.9445
+2024-03-25 14:25:00,D1,"Temp: 28°C, Humidity: 59%",Data Analytics,Fog,39,5501,33,9,146,IoT1,Edge7,Edge,IoT -> Edge,68.41,50.0,0.0,118.41,500.0,Yes,2.9546,0.821,3.7756
+2024-03-25 14:25:10,D14,"Temp: 26°C, Humidity: 64%",Video Processing,Device,73,617,37,3,84,IoT14,IoT14,IoT,IoT (local),84.0,0.0,0.0,84.0,120.0,Yes,0.0,1.008,1.008
+2024-03-25 14:25:20,D5,"Temp: 38°C, Humidity: 65%",Network Traffic,Device,10,8013,27,3,206,IoT5,Fog2,Fog,IoT -> Fog,45.53,60.0,17.07,122.6,150.0,Yes,8.6077,0.0,8.6077
+2024-03-25 14:25:30,D5,"Temp: 29°C, Humidity: 44%",Video Processing,Fog,76,5268,14,1,210,IoT5,Fog1,Fog,IoT -> Fog,47.65,45.0,17.87,110.52,120.0,Yes,5.659,0.0,5.659
+2024-03-25 14:25:40,D17,"Temp: 24°C, Humidity: 35%",Network Traffic,Edge,23,6619,21,1,277,IoT17,Cloud1,Cloud,IoT -> Cloud,27.7,92.0,1.85,121.55,150.0,Yes,10.6654,0.0,10.6654
+2024-03-25 14:25:50,D12,"Temp: 36°C, Humidity: 36%",Video Processing,Fog,84,6809,33,5,271,IoT12,Cloud1,Cloud,IoT -> Cloud,27.1,108.0,2.71,137.81,120.0,No,10.9715,0.0,10.9715
+2024-03-25 14:26:00,D12,"Temp: 23°C, Humidity: 62%",Video Processing,Device,43,3934,25,1,281,IoT12,Cloud1,Cloud,IoT -> Cloud,28.1,96.0,3.75,127.85,120.0,No,6.339,0.0,6.339
+2024-03-25 14:26:10,D11,"Temp: 37°C, Humidity: 61%",Video Processing,Fog,26,4896,27,4,153,IoT11,Edge4,Edge,IoT -> Edge,54.87,39.0,18.28,112.15,120.0,Yes,2.6297,0.6584,3.2881
+2024-03-25 14:26:20,D11,"Temp: 39°C, Humidity: 47%",Data Analytics,Edge,61,7742,48,8,238,IoT11,Fog3,Fog,IoT -> Fog,43.27,86.0,27.04,156.31,500.0,Yes,8.3166,0.0,8.3166
+2024-03-25 14:26:30,D19,"Temp: 25°C, Humidity: 54%",Video Processing,Cloud,87,7747,19,1,146,IoT19,Edge1,Edge,IoT -> Edge,53.02,28.0,17.67,98.69,120.0,Yes,4.161,0.6363,4.7973
+2024-03-25 14:26:40,D11,"Temp: 38°C, Humidity: 49%",Data Analytics,Device,34,1011,29,2,186,IoT11,Fog2,Fog,IoT -> Fog,41.11,61.0,20.55,122.66,500.0,Yes,1.086,0.0,1.086
+2024-03-25 14:26:50,D2,"Temp: 35°C, Humidity: 36%",Network Traffic,Fog,42,1747,21,3,62,IoT2,IoT2,IoT,IoT (local),62.0,0.0,0.0,62.0,150.0,Yes,0.0,0.744,0.744
+2024-03-25 14:27:00,D10,"Temp: 24°C, Humidity: 31%",Data Analytics,Edge,70,6951,17,5,192,IoT10,Fog1,Fog,IoT -> Fog,43.57,52.0,21.78,117.35,500.0,Yes,7.4669,0.0,7.4669
+2024-03-25 14:27:10,D9,"Temp: 27°C, Humidity: 38%",Video Processing,Cloud,14,7513,48,2,210,IoT9,Fog3,Fog,IoT -> Fog,38.18,80.0,28.63,146.81,120.0,No,8.0706,0.0,8.0706
+2024-03-25 14:27:20,D4,"Temp: 27°C, Humidity: 72%",Image Processing,Fog,11,3468,17,6,172,IoT4,Edge2,Edge,IoT -> Edge,67.77,31.0,22.58,121.35,300.0,Yes,1.8627,0.8132,2.6759
+2024-03-25 14:27:30,D11,"Temp: 20°C, Humidity: 54%",Data Analytics,Fog,69,870,46,8,216,IoT11,Cloud1,Cloud,IoT -> Cloud,21.6,124.0,3.6,149.2,500.0,Yes,1.4019,0.0,1.4019
+2024-03-25 14:27:40,D17,"Temp: 31°C, Humidity: 68%",Video Processing,Fog,45,3562,13,9,199,IoT17,Fog2,Fog,IoT -> Fog,43.98,52.0,27.49,123.47,120.0,No,3.8264,0.0,3.8264
+2024-03-25 14:27:50,D7,"Temp: 30°C, Humidity: 56%",Image Processing,Cloud,21,4993,38,6,185,IoT7,Edge6,Edge,IoT -> Edge,75.4,52.0,25.13,152.53,300.0,Yes,2.6818,0.9048,3.5866
+2024-03-25 14:28:00,D14,"Temp: 21°C, Humidity: 34%",Video Processing,Device,34,5997,44,9,221,IoT14,Cloud1,Cloud,IoT -> Cloud,22.1,123.0,4.42,149.52,120.0,No,9.6631,0.0,9.6631
+2024-03-25 14:28:10,D5,"Temp: 30°C, Humidity: 41%",Image Processing,Cloud,47,2205,33,9,68,IoT5,IoT5,IoT,IoT (local),68.0,0.0,0.0,68.0,300.0,Yes,0.0,0.816,0.816
+2024-03-25 14:28:20,D4,"Temp: 33°C, Humidity: 45%",Video Processing,Device,40,5984,28,4,264,IoT4,Cloud1,Cloud,IoT -> Cloud,26.4,102.0,6.16,134.56,120.0,No,9.6422,0.0,9.6422
+2024-03-25 14:28:30,D9,"Temp: 31°C, Humidity: 76%",Data Analytics,Edge,27,7129,29,8,158,IoT9,Edge8,Edge,IoT -> Edge,65.75,45.0,21.91,132.66,500.0,Yes,3.8291,0.789,4.618
+2024-03-25 14:28:40,D11,"Temp: 21°C, Humidity: 70%",Video Processing,Edge,67,7964,21,3,61,IoT11,IoT11,IoT,IoT (local),61.0,0.0,0.0,61.0,120.0,Yes,0.0,0.732,0.732
+2024-03-25 14:28:50,D18,"Temp: 33°C, Humidity: 33%",Network Traffic,Edge,31,966,9,6,179,IoT18,Fog1,Fog,IoT -> Fog,40.62,45.0,25.38,111.0,150.0,Yes,1.0377,0.0,1.0377
+2024-03-25 14:29:00,D18,"Temp: 28°C, Humidity: 46%",Video Processing,Fog,74,5036,43,6,152,IoT18,Edge3,Edge,IoT -> Edge,65.24,57.0,21.74,143.98,120.0,No,2.7049,0.7829,3.4878
+2024-03-25 14:29:10,D9,"Temp: 33°C, Humidity: 33%",Data Analytics,Fog,88,1915,28,6,186,IoT9,Fog3,Fog,IoT -> Fog,33.81,64.0,29.58,127.4,500.0,Yes,2.0571,0.0,2.0571
+2024-03-25 14:29:20,D9,"Temp: 26°C, Humidity: 43%",Data Analytics,Device,14,3016,9,4,170,IoT9,Edge5,Edge,IoT -> Edge,73.81,21.0,24.6,119.41,500.0,Yes,1.6199,0.8857,2.5056
+2024-03-25 14:29:30,D12,"Temp: 24°C, Humidity: 38%",Network Traffic,Cloud,54,5827,32,1,211,IoT12,Cloud1,Cloud,IoT -> Cloud,21.1,103.0,5.63,129.73,150.0,Yes,9.3892,0.0,9.3892
+2024-03-25 14:29:40,D6,"Temp: 38°C, Humidity: 48%",Image Processing,Fog,35,6617,10,1,166,IoT6,Fog2,Fog,IoT -> Fog,36.69,41.0,27.51,105.2,300.0,Yes,7.1081,0.0,7.1081
+2024-03-25 14:29:50,D5,"Temp: 25°C, Humidity: 59%",Data Analytics,Edge,58,7308,47,2,228,IoT5,Cloud1,Cloud,IoT -> Cloud,22.8,119.0,6.84,148.64,500.0,Yes,11.7756,0.0,11.7756
+2024-03-25 14:30:00,D18,"Temp: 25°C, Humidity: 38%",Data Analytics,Fog,35,3430,31,3,173,IoT18,Fog3,Fog,IoT -> Fog,31.45,64.0,0.0,95.45,500.0,Yes,3.6846,0.0,3.6846
+2024-03-25 14:30:10,D2,"Temp: 25°C, Humidity: 49%",Network Traffic,Fog,36,7723,46,5,278,IoT2,Fog3,Fog,IoT -> Fog,50.54,81.0,6.32,137.86,150.0,Yes,8.2962,0.0,8.2962
+2024-03-25 14:30:20,D18,"Temp: 26°C, Humidity: 30%",Video Processing,Edge,17,5540,14,1,130,IoT18,Edge4,Edge,IoT -> Edge,46.62,23.0,0.0,69.62,120.0,Yes,2.9756,0.5595,3.535
+2024-03-25 14:30:30,D16,"Temp: 26°C, Humidity: 51%",Network Traffic,Device,37,4760,15,6,197,IoT16,Fog2,Fog,IoT -> Fog,43.54,51.0,0.0,94.54,150.0,Yes,5.1133,0.0,5.1133
+2024-03-25 14:30:40,D10,"Temp: 36°C, Humidity: 61%",Network Traffic,Edge,13,1789,47,2,95,IoT10,Edge1,Edge,IoT -> Edge,34.5,57.0,0.0,91.5,150.0,Yes,0.9609,0.414,1.3749
+2024-03-25 14:30:50,D3,"Temp: 32°C, Humidity: 45%",Network Traffic,Edge,45,6041,17,9,91,IoT3,Edge2,Edge,IoT -> Edge,35.85,34.0,0.0,69.85,150.0,Yes,3.2447,0.4302,3.6749
+2024-03-25 14:31:00,D19,"Temp: 25°C, Humidity: 56%",Network Traffic,Device,38,4959,32,6,151,IoT19,Fog1,Fog,IoT -> Fog,34.26,68.0,0.0,102.26,150.0,Yes,5.3271,0.0,5.3271
+2024-03-25 14:31:10,D20,"Temp: 25°C, Humidity: 42%",Network Traffic,Fog,26,7019,15,5,161,IoT20,Fog3,Fog,IoT -> Fog,29.27,50.0,7.32,86.59,150.0,Yes,7.5399,0.0,7.5399
+2024-03-25 14:31:20,D20,"Temp: 31°C, Humidity: 65%",Image Processing,Edge,85,4113,12,1,180,IoT20,Fog2,Fog,IoT -> Fog,39.78,43.0,4.97,87.75,300.0,Yes,4.4183,0.0,4.4183
+2024-03-25 14:31:30,D19,"Temp: 31°C, Humidity: 64%",Data Analytics,Edge,25,2757,40,8,223,IoT19,Fog1,Fog,IoT -> Fog,50.6,78.0,6.32,134.93,500.0,Yes,2.9616,0.0,2.9616
+2024-03-25 14:31:40,D9,"Temp: 25°C, Humidity: 56%",Video Processing,Cloud,74,4711,6,3,139,IoT9,Edge6,Edge,IoT -> Edge,56.65,17.0,0.0,73.65,120.0,Yes,2.5303,0.6798,3.2102
+2024-03-25 14:31:50,D16,"Temp: 29°C, Humidity: 51%",Data Analytics,Edge,67,727,47,8,103,IoT16,IoT16,IoT,IoT (local),103.0,0.0,0.0,103.0,500.0,Yes,0.0,1.236,1.236
+2024-03-25 14:32:00,D10,"Temp: 37°C, Humidity: 75%",Image Processing,Edge,30,5312,41,9,144,IoT10,Edge8,Edge,IoT -> Edge,59.92,58.0,0.0,117.92,300.0,Yes,2.8531,0.7191,3.5722
+2024-03-25 14:32:10,D1,"Temp: 23°C, Humidity: 34%",Network Traffic,Cloud,10,2245,16,2,197,IoT1,Fog3,Fog,IoT -> Fog,35.81,48.0,13.43,97.24,150.0,Yes,2.4116,0.0,2.4116
+2024-03-25 14:32:20,D11,"Temp: 20°C, Humidity: 50%",Image Processing,Device,65,5520,29,5,244,IoT11,Fog2,Fog,IoT -> Fog,53.93,64.0,13.48,131.41,300.0,Yes,5.9297,0.0,5.9297
+2024-03-25 14:32:30,D16,"Temp: 37°C, Humidity: 71%",Network Traffic,Edge,75,7953,47,1,240,IoT16,Fog1,Fog,IoT -> Fog,54.46,78.0,13.61,146.07,150.0,Yes,8.5433,0.0,8.5433
+2024-03-25 14:32:40,D15,"Temp: 36°C, Humidity: 74%",Network Traffic,Device,79,4294,13,1,232,IoT15,Cloud1,Cloud,IoT -> Cloud,23.2,84.0,0.0,107.2,150.0,Yes,6.919,0.0,6.919
+2024-03-25 14:32:50,D17,"Temp: 34°C, Humidity: 50%",Network Traffic,Edge,70,1979,19,4,104,IoT17,Edge3,Edge,IoT -> Edge,44.64,31.0,0.0,75.64,150.0,Yes,1.0629,0.5357,1.5986
+2024-03-25 14:33:00,D20,"Temp: 21°C, Humidity: 36%",Data Analytics,Cloud,22,5171,11,5,109,IoT20,Edge5,Edge,IoT -> Edge,47.33,24.0,0.0,71.33,500.0,Yes,2.7774,0.5679,3.3453
+2024-03-25 14:33:10,D10,"Temp: 39°C, Humidity: 54%",Image Processing,Cloud,74,8083,17,1,176,IoT10,Fog3,Fog,IoT -> Fog,32.0,48.0,16.0,95.99,300.0,Yes,8.6829,0.0,8.6829
+2024-03-25 14:33:20,D7,"Temp: 28°C, Humidity: 61%",Data Analytics,Device,69,8095,47,3,73,IoT7,IoT7,IoT,IoT (local),73.0,0.0,0.0,73.0,500.0,Yes,0.0,0.876,0.876
+2024-03-25 14:33:30,D16,"Temp: 30°C, Humidity: 64%",Image Processing,Device,68,4270,39,3,198,IoT16,Fog2,Fog,IoT -> Fog,43.76,72.0,16.41,132.17,300.0,Yes,4.5869,0.0,4.5869
+2024-03-25 14:33:40,D4,"Temp: 32°C, Humidity: 57%",Network Traffic,Fog,51,6947,29,9,258,IoT4,Cloud1,Cloud,IoT -> Cloud,25.8,108.0,0.86,134.66,150.0,Yes,11.1939,0.0,11.1939
+2024-03-25 14:33:50,D13,"Temp: 25°C, Humidity: 67%",Data Analytics,Cloud,14,893,15,1,157,IoT13,Edge7,Edge,IoT -> Edge,73.57,24.0,0.0,97.57,500.0,Yes,0.4796,0.8828,1.3625
+2024-03-25 14:34:00,D8,"Temp: 29°C, Humidity: 46%",Network Traffic,Cloud,25,3853,16,9,273,IoT8,Cloud1,Cloud,IoT -> Cloud,27.3,95.0,1.82,124.12,150.0,Yes,6.2084,0.0,6.2084
+2024-03-25 14:34:10,D18,"Temp: 28°C, Humidity: 30%",Image Processing,Cloud,10,6446,31,1,232,IoT18,Fog1,Fog,IoT -> Fog,52.64,62.0,19.74,134.38,300.0,Yes,6.9244,0.0,6.9244
+2024-03-25 14:34:20,D18,"Temp: 30°C, Humidity: 64%",Image Processing,Fog,80,7266,23,1,125,IoT18,Edge4,Edge,IoT -> Edge,44.83,32.0,14.94,91.77,300.0,Yes,3.9026,0.5379,4.4406
+2024-03-25 14:34:30,D6,"Temp: 25°C, Humidity: 60%",Data Analytics,Edge,52,2790,42,4,164,IoT6,Edge1,Edge,IoT -> Edge,59.56,54.0,19.85,133.41,500.0,Yes,1.4985,0.7147,2.2133
+2024-03-25 14:34:40,D2,"Temp: 20°C, Humidity: 70%",Data Analytics,Edge,20,4609,25,1,286,IoT2,Cloud1,Cloud,IoT -> Cloud,28.6,96.0,2.86,127.46,500.0,Yes,7.4266,0.0,7.4266
+2024-03-25 14:34:50,D3,"Temp: 27°C, Humidity: 57%",Data Analytics,Fog,34,6773,38,8,226,IoT3,Fog3,Fog,IoT -> Fog,41.09,76.0,25.68,142.76,500.0,Yes,7.2757,0.0,7.2757
+2024-03-25 14:35:00,D7,"Temp: 24°C, Humidity: 73%",Network Traffic,Fog,88,4036,29,3,204,IoT7,Fog2,Fog,IoT -> Fog,45.09,62.0,22.54,129.63,150.0,Yes,4.3355,0.0,4.3355
+2024-03-25 14:35:10,D15,"Temp: 21°C, Humidity: 37%",Data Analytics,Device,88,2230,33,4,247,IoT15,Cloud1,Cloud,IoT -> Cloud,24.7,107.0,3.29,134.99,500.0,Yes,3.5933,0.0,3.5933
+2024-03-25 14:35:20,D2,"Temp: 21°C, Humidity: 37%",Image Processing,Device,52,4434,44,1,66,IoT2,IoT2,IoT,IoT (local),66.0,0.0,0.0,66.0,300.0,Yes,0.0,0.792,0.792
+2024-03-25 14:35:30,D13,"Temp: 27°C, Humidity: 56%",Image Processing,Device,67,4710,34,8,276,IoT13,Cloud1,Cloud,IoT -> Cloud,27.6,112.0,4.6,144.2,300.0,Yes,7.5894,0.0,7.5894
+2024-03-25 14:35:40,D11,"Temp: 29°C, Humidity: 69%",Data Analytics,Fog,31,5187,23,9,141,IoT11,Edge2,Edge,IoT -> Edge,55.55,40.0,18.51,114.06,500.0,Yes,2.786,0.6666,3.4526
+2024-03-25 14:35:50,D5,"Temp: 29°C, Humidity: 61%",Image Processing,Device,40,5131,34,5,111,IoT5,Edge6,Edge,IoT -> Edge,45.24,47.0,15.08,107.32,300.0,Yes,2.7559,0.5429,3.2988
+2024-03-25 14:36:00,D13,"Temp: 29°C, Humidity: 69%",Data Analytics,Cloud,85,4471,12,7,102,IoT13,Edge8,Edge,IoT -> Edge,42.44,27.0,14.14,83.59,500.0,Yes,2.4014,0.5093,2.9108
+2024-03-25 14:36:10,D8,"Temp: 35°C, Humidity: 40%",Network Traffic,Device,64,4317,26,2,149,IoT8,Fog1,Fog,IoT -> Fog,33.81,58.0,16.9,108.71,150.0,Yes,4.6374,0.0,4.6374
+2024-03-25 14:36:20,D8,"Temp: 25°C, Humidity: 54%",Image Processing,Edge,73,2824,12,5,294,IoT8,Cloud1,Cloud,IoT -> Cloud,29.4,87.0,5.88,122.28,300.0,Yes,4.5504,0.0,4.5504
+2024-03-25 14:36:30,D13,"Temp: 21°C, Humidity: 49%",Video Processing,Cloud,32,3956,43,4,96,IoT13,IoT13,IoT,IoT (local),96.0,0.0,0.0,96.0,120.0,Yes,0.0,1.152,1.152
+2024-03-25 14:36:40,D7,"Temp: 20°C, Humidity: 78%",Image Processing,Edge,64,1859,25,8,267,IoT7,Cloud1,Cloud,IoT -> Cloud,26.7,103.0,6.23,135.93,300.0,Yes,2.9955,0.0,2.9955
+2024-03-25 14:36:50,D9,"Temp: 24°C, Humidity: 61%",Image Processing,Edge,35,7858,28,2,269,IoT9,Fog3,Fog,IoT -> Fog,48.9,60.0,36.67,145.57,300.0,Yes,8.4412,0.0,8.4412
+2024-03-25 14:37:00,D7,"Temp: 37°C, Humidity: 32%",Video Processing,Fog,63,1815,35,6,225,IoT7,Fog2,Fog,IoT -> Fog,49.73,71.0,31.08,151.8,120.0,No,1.9497,0.0,1.9497
+2024-03-25 14:37:10,D12,"Temp: 26°C, Humidity: 69%",Image Processing,Edge,88,3543,8,3,91,IoT12,Edge3,Edge,IoT -> Edge,39.06,19.0,13.02,71.08,300.0,Yes,1.903,0.4687,2.3717
+2024-03-25 14:37:20,D9,"Temp: 26°C, Humidity: 54%",Network Traffic,Fog,54,3077,49,6,294,IoT9,Cloud1,Cloud,IoT -> Cloud,29.4,125.0,7.84,162.24,150.0,No,4.9581,0.0,4.9581
+2024-03-25 14:37:30,D18,"Temp: 36°C, Humidity: 65%",Data Analytics,Edge,14,5975,19,7,99,IoT18,Edge5,Edge,IoT -> Edge,42.98,34.0,14.32,91.31,500.0,Yes,3.2092,0.5158,3.725
+2024-03-25 14:37:40,D14,"Temp: 32°C, Humidity: 52%",Image Processing,Edge,59,1930,7,1,99,IoT14,Edge4,Edge,IoT -> Edge,35.5,16.0,23.66,75.17,300.0,Yes,1.0366,0.426,1.4627
+2024-03-25 14:37:50,D1,"Temp: 32°C, Humidity: 53%",Video Processing,Cloud,43,1922,30,2,242,IoT1,Fog3,Fog,IoT -> Fog,43.99,62.0,38.49,144.48,120.0,No,2.0646,0.0,2.0646
+2024-03-25 14:38:00,D8,"Temp: 30°C, Humidity: 59%",Network Traffic,Fog,39,2406,40,6,102,IoT8,IoT8,IoT,IoT (local),102.0,0.0,0.0,102.0,150.0,Yes,0.0,1.224,1.224
+2024-03-25 14:38:10,D14,"Temp: 30°C, Humidity: 78%",Data Analytics,Edge,24,7408,27,7,206,IoT14,Fog1,Fog,IoT -> Fog,46.74,64.0,29.21,139.96,500.0,Yes,7.9578,0.0,7.9578
+2024-03-25 14:38:20,D2,"Temp: 29°C, Humidity: 68%",Video Processing,Edge,77,7247,16,2,205,IoT2,Fog3,Fog,IoT -> Fog,37.27,48.0,0.0,85.27,120.0,Yes,7.7849,0.0,7.7849
+2024-03-25 14:38:30,D15,"Temp: 36°C, Humidity: 49%",Image Processing,Edge,73,4871,24,4,93,IoT15,Edge4,Edge,IoT -> Edge,33.35,36.0,0.0,69.35,300.0,Yes,2.6163,0.4002,3.0165
+2024-03-25 14:38:40,D14,"Temp: 30°C, Humidity: 44%",Image Processing,Cloud,65,1217,19,7,86,IoT14,Edge1,Edge,IoT -> Edge,31.23,34.0,0.0,65.23,300.0,Yes,0.6537,0.3748,1.0285
+2024-03-25 14:38:50,D20,"Temp: 34°C, Humidity: 33%",Data Analytics,Edge,60,2437,26,7,169,IoT20,Fog3,Fog,IoT -> Fog,30.72,63.0,3.84,97.56,500.0,Yes,2.6179,0.0,2.6179
+2024-03-25 14:39:00,D1,"Temp: 24°C, Humidity: 57%",Image Processing,Cloud,86,7651,13,7,106,IoT1,Edge2,Edge,IoT -> Edge,41.76,28.0,0.0,69.76,300.0,Yes,4.1094,0.5012,4.6106
+2024-03-25 14:39:10,D16,"Temp: 26°C, Humidity: 37%",Video Processing,Edge,18,1499,22,8,272,IoT16,Fog2,Fog,IoT -> Fog,60.12,60.0,0.0,120.12,120.0,No,1.6103,0.0,1.6103
+2024-03-25 14:39:20,D16,"Temp: 37°C, Humidity: 60%",Network Traffic,Edge,23,2437,18,8,95,IoT16,Edge6,Edge,IoT -> Edge,38.72,34.0,0.0,72.72,150.0,Yes,1.3089,0.4646,1.7736
+2024-03-25 14:39:30,D15,"Temp: 30°C, Humidity: 57%",Video Processing,Cloud,78,6127,7,3,253,IoT15,Fog1,Fog,IoT -> Fog,57.41,40.0,0.0,97.41,120.0,Yes,6.5817,0.0,6.5817
+2024-03-25 14:39:40,D16,"Temp: 30°C, Humidity: 41%",Image Processing,Device,70,7488,41,3,221,IoT16,Fog3,Fog,IoT -> Fog,40.18,74.0,10.04,124.22,300.0,Yes,8.0438,0.0,8.0438
+2024-03-25 14:39:50,D6,"Temp: 20°C, Humidity: 60%",Data Analytics,Edge,89,3683,31,2,141,IoT6,Edge8,Edge,IoT -> Edge,58.67,41.0,0.0,99.67,500.0,Yes,1.9782,0.7041,2.6823
+2024-03-25 14:40:00,D8,"Temp: 23°C, Humidity: 57%",Video Processing,Fog,10,7181,14,2,61,IoT8,Edge3,Edge,IoT -> Edge,26.18,24.0,0.0,50.18,120.0,Yes,3.857,0.3142,4.1712
+2024-03-25 14:40:10,D10,"Temp: 26°C, Humidity: 79%",Video Processing,Cloud,20,1715,19,5,90,IoT10,Edge5,Edge,IoT -> Edge,39.08,32.0,0.0,71.08,120.0,Yes,0.9211,0.4689,1.3901
+2024-03-25 14:40:20,D17,"Temp: 26°C, Humidity: 70%",Data Analytics,Device,31,7945,23,2,299,IoT17,Fog2,Fog,IoT -> Fog,66.08,55.0,8.26,129.34,500.0,Yes,8.5347,0.0,8.5347
+2024-03-25 14:40:30,D5,"Temp: 35°C, Humidity: 57%",Data Analytics,Device,86,2953,16,6,90,IoT5,Edge7,Edge,IoT -> Edge,42.17,30.0,0.0,72.17,500.0,Yes,1.5861,0.5061,2.0922
+2024-03-25 14:40:40,D19,"Temp: 23°C, Humidity: 76%",Data Analytics,Edge,73,6085,16,5,51,IoT19,IoT19,IoT,IoT (local),51.0,0.0,0.0,51.0,500.0,Yes,0.0,0.612,0.612
+2024-03-25 14:40:50,D17,"Temp: 35°C, Humidity: 46%",Video Processing,Device,63,6528,42,9,65,IoT17,IoT17,IoT,IoT (local),65.0,0.0,0.0,65.0,120.0,Yes,0.0,0.78,0.78
+2024-03-25 14:41:00,D19,"Temp: 39°C, Humidity: 53%",Data Analytics,Cloud,28,3875,48,9,133,IoT19,Fog1,Fog,IoT -> Fog,30.18,87.0,3.77,120.95,500.0,Yes,4.1626,0.0,4.1626
+2024-03-25 14:41:10,D16,"Temp: 31°C, Humidity: 68%",Network Traffic,Edge,85,4891,13,8,160,IoT16,Fog3,Fog,IoT -> Fog,29.09,51.0,10.91,90.99,150.0,Yes,5.254,0.0,5.254
+2024-03-25 14:41:20,D1,"Temp: 23°C, Humidity: 47%",Data Analytics,Edge,42,2957,49,9,235,IoT1,Fog2,Fog,IoT -> Fog,51.94,88.0,12.98,152.92,500.0,Yes,3.1765,0.0,3.1765
+2024-03-25 14:41:30,D12,"Temp: 32°C, Humidity: 34%",Video Processing,Device,57,7212,6,3,73,IoT12,Edge4,Edge,IoT -> Edge,26.18,17.0,8.72,51.9,120.0,Yes,3.8736,0.3142,4.1878
+2024-03-25 14:41:40,D6,"Temp: 26°C, Humidity: 40%",Image Processing,Cloud,24,5239,12,9,159,IoT6,Fog1,Fog,IoT -> Fog,36.08,51.0,9.02,96.1,300.0,Yes,5.6278,0.0,5.6278
+2024-03-25 14:41:50,D18,"Temp: 22°C, Humidity: 75%",Image Processing,Device,45,5972,13,3,122,IoT18,Edge1,Edge,IoT -> Edge,44.31,24.0,14.76,83.07,300.0,Yes,3.2076,0.5317,3.7393
+2024-03-25 14:42:00,D17,"Temp: 36°C, Humidity: 47%",Network Traffic,Edge,84,1733,15,6,260,IoT17,Cloud1,Cloud,IoT -> Cloud,26.0,91.0,0.0,117.0,150.0,Yes,2.7924,0.0,2.7924
+2024-03-25 14:42:10,D15,"Temp: 26°C, Humidity: 72%",Image Processing,Cloud,45,966,8,2,147,IoT15,Fog3,Fog,IoT -> Fog,26.72,40.0,13.36,80.08,300.0,Yes,1.0377,0.0,1.0377
+2024-03-25 14:42:20,D15,"Temp: 35°C, Humidity: 76%",Network Traffic,Fog,59,3164,12,8,113,IoT15,Edge2,Edge,IoT -> Edge,44.52,28.0,14.84,87.36,150.0,Yes,1.6994,0.5342,2.2337
+2024-03-25 14:42:30,D15,"Temp: 39°C, Humidity: 50%",Image Processing,Device,24,4523,27,9,162,IoT15,Fog2,Fog,IoT -> Fog,35.8,66.0,13.42,115.23,300.0,Yes,4.8587,0.0,4.8587
+2024-03-25 14:42:40,D17,"Temp: 30°C, Humidity: 42%",Image Processing,Cloud,77,4899,16,9,231,IoT17,Cloud1,Cloud,IoT -> Cloud,23.1,95.0,0.77,118.87,300.0,Yes,7.8939,0.0,7.8939
+2024-03-25 14:42:50,D11,"Temp: 20°C, Humidity: 74%",Data Analytics,Fog,67,3819,16,6,227,IoT11,Fog1,Fog,IoT -> Fog,51.51,52.0,19.31,122.82,500.0,Yes,4.1024,0.0,4.1024
+2024-03-25 14:43:00,D19,"Temp: 29°C, Humidity: 58%",Data Analytics,Device,67,4690,12,7,148,IoT19,Fog3,Fog,IoT -> Fog,26.91,49.0,16.81,92.72,500.0,Yes,5.0381,0.0,5.0381
+2024-03-25 14:43:10,D13,"Temp: 32°C, Humidity: 47%",Video Processing,Edge,68,5023,11,8,287,IoT13,Cloud1,Cloud,IoT -> Cloud,28.7,89.0,1.91,119.61,120.0,Yes,8.0937,0.0,8.0937
+2024-03-25 14:43:20,D8,"Temp: 39°C, Humidity: 65%",Image Processing,Cloud,46,1902,31,1,177,IoT8,Fog2,Fog,IoT -> Fog,39.12,62.0,19.56,120.68,300.0,Yes,2.0432,0.0,2.0432
+2024-03-25 14:43:30,D10,"Temp: 29°C, Humidity: 75%",Data Analytics,Edge,34,7516,45,1,188,IoT10,Fog1,Fog,IoT -> Fog,42.66,76.0,21.33,139.99,500.0,Yes,8.0738,0.0,8.0738
+2024-03-25 14:43:40,D8,"Temp: 23°C, Humidity: 58%",Image Processing,Fog,88,6658,8,1,277,IoT8,Cloud1,Cloud,IoT -> Cloud,27.7,79.0,2.77,109.47,300.0,Yes,10.7282,0.0,10.7282
+2024-03-25 14:43:50,D16,"Temp: 28°C, Humidity: 62%",Video Processing,Device,71,1343,47,1,121,IoT16,IoT16,IoT,IoT (local),121.0,0.0,0.0,121.0,120.0,No,0.0,1.452,1.452
+2024-03-25 14:44:00,D16,"Temp: 21°C, Humidity: 65%",Video Processing,Cloud,26,2174,21,1,170,IoT16,Fog3,Fog,IoT -> Fog,30.9,52.0,23.18,106.08,120.0,Yes,2.3354,0.0,2.3354
+2024-03-25 14:44:10,D12,"Temp: 25°C, Humidity: 54%",Image Processing,Fog,53,2249,5,1,170,IoT12,Edge6,Edge,IoT -> Edge,69.29,14.0,23.09,106.38,300.0,Yes,1.208,0.8315,2.0394
+2024-03-25 14:44:20,D3,"Temp: 30°C, Humidity: 70%",Data Analytics,Device,81,1499,9,5,124,IoT3,Edge8,Edge,IoT -> Edge,51.6,22.0,17.19,90.79,500.0,Yes,0.8051,0.6192,1.4243
+2024-03-25 14:44:30,D13,"Temp: 20°C, Humidity: 54%",Image Processing,Device,67,8003,16,1,186,IoT13,Fog2,Fog,IoT -> Fog,41.11,47.0,25.69,113.8,300.0,Yes,8.597,0.0,8.597
+2024-03-25 14:44:40,D15,"Temp: 23°C, Humidity: 48%",Network Traffic,Fog,50,1016,30,6,80,IoT15,IoT15,IoT,IoT (local),80.0,0.0,0.0,80.0,150.0,Yes,0.0,0.96,0.96
+2024-03-25 14:44:50,D5,"Temp: 30°C, Humidity: 48%",Image Processing,Cloud,53,4438,36,3,152,IoT5,Edge3,Edge,IoT -> Edge,65.24,47.0,21.74,133.98,300.0,Yes,2.3837,0.7829,3.1666
+2024-03-25 14:45:00,D10,"Temp: 29°C, Humidity: 57%",Image Processing,Cloud,27,7518,17,8,234,IoT10,Cloud1,Cloud,IoT -> Cloud,23.4,95.0,3.12,121.52,300.0,Yes,12.114,0.0,12.114
+2024-03-25 14:45:10,D15,"Temp: 39°C, Humidity: 46%",Image Processing,Cloud,66,3312,25,6,262,IoT15,Cloud1,Cloud,IoT -> Cloud,26.2,101.0,4.37,131.57,300.0,Yes,5.3367,0.0,5.3367
+2024-03-25 14:45:20,D17,"Temp: 22°C, Humidity: 67%",Image Processing,Cloud,80,2970,11,9,114,IoT17,Edge5,Edge,IoT -> Edge,49.5,28.0,16.49,93.99,300.0,Yes,1.5952,0.594,2.1892
+2024-03-25 14:45:30,D14,"Temp: 27°C, Humidity: 43%",Data Analytics,Cloud,45,4662,28,4,190,IoT14,Fog3,Fog,IoT -> Fog,34.54,62.0,30.22,126.76,500.0,Yes,5.008,0.0,5.008
+2024-03-25 14:45:40,D5,"Temp: 38°C, Humidity: 63%",Network Traffic,Device,85,7571,27,2,242,IoT5,Cloud1,Cloud,IoT -> Cloud,24.2,99.0,4.84,128.04,150.0,Yes,12.1994,0.0,12.1994
+2024-03-25 14:45:50,D20,"Temp: 22°C, Humidity: 70%",Image Processing,Device,64,3148,27,1,259,IoT20,Cloud1,Cloud,IoT -> Cloud,25.9,98.0,6.04,129.94,300.0,Yes,5.0725,0.0,5.0725
+2024-03-25 14:46:00,D3,"Temp: 20°C, Humidity: 50%",Image Processing,Cloud,89,540,17,1,114,IoT3,Edge4,Edge,IoT -> Edge,40.88,26.0,27.25,94.13,300.0,Yes,0.29,0.4906,0.7806
+2024-03-25 14:46:10,D8,"Temp: 34°C, Humidity: 35%",Video Processing,Cloud,43,1469,33,2,207,IoT8,Fog1,Fog,IoT -> Fog,46.97,65.0,29.35,141.33,120.0,No,1.578,0.0,1.578
+2024-03-25 14:46:20,D1,"Temp: 26°C, Humidity: 61%",Video Processing,Device,69,954,40,9,282,IoT1,Cloud1,Cloud,IoT -> Cloud,28.2,119.0,7.52,154.72,120.0,No,1.5372,0.0,1.5372
+2024-03-25 14:46:30,D2,"Temp: 37°C, Humidity: 50%",Video Processing,Device,78,5878,43,8,223,IoT2,Fog3,Fog,IoT -> Fog,40.54,81.0,40.54,162.08,120.0,No,6.3143,0.0,6.3143
